@@ -1,0 +1,52 @@
+<head>
+  <link rel="stylesheet" href="/obliskate/style.css"/>
+  <title>Clocks - Obliskate</title>
+  <style>
+    body{align-items:center;justify-content:center;
+      display:flex;height:100vh}
+    div{align-items:center;justify-content:center;display:flex}
+
+.container {
+  /* Set the dimensions of the container element */
+  /*width: 100px;
+  height: 100px;*/
+  align-items:center;
+  justify-content:center;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden; /* Ensure that the content inside the container is clipped */
+}
+
+.clock {
+  display:block;
+  /*align-items:center;
+  justify-content:center;*/
+  /* Set the original dimensions of the element */
+  /*width: 1000px;
+  height: 120px;*/
+
+  /* Calculate the scale factor based on the container's dimensions and the element's original dimensions */
+  /* This ensures that the element scales proportionally */
+  transform-origin: center;
+  transform: scale(
+    calc(100% * var(--scale-width) / var(--original-width)),
+    calc(100% * var(--scale-height) / var(--original-height))
+  );
+
+  /* Use these custom properties to set the scale factor */
+  --scale-width: 1;
+  --scale-height: 1;
+  --original-width: 1000px;
+  --original-height: 120px;
+}
+  </style>
+</head>
+<body>
+  <script>//https://stackoverflow.com/a/57888310</script>
+  <div class="containe">
+    <svg class="clocks main windowFit"></svg>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/obliskate/site.js"></script>
+  <script src="/obliskate/script.js"></script>
+</body>

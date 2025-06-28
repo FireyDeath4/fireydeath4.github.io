@@ -1,0 +1,119 @@
+<html>
+<head>
+<style>
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  cursor: grab;
+  border: 1px solid #333;
+}
+</style>
+</head>
+<body>
+<div id="grid-container">
+  <div class="grid-item">A1</div>
+  <div class="grid-item">B1</div>
+  <div class="grid-item">C1</div>
+  <div class="grid-item">A2</div>
+  <div class="grid-item">B2</div>
+  <div class="grid-item">C2</div>
+  <div class="grid-item">A3</div>
+  <div class="grid-item">B3</div>
+  <div class="grid-item">C3</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+<script>
+  const grid = document.getElementById("grid-container");
+  const columns = 3;  // Change this if your grid has more columns
+
+  let isDraggingRow = true;
+
+  // Toggle between row and column dragging
+  grid.addEventListener("mousedown", (e) => {
+    const startCell = e.target;
+    const startX = e.clientX;
+    const startY = e.clientY;
+
+    // Detect drag direction
+    grid.onmousemove = (ev) => {
+      const dx = Math.abs(ev.clientX - startX);
+      const dy = Math.abs(ev.clientY - startY);
+      isDraggingRow = dy > dx;  // Vertical drag = row, horizontal drag = column
+      grid.onmousemove = null;  // Stop listening once determined
+    };
+  });
+
+  new Sortable(grid, {
+    animation: 150,
+    onStart: (evt) => {
+      const index = evt.oldIndex;
+
+      if (isDraggingRow) {
+        // Highlight all cells in the row
+        for (let i = 0; i < columns; i++) {
+          grid.children[Math.floor(index / columns) * columns + i].classList.add("dragging");
+        }
+      } else {
+        // Highlight all cells in the column
+        for (let i = 0; i < grid.children.length / columns; i++) {
+          grid.children[i * columns + (index % columns)].classList.add("dragging");
+        }
+      }
+    },
+    onEnd: (evt) => {
+      // Remove highlighting
+      Array.from(grid.children).forEach(cell => cell.classList.remove("dragging"));
+
+      // Rearrange grid elements based on drag type
+      if (isDraggingRow) {
+        reorderRow(evt.oldIndex, evt.newIndex);
+      } else {
+        reorderColumn(evt.oldIndex % columns, evt.newIndex % columns);
+      }
+    },
+  });
+
+  function reorderRow(from, to) {
+    const rowStart = Math.floor(from / columns) * columns;
+    const row = Array.from(grid.children).slice(rowStart, rowStart + columns);
+    
+    // Remove and reinsert at the new position
+    row.forEach(cell => grid.removeChild(cell));
+
+    const targetStart = Math.floor(to / columns) * columns;
+    const targetCell = grid.children[targetStart];
+    
+    row.forEach(cell => grid.insertBefore(cell, targetCell));
+  }
+
+  function reorderColumn(fromCol, toCol) {
+    const rows = grid.children.length / columns;
+
+    const column = [];
+    for (let i = 0; i < rows; i++) {
+      column.push(grid.children[i * columns + fromCol]);
+    }
+
+    // Remove and reinsert at the new position
+    column.forEach(cell => grid.removeChild(cell));
+
+    for (let i = 0; i < rows; i++) {
+      const targetIndex = i * columns + toCol;
+      grid.insertBefore(column[i], grid.children[targetIndex] || null);
+    }
+  }
+</script>
+</body>
+</html>

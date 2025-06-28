@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>YouTube Playlist Tools | FireyDeath4's Site</title>
+<link rel="stylesheet" href="/fireydeath4.css"/>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=yes">
+<style>iframe{height:auto;max-width:100%}</style>
+</head>
+<body>
+<div id="title-bar"><a href="/">FireyDeath4's Site</a></div>
+<div class="container">
+<h1>YouTube Playlist Tools</h1>
+<h2>List of things it should be able to do:</h2>
+<ul>
+  <li>Import, export, create and modify playlists</li>
+  <li>Create JSON objects and other data-types of playlists with custom tags</li>
+  <li>Apply set operations to multiple playlists (concatenation, intersection, difference, symmetric difference)</li>
+  <li>Organise the order of videos in one playlist according to another</li>
+  <ul>
+    <li>Where playlists are merged and orders of videos conflict, the order of a primary playlist should be prioritised</li>
+    <li>Okay honestly I don't know where I'm gonna start on coming up with an algorithm for this. Apart from making an inquiry with CHATGPT</li>
+    <ul>
+      <li>Okay I think I articulated it. When a video from the second playlist matches a video from the first playlist, go from there until this happens again. The non-matching videos after a playlist-2 video matching a playlist-1 video will follow the matching video</li>
+    </ul>
+  </ul>
+  <li>Generate shuffled playlists, possibly with custom conditions for shuffling</li>
+</ul>
+<h3>First thing it should do</h3>
+<ul>
+  <li>Turn playlists into custom objects with selectable attributes</li>
+  <li>Keep copies of video data in storage, and store playlists separately as arrays of video IDs. Or add an option for the user to choose between full playlist data storage and video-data/playlist-order storage</li>
+  <ul>
+    <li>Store the playlists internally as arrays of video IDs, but export them as comprehensive data</li>
+  </ul>
+</ul>
+<!--<div style="display:flex;flex-wrap:wrap">
+  <select size="2" style="flex:1;min-width:400px;min-height:400px"></select>
+  <div style="flex:1;min-width:400px;min-height:400px"></div>
+</div>-->
+<div id="api-key" class="collapsible"><div>
+  <input style="width:100%" type="password"/>
+  <div style="display:flex">
+    <label>API key</label>
+    <button onclick="/*authenticate().then(*/loadClient($('#api-key input').val())/*)*/" style="margin-left:auto">Access API</button>
+  </div>
+<p><b>NOTE:</b> I opened an incognito window and pressed the Access API button without putting a key in. And it worked. So, you probably don't need to do any of this stuff at all. Just press the button</p>
+<small><p>Instructions on how to get an API key are <a href="https://support.google.com/googleapi/answer/6158862" get="_blank" rel="noopener noreferrer">here.</a> Also, I'm pretty sure it's an important password, so make sure you don't leak it by accident! If you do, I think people could mess with the YouTube accounts attached to the Google account you got it with, and/or any other API you've selected :O</p>
+<p>If your key's been compromised, go to the <a href="https://console.cloud.google.com/apis/credentials" get="_blank" rel="noopener noreferrer">credentials' page in Google Cloud APIs and services</a> and delete or-and rotate it</p>
+<p>Also I'm not gonna store your key, so you might want to bookmark the API credential page for easy access</p></small></div></div>
+  
+<div id="playlist-tools" class="collapsible collapsed"><div>
+  <input style="width:100%"/>
+  <div style="display:flex">
+    <label>Playlist ID</label>
+    <button onclick="fetchItems($('#playlist-tools input').val())" style="margin-left:auto">Fetch data</button>
+  </div>
+<small><p>The ID of a playlist is found in the <code>list</code> parameter of a link. Here are two examples:</p>
+<ul>
+  <li><code>https://www.youtube.com/playlist?list=<b><u>PLm8-cz5NP4X9Xx3S7bLPopGeQhxvITOfF</u></b></code> (- this is a direct link to a playlist)</li>
+  <li><code>https://m.youtube.com/watch?v=oavMtUWDBTM&list=<b><u>PLm8-cz5NP4X9Xx3S7bLPopGeQhxvITOfF</u></b>&index=515</code> (- this is a video page as part of a playlist on a mobile browser)</li>
+</ul></small></div></div>
+<button>Dummy Button</button>
+<p><a href="/youtube-playlist-tools/privacy-policy">Privacy Policy</a> (in case OAuth is required (which it shouldn't be at the moment, given my ending retort))</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="/youtube-playlist-tools/script.js"></script>
+</body>
+</html>

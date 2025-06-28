@@ -1,0 +1,8 @@
+<script src="https://cdn.jsdelivr.net/npm/linkify-it@5.0.0/build/index.cjs.min.js"></script>
+<script type="module" src="/test-pages/importer.js"></script>
+<script>
+var markdownToHTML;
+import("/test-pages/importer.js").then((myModule)=>
+  {markdownToHTML=myModule.default.markdownToHTML;
+  console.log(markdownToHTML("# BAR"))})
+</script>

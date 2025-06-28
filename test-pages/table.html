@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <style>
+      /* Container for scrolling */
+      div.table-container {
+        max-height: 200px; /* Adjust based on your desired table height */
+        overflow-y: auto;
+        resize: both;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      /* Fixed header styling */
+      thead th {
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.9); /* Translucent white background */
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        z-index: 10; /* Make sure it stays above the table body */
+      }
+
+      tbody td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Foo</th>
+            <th>Bar</th>
+            <th>Baz</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Qux</td>
+            <td>Quux</td>
+            <td>Corge</td>
+          </tr>
+          <tr>
+            <td>Grault</td>
+            <td>Garply</td>
+            <td>Waldo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

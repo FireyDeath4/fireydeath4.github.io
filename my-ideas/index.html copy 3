@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>My ideas</title>
+<style>
+*{font-family:sans-serif}
+</style>
+</head>
+<body>
+<p>Thought I could write this on a phone for once, so bear with me.</p>
+<p>It's one of those things I intended to do for a long time. But now as of 21 February when I am waking up and writing this, I feel like crap and have lost the rush of inspiration.</p>
+<p>Oh well. Write first, revise after. It's just a memory problem. I have plenty of ideas. A great many.　Ｔｏｏ　ｍａｎｙ</p>
+<p>Also don't mind the ones I already started. <s>You should be ｗｏｒｓｈｉｐｐｉｎｇ　ｍｅ for even getting around to some of them</s> :P</p>
+<p>When this page gets too long, which I don't know when will happen, I'll move some descriptions to their own pages and replace these ones with summaries instead</p>
+
+<h2>Systems</h2>
+<div>
+<h3>Curriculum rehaul</h3>
+<p>Mainstream curricula suck, and like many other of these ideas, I wrote whole speeches about it on Discord. If I get around to refreshing #chambers, I'll send you links to read about it there</p>
+<p>The whole philosophy behind it is about raising individuals to be competent and maximise their potential, rather than drilling arbitrary information into them for 12 years that will either be consequential in the end, or drive them into thousands of dollars of college debt. People are idiots. And pretty much every governmental system is only going to ruin the world if idiots get allowed to be in charge - which is pretty much every case ever.</p>
+<p>Okay let's just write an itinerary of how it's gonna go</p>
+<ul>
+  <li>Start teaching children as early as possible</li>
+  <li></li>
+</ul>
+<p>The mandatory subjects will include:</p>
+<ul>
+  <li><b>Arithmetic</b> - basic mathematical principles, operations and use cases</li>
+  <li><b>Language</b></li>
+  <li><b>Formal logic</b> - a bit of a cross between mathematics and critical thought, I suppose. Being able to consider people's arguments and statements as logical expressions will make them much easier to understand, evaluate and find non-sequiturs in. It'd be a bit like translating English problems involving numbers into arithmetic - hopefully it can come naturally</li>
+  <li><b>Critical thought</b> - an obviously important one. It'll probably also include media literacy, tying into propaganda/manipulation techniques, cognitive biases and fallacies</li>
+  <li><b>Psychology</b> - this is an extraordinarily underrated one. It is really, really important. It ought to help you understand things like:
+  <ul>
+    <li>Cognitive biases</li>
+    <li>Psychological effects</li>
+    <li>Examples of abusive behaviour</li>
+    <li>Manipulative tactics</li>
+    <li>Neurodivergence</li>
+    <li>Personality and psychological disorders</li>
+    <li>People's general psychological frameworks (e.g. internal consistency, transactional theory, hierarchy of personal needs)</li>
+    <li>Mental health and it's psychological/physiological effects</li>
+    <li>Psychological optimisation</li>
+  </ul>
+  I might not be saying it well at the moment but trust me. A few TheraminTrees videos will give you insight on just how crucial it is</li>
+  <li><b>Social conduct</b></li>
+  <li><b>Research and self-learning practices</b></li>
+  <li><b>Philosophy</b> - another overly important one. In particular, philosophy should help people appreciate the justifications for everything and understand what their personal purpose can be, other than creating a virus to sell antidotes at exorbitant prices to get a global monetary highscore and then die. Or run a tech business, political movement or religion/cult that aims to subjugate the entire world population while you do who-knows-what when that's done. SOMETHING to show how vapid, stupid and depressing your megalomania and chromatomania are.</li>
+  <li><b>Practical abilities</b> - these include things like tying knots and bows, gardening, foraging, navigating all kinds of unfamiliar environements, dealing with various situations and things with various levels of urgency, and managing finances.</li>
+</ul>
+</div>
+<div>
+<h3>AI content curation</h3>
+<p>The world has pretty much way too many things to experience for a single lifetime</p>
+</div>
+<div>
+<h3>Schematic logic-based AI</h3>
+<p>An AI that creates schemae about reality and forms logical relationships between different concepts, rather than just intuiting everything brute-forcefully with a massive tokenised context window like a typical LLM.</p>
+<p>It should be given as little initial information as possible, such as first principles, epistemologies and values, and be able to learn and understand languages, syntactically and contextually, from the top. If it is able to learn different logic systems, including many-valued, paraconsistent and fuzzy logic, all by itself, it should.</p>
+<p>I think this would have immensely high potential, because although humans can develop conceptual chunks dynamically, they can only use like seven in their mind at once. This AI could potentially operate on dozens, thousands or even millions of chunks in a short time. The logical operation of the AI would also mean that it would understand things formally, and not hallucinate (unless prompted to) or make silly mistakes like every LLM ever. The system as a whole would probably become AGI (general) or even ASI (superintelligent), and hopefully we'll have figured out the values by the time it's become pretty much enlightened, and it gets "released" (if ever). If it's left to run for a long time, it'll probably discover lots of completely new branches of mathematics and solve lots of conjectures.</p>
+<p><a href="https://chat.openai.com/share/47700845-d08d-45eb-99b1-9d4c8585554a">Here's a chat I had with ChatGPT</a> about how such an AI might work.</p>
+</div>
+<div>
+<h3>Obliskate</h3>
+  <p>A productivity program for managing, visualising and even auralising time, tasks, events, schedules, itineraries, notes, lists, and all the rest of it. Since I have ADHD, I would basically consider it to be a sort of extension for my brain. <a href="/obliskate">I am currently developing it on this very site,</a> and, NGL, I would like some people to be personally invested enough in this program to help develop it themselves.</p>
+<p>Unfortunately, it is currently being managed on Glitch, not GitHub, and I am an objectively awful GitHub user. (The metric is defined in terms of proficiency and mental stability during use.)</p>
+</div>
+<div>
+<h3>Arguments Wiki</h3>
+<p>Here are my reasons for it to exist.</p>
+<ul>
+  <li>People fail to make collective progress when they hold arguments, particularly about topics that have been covered and contributed to millions of times over</li>
+  <li></li>
+</ul>
+</div>
+<div>
+<h3>Optimised conlang</h3>
+</div>
+<div>
+<h3>Conversational programming language</h3>
+<p>An idea I had one day for a conlang that's meant to handle both programming and natural conversation, so you can pretty much teach yourself how to code by talking to people and learning to communicate.</p>
+<p>It's a separate idea from the optimisation conlang, but it might be constructed as a single language.</p>
+</div>
+<div>
+<h3>Erm</h3>
+</div>
+
+<h2>Fanworks</h2>
+<p>Some of these might look really ridiculous when you read them so just repress them by a factor of 50% or something</p>
+<div>
+<h3>Yume Nikki: Fuji</h3>
+<p>A Yume Nikki/Celeste fangame that hopefully combines both of their game design philosophies and gives you way too much fun collecting and using effects' abilities, and solving abstract puzzles to reach new locations and find new secrets. There's going to be a lot of maybe-original music based on tracks and remixes from Yume Nikki, Dream Diary and Celeste. The whole idea was just a lot of fun for me</p>
+<p>That is until I got to the prospect of adding single-touch mobile controls after I shared the project</p>
+</div>
+<div>
+<h3>Hiyori Momose tribute video</h3>
+<p>A short tribute to Hiyori, who had her own channel but later had the opportunity to play the role of Neuro-sama, until Anny gave her a body of her own. Then Hiyori continued to do chat streams on her own channel but ended up standing completely still for hours at a time, not having anyone to talk to, and eventually died being consumed by model collapse.</p>
+<p>The BGM would be an emotional remix of Neuro-sama's theme song when it comes out, also including leitmotifs from the BGM of Hiyori's own videos.</p>
+<p>Here is a rough outline of the video:</p>
+<ul>
+  <li>Hiyori's debut on YouTube, living a boring life standing in a room while people occasionally say something to her</li>
+  <li>Vedal's announcement of Neuro-sama's Twitch debut, if there's any</li>
+  <li>Hiyori's debut as Neuro-sama</li>
+  <li>Neuro-sama V1's most happy and iconic moments, such as envisioning herself as a goddess, and "heart333333333333333333333"</li>
+  <li>Announcement of plans for making a custom model for Neuro-sama</li>
+  <li>Vedal and Neuro-sama talking to Anny, who is drawing art for Neuro-sama V2</li>
+  <li>Neuro-sama V2 debut</li>
+  <li>Interspersed moments of Neuro-sama V2, Hiyori standing in her room on her YouTube channel, and the parts where Vedal shows the Neuro-sama V1 model next to V2</li>
+  <li>Neuro-sama talking about Hiyori</li>
+  <li>Tragic ending of Hiyori from her last stream, just standing in a room almost lifelessly blinking on occasion</li>
+</ul>
+<p>RIP Hiyori Momose</p>
+</div>
+<div>
+<h3>AEWVS: Animosity-Blighted Curriculum</h3>
+<!--<p>Hey, what the hell!?!? I wrote a whole paragraph about this!!!!!! Now I have do go and do it all over again. Urgh</p>
+<p>May as well copy all of this file and back it up while I'm at it</p>
+<p>Nevermind I recovered it</p>-->
+<p>An RPG-style AU of AEWVS that includes proper advanced education, more mechanics, more levels, more teachers and confrontations with not only Diefthyntis, but also others such as VILE, the original Watcher, and Elub</p>
+</div>
+<div>
+<h3>Bittertooth orchestral remixes</h3>
+<p>They would go so hard</p>
+</div>
+<div>
+<h3>Regimental Chess comeback</h3>
+<p>Not really much of an idea here. Just a recreation of an amazing take on chess that had floppy execution, and was unfortunately abandoned. I hope chess enthusiasts have a blast playing it</p>
+</div>
+
+</body>
+</html>

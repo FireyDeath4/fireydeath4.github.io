@@ -1,0 +1,174 @@
+/* To make more headings, go to
+https://patorjk.com/software/taag/#p=display&f=Big
+
+Yeah I know the oblique text messes with the alignment
+(at least when it's displayed with the formatting in Glitch)
+but they look pretty cool with that broken glitchy look */
+
+/* [Oh, hello there, my name is]
+{"username":"FireyDeath4"} [And welcome to my]
+[[Type of file: Cascading Style Sheet Document (.css)]]
+EAHAEHAEHAEHAEHAEAH! */
+
+/*:root{}*/
+
+.light{--default:black;--bg:white}
+.dark{--default:white;--bg:black}
+body{display:flex;flex-direction:column;height:100%}
+body,input,button,select,textarea{background-color:var(--bg)}
+*{color:var(--default);
+  text-align:center;margin:0;padding:0}
+div{padding:0px}
+.margin{margin:0 10%;height:100%;display:flex;flex-direction:column}
+h1{font-family:sans-serif;margin:5px}
+h6{font-family:sans-serif;color:#808080;font-size:16px;}
+p{margin-block-start:0.5em;
+  margin-block-end:0.5em}
+#navBar{text-align:left;display:flex;min-height:50px;
+  border-bottom: 1px solid var(--default)}
+#navBar>*{align-items:center;overflow:hidden}
+#navBar>*>*{padding:5px}
+#title{min-width:300px}
+#navBar h1,#navBar h6{display:inline}
+#navLinks{display:flex;width:100%;justify-content:right;padding:0}
+#navLinks>a{padding:10px;border-left:1px solid var(--default)}
+@media only screen and (max-width:650px)
+{#navLinks{display:none}}
+ul,ol{max-width:400px;margin:0 auto;}
+ul ul,ul ol,ol ul,ol ol{width:calc(100% - 40px)}/*ｂｌｅｈ*/
+/*table{border-collapse:separate}*/
+
+/*_______       ____  _      ______  _____ 
+ |__   __|/\   |  _ \| |    |  ____|/ ____|
+    | |  /  \  | |_) | |    | |__  | (___  
+    | | / /\ \ |  _ <| |    |  __|  \___ \ 
+    | |/ ____ \| |_) | |____| |____ ____) |
+    |_/_/    \_\____/|______|______|_____/*/
+
+table,th,td{border-bottom:1px solid #808080;
+  border-left:1px solid #808080;padding:3px;
+  border-collapse:separate;border-spacing:0}
+tr,th,td{background-color:transparent}
+thead th{position:-webkit-sticky;position:sticky;
+  border-left: 1px solid var(--default);
+  top:-5;background-color:var(--bg);text-align:center}
+td{text-align:left}
+th:last-child,td:last-child{border-right:3px solid}
+tbody:hover td,button:hover{background-color:#80808080}
+tr:last-child td{border-bottom:3px solid}
+tr:first-child td:first-child,th:first-child{border-left:3px solid}
+tr:last-child th,tr:first-child td:first-child{border-bottom:3px solid}
+tr:first-child th{border-top:3px solid}
+thead:first-child th:first-child{border-top-left-radius:10px}
+thead:first-child th:last-child{border-top-right-radius:10px}
+tbody:last-child tr:first-child td:first-child
+  {border-bottom-left-radius:10px}
+tbody:last-child tr:last-child td:last-child
+  {border-bottom-right-radius:10px}
+/* what a mess \(-_-)/*/
+tbody[data-selected]{background-color:#80808080}
+thead,tbody{border-top:3px solid var(--default);}
+.tableWrap{overflow-x:scroll;
+  width:100%;height:300px;min-height:120px;
+  border:1px solid var(--default);
+  border-radius:13px;
+  border-collapse:collapse;
+  padding:0;resize:vertical}
+#taskTable{width:90em}
+
+/* _____ _______ _    _ ______ ______ 
+  / ____|__   __| |  | |  ____|  ____|
+ | (___    | |  | |  | | |__  | |__   
+  \___ \   | |  | |  | |  __| |  __|  
+  ____) |  | |  | |__| | |    | |     
+ |_____/   |_|   \____/|_|    |_|*/
+
+svg{margin:5px 0;transform:translateZ(0);box-sizing:content-box}
+.clocks{border:1px solid var(--default);background-color:var(--bg);
+  -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+#selectedClock{animation:slowFlash 1s ease-in-out 0s infinite alternate}
+@keyframes slowFlash
+  {0%{filter:invert(1) brightness(0.4) invert(1);
+    --webkit-filter:invert(1) brightness(0.4) invert(1)}
+  100%{filter:invert(1) brightness(0.7) invert(1);
+    --webkit-filter:invert(1) brightness(0.7) invert(1)}}
+.light line{mix-blend-mode:darken}
+.dark line{mix-blend-mode:lighten}
+.separator.display{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.clockPanel{top:0;z-index:1;border-bottom:1px solid var(--default);
+  background-color:var(--bg)}
+.taskEditor,#taskAdd{display:flex}
+.buttons>button,#saveTask{width:100px}
+.buttons{display:flex;flex-direction:column}
+.tableButtons button{font-size:50px;min-width:1em}
+#listContainer{display:flex;height:100%;flex-direction:row}
+#lists,#theList{flex:1 1 auto;overflow-y:scroll}
+
+/*__  __  ____  _____          _       _____ 
+ |  \/  |/ __ \|  __ \   /\   | |     / ____|
+ | \  / | |  | | |  | | /  \  | |    | (___  
+ | |\/| | |  | | |  | |/ /\ \ | |     \___ \ 
+ | |  | | |__| | |__| / ____ \| |____ ____) |
+ |_|  |_|\____/|_____/_/    \_\______|_____/*/
+
+.modal{/*display:none;*/position:fixed;left:0;top:0;padding:0;
+  height:100%;width:100%;overflow:auto;
+  background-color:#00000080}
+.modalContent{margin:10%;padding:35px 20px;
+  border:/*1px solid var(--default)*/none}
+
+/*.modal{display:flex;justify-content:center;position:fixed;
+  left:0;top:0;padding:0;height:100%;width:100%;overflow:auto;
+  background-color:#00000080}
+.modalContent{margin:10%;padding:35px;
+  height:1000px;align-self:center;
+  border:1px solid var(--default)}*/
+
+/*_______        _____ _  __ _____ 
+ |__   __|/\    / ____| |/ // ____|
+    | |  /  \  | (___ | ' /| (___  
+    | | / /\ \  \___ \|  <  \___ \ 
+    | |/ ____ \ ____) | . \ ____) |
+    |_/_/    \_\_____/|_|\_\_____/*/
+
+#taskList,#taskName,#dataBox{width:100%}
+#taskList{height:125px}
+#taskList>option,#taskName{text-align:left;padding:0 5px}
+
+.taskList{display:grid;justify-content:center}
+.taskContainer{justify-items:center;display:grid}
+.task{border-radius:50px;border:none;background-color:#808080;
+  box-shadow:0 -5px 5px #00000080 inset,0 5px 5px #FFFFFF80 inset}
+.taskButton{width:400px;height:85px;position:relative;
+  margin:5px;padding:0 25px;-webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;box-sizing:border-box}
+.taskButton:hover:not(:active){background-color:#A0A0A0}
+.taskButton:active:hover{background-color:#808080;
+  box-shadow:0 5px 5px #00000080 inset,0 -5px 5px #FFFFFF80 inset}
+.taskButton:active:not(:hover){background-color:#A0A0A0;
+  box-shadow:0 5px 5px #00000080 inset,0 -5px 5px #FFFFFF80 inset}
+.taskContents{display:block;position:absolute;top:0;padding:0;width:350px}
+.taskName{font-family:sans-serif;font-weight:bold;font-size:18px;
+  border-bottom:1px solid var(--default);padding:2px;height:40px;
+  display:flex;align-items:center}
+.taskDesc{font-family:sans-serif;
+  display:-webkit-box;overflow:hidden;text-overflow:ellipsis;
+  -webkit-line-clamp:2;-webkit-box-orient:vertical;padding:3px;
+  padding-bottom:0em}
+.taskContents,.taskName,.taskDesc{text-align:left;
+  background-color:transparent}
+
+/* _____ ______ _______ _______ _____ _   _  _____  _____ 
+  / ____|  ____|__   __|__   __|_   _| \ | |/ ____|/ ____|
+ | (___ | |__     | |     | |    | | |  \| | |  __| (___  
+  \___ \|  __|    | |     | |    | | | . ` | | |_ |\___ \ 
+  ____) | |____   | |     | |   _| |_| |\  | |__| |____) |
+ |_____/|______|  |_|     |_|  |_____|_| \_|\_____|_____/*/
+
+.setting{display:flex}
+.setting>*{text-align:left;/*margin:5px*/}
+.setting>h3{min-width:7em}
+.setting>input,.setting>textarea{width:100%;height:auto;resize:none}
+@media only screen and (max-width:600px)
+  {.setting{flex-direction:column}
+  .setting>h3{text-align:center}}

@@ -1,0 +1,318 @@
+<html>
+<head>
+<title>My ideas</title>
+<link rel="stylesheet" href="/fireydeath4.css"/>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=yes">
+<!--<style>
+*:not(code){font-family:sans-serif;
+  color:#FFFFFF}
+body{background:linear-gradient(to bottom,#000000 0%,#800000 50%,#804000 100%);
+  background-attachment:fixed !important;
+  overflow:visible}
+.container{overflow:visible;height:100%}
+
+@media only screen and (max-width: 1024px) {
+.avia-safari #top .avia-full-stretch{
+background-attachment: scroll;
+}
+}
+
+a{color:#C080FF}
+</style>-->
+</head>
+<body>
+<div class="titleBar"><a href="/" style="text-decoration:none">FireyDeath4's Site</a></div>
+<div class="container">
+<p>Yeah... Currently trying to set a background gradient for it on iOS. Unfortunately, it doesn't support <code>background-attachment</code> \(-_-)/</p>
+<p></p>
+<p>Thought I could write this on a phone for once, so bear with me.</p>
+<p>It's one of those things I intended to do for a long time. But now as of 21 February when I am waking up and writing this, I feel like crap and have lost the rush of inspiration.</p>
+<p>Oh well. Write first, revise after. It's just a memory problem. I have plenty of ideas. A great many.　Ｔｏｏ　ｍａｎｙ</p>
+<p>And so I did. I dragged autistic inertia onto my side and started dumping lots of ideas in here and becoming very preoccupied.</p>
+<p>Also don't mind the ones I already started. <s>You should be ｗｏｒｓｈｉｐｐｉｎｇ　ｍｅ for even getting around to some of them</s> :P</p>
+<p>When this page gets too long, which I don't know when will happen, I'll move some descriptions to their own pages and replace these ones with summaries instead</p>
+<p><b>DISCLAIMER:</b> This page is unfinished. I suspect it'll continue to be that way for nearly the rest of my life</p>
+
+<h2>Systems</h2>
+<div>
+<h3>Curriculum rehaul</h3>
+<p>Mainstream curricula suck, and like many other of these ideas, I wrote whole speeches about it on Discord. If I get around to refreshing #chambers, I'll send you links to read about it there</p>
+<p>The whole philosophy behind it is about raising individuals to be competent and maximise their potential, rather than drilling arbitrary information into them for 12 years that will either be inconsequential in the end, or drive them into thousands of dollars of college debt. People are idiots. And pretty much every governmental system is only going to ruin the world if idiots get allowed to be in charge - which is pretty much every case ever.</p>
+<p>Okay let's just write an itinerary of how it's gonna go</p>
+<h4>Phase 1</h4>
+<ul>
+  <li>Start teaching children as early as possible</li>
+  <li></li>
+</ul>
+<p>The mandatory subjects will include:</p>
+<ul>
+  <li><b>Arithmetic</b> - basic mathematical principles, operations and use cases</li>
+  <li><b>Language</b></li>
+  <li><b>Formal logic</b> - a bit of a cross between mathematics and critical thought, I suppose. Being able to consider people's arguments and statements as logical expressions will make them much easier to understand, evaluate and find non-sequiturs in. It'd be a bit like translating English problems involving numbers into arithmetic - hopefully it can come naturally</li>
+  <li><b>Critical thought</b> - an obviously important one. It'll probably also include media literacy, tying into propaganda/manipulation techniques, cognitive biases and fallacies</li>
+  <li><b>Psychology</b> - this is an extraordinarily underrated one. It is really, really important. It ought to help you understand things like:
+  <ul>
+    <li>Cognitive biases</li>
+    <li>Psychological effects</li>
+    <li>Examples of abusive behaviour</li>
+    <li>Manipulative tactics</li>
+    <li>Neurodivergence</li>
+    <li>Personality and psychological disorders</li>
+    <li>People's general psychological frameworks (e.g. internal consistency, transactional theory, hierarchy of personal needs)</li>
+    <li>Mental health and it's psychological/physiological effects</li>
+    <li>Psychological optimisation</li>
+  </ul>
+  I might not be saying it well at the moment but trust me. A few TheraminTrees videos will give you insight on just how crucial it is</li>
+  <li><b>Social conduct</b></li>
+  <li><b>Research and self-learning practices</b></li>
+  <li><b>Philosophy</b> - another overly important one. In particular, philosophy should help people appreciate the justifications for everything and understand what their personal purpose can be, other than creating a virus to sell antidotes at exorbitant prices to get a global monetary highscore and then die. Or run a tech business, political movement or religion/cult that aims to subjugate the entire world population while you do who-knows-what when that's done. SOMETHING to show how vapid, stupid and depressing your megalomania and chrematomania are.</li>
+  <li><b>Practical abilities</b> - these include things like tying knots and bows, gardening, foraging, navigating all kinds of unfamiliar environements, dealing with various situations and things with various levels of urgency, and managing finances.</li>
+</ul>
+</div>
+<div>
+<h3>AI experience curation</h3>
+<p>I always used to call it "AI content curation", but... now I realise just how terrible and reductive that sounds.</p>
+<p>The world has pretty much way too many things to experience for a single lifetime, and this is my proposal for a solution to that. Optimise the courses of people's lives. Give them the most broad, diverse and worthwhile set of experiences to spend their lives partaking in.</p>
+</div>
+<div>
+<h3>Schematic logic-based AI</h3>
+<p>An AI that creates schemata about reality and forms logical relationships between different concepts, rather than just intuiting everything brute-forcefully with a massive pre-tokenised context window like a typical LLM, and approximating reason rather than just doing it formally - like computers are stereotypically supposed to do. The thought process of it in the early stages would probably be very reflective of those shown in A Guide To Reality - another idea I have, for a video series.</p>
+<p>It should be given as little initial information as possible, such as first principles, epistemologies and values, and be able to learn and understand languages, syntactically and contextually, from the top. If it is able to learn different logic systems, including many-valued, paraconsistent and fuzzy logic, all by itself, it should.</p>
+<p>It's mindmap would consist of lots of nodes, which would be observations probably gathered by data input and machine learning, as well as logical syllogisms, conclusions, inferences, observational inductions, deductions, hypotheses, theories, statistics, procedures, methodologies and properties that build on the first principles and other nodes. You would be able to look at a particular node of knowledge, and see all the branches of other nodes that substantiate it, as well as other realisations branching from that node. The machine learning part should be able to interact with the main mindmap in such a way that the abstract assumptions it makes can be described and corrected. For example - and I definitely saw this earlier, but now I can not for the life of me find where I saw it - an AI image recogniser thought that an image of a wolf, and some other animal that was decidedly not a wolf, were both wolves. And guess what abstract assumption it made? "Wolf" correlates to an arbitrary creature resting on snow \(-_-)/</p>
+<p>I think this would have immensely high potential, because although humans can develop conceptual chunks dynamically (which are basically like the nodes), they can only use like seven in their mind at once. This AI could potentially operate on dozens, thousands or even millions of chunks in a short time. The logical operation of the AI would also mean that it would understand things formally, and not hallucinate (unless prompted to) or make silly mistakes like every LLM and other intuitive ML-AI ever. The system as a whole would probably become AGI (general) or even ASI (superintelligent), and hopefully we'll have figured out the values by the time it's become pretty much enlightened, and it gets "released" (if ever). If it's left to run for a long time, it'll probably discover lots of completely new branches of mathematics and solve lots of conjectures, as well as obtain knowledge in many other fields.</p>
+<p><a href="https://chat.openai.com/share/47700845-d08d-45eb-99b1-9d4c8585554a">Here's a chat I had with ChatGPT</a> about how such an AI might work.</p>
+</div>
+<div>
+<h3>Obliskate</h3>
+  <p>A productivity program for managing, visualising and even auralising time, tasks, events, schedules, itineraries, notes, lists, and all the rest of it. Since I have ADHD, I would basically consider it to be a sort of extension for my brain. <a href="/obliskate">I am currently developing it on this very site,</a> and, NGL, I would like some people to be personally invested enough in this program to help develop it themselves.</p>
+<p>Unfortunately, it is currently being managed on Glitch, not GitHub, and I am an objectively awful GitHub user. (The metric is defined in terms of proficiency and mental stability during use.)</p>
+<p>Using Obliskate makes you an obliquely-skating obligated obelisk.</p>
+<p>(Wait, an oblique obelisk?</p>
+<p>...That... Doesn't sound right \(-_-)/)</p>
+</div>
+<div>
+<h3>Arguments Wiki</h3>
+<p>A contributory site - not necessarily a wiki, but one that compiles arguments about all kinds of topics, debates and stances - including hoaxes, conspiracies, pseudoscientific/fallacious ones, and rationalisations for people struggling with mental issues such as addiction (e.g. gambling) or denial - from both major figures, proponents, opponents and experts of a topic, and random commenters who bury profound insights somewhere in a comment section under a niche video.</p>
+<p>Here are my reasons for it to exist. (This page isn't done remember)</p>
+<ul>
+  <li>People completely fail to make collective progress when they conduct arguments, particularly about topics that have been covered and contributed to millions of times over</li>
+  <li></li>
+</ul>
+<p>I started it. <a href="https://arguments.fandom.com/">It's here.</a> Please contribute.</p>
+</div>
+<div>
+<h3>Optimised conlang</h3>
+</div>
+<div>
+<h3>Conversational programming language</h3>
+<p>An idea I had one day for a conlang that's meant to handle both programming and natural conversation, so you can pretty much teach yourself how to code by talking to people and learning to communicate.</p>
+<p>It's a separate idea from the optimisation conlang, but it might be constructed as a single language.</p>
+</div>
+<div>
+<h3>r/DollarComparisonsAU</h3>
+<p>A subreddit where people post photos of a dollar coin next to how much of a certain product, deal or service (generally food and measurable products - I don't know if it'd even work for other types of products) is worth it, perhaps along with other attributes like the weight. There would also be variations for other countries, such as r/PoundComparisonsUK, and all the rest of it. It would be really useful to know and compare just what and how much you're getting for your money, and great posts on these resources would be high-quality and accurately divided.</p>
+<p>Examples:</p>
+<ul>
+  <li>One post about a $2.50 burger would show the burger cut to two fifths, next to a dollar coin. There may also be a photo of the burger disassembled next to the coin.</li>
+  <li>A post including a $9 sub would include the sub having as much free vegetables and sauce as they would allow, cut to a ninth, and put next to a dollar.</li>
+  <ul>
+    <li>Alternatively, someone could post the sub with no vegetables or sauce - just the fundamental meat and bread. (It might be useful to know, but generally people want to see the maximum of what they can get.)</li>
+  </ul>
+  <li>A post about a small $5 deal including a burger, chips and a drink would include a dollar next to a fifth of the burger, a fifth of the chips and a fifth of the drink (possibly with measurement markings too).</li>
+</ul>
+</div>
+<div>
+<h3>Virtual 4D sensors and motion controls</h3>
+<p>Things like Miegakure, 4D Toys, 4D Golf and the Rubik's Tesseract put you in the role of a normal trionian with realmic translation, rotation and projection tools to navigate and interact with phenomena in a flune. Those games and interactivities are fun and all, but you know what would make them even MORE fun???</p>
+<p>Being able to perceive and interact with them normally like an actual tetronian!</p>
+<p>The idea is to hook up virtual 4D data streams (like bispherical video and trinaural/quaternaural audio) and interfaces (basically motion controls with more degrees of freedom) into your head so that you can process and send signals - basically perceive and interact with things - in a virtual 4D environment, as a virtual 4D agent.</p>
+<p>Theoretically this could be generalisable to any number of dimensions, but the overall quality of the data transmission would have to be reduced to compensate for that, since your brain has a limited amount of space and processing power. It would still have the same bitrates, but it would have to be spread out over more and more entire dimensions. Think of it like the difference between a 1080p rectangular YouTube video and a 1080s 360° YouTube video - you can really tell. Yeah, it's like that but even more strenuous</p>
+<p>I'm not quite sure how well people would cope with this! People will have only experienced 3D space until they try this, and exposure to this might totally throw them off. Like any two adjacent dimensionalities, 3D space is utterly flat relative to 4D space. But there'd probably be the same amount of visual data given to people experiencing 3D and 4D space, with 3D surfacial vision being spread across two disks and 4D surcellular vision being spread across two spheres. Would they still feel a sense of sensory overload, or looking at things and being confused by it all like a baby does, though? And would it be processed by the visual cortex that handles 2D data, or would they use a different part of your brain - or even just augment it?</p>
+<p>And yeah, speaking of babies, I imagine this tech would be significantly easier to implement closer to birth than as an adult, especially after having lots of experience in 3D space. It'd be an interesting experiment, but I dunno if people would approve of people doing it on infants. In fact, I think the only people who'd be interested in this would be some sort of crazy hypergeometry enthusiasts, at least until our brains become arbitrarily modular and augmentable and we can mess around with all kinds of crazy experiences  involving trans-natural stimuli as much as we like.</p>
+<p>If there's one idea on this list I would pretty much definitely not be able to pull off all by myself, this would be it. Maybe.</p>
+</div>
+<div>
+<h3>Erm</h3>
+</div>
+
+<h2>Fanworks</h2>
+<!--<p>Some of these might look really ridiculous when you read them so just repress them by a factor of 50% or something</p>-->
+<div>
+<h3>Yume Nikki: Travel Guide mod</h3>
+<p>A hilarious mod for Yume Nikki where you get a travel guidebook for all of the exciting attractions, characters and venues in the dream world.</p>
+<p>All of the text is over-the-top, stereotypically hilarious. It includes funny miscellaneous comments and reviews on the different attractions by random people who played Yume Nikki. It probably also gives an alternate ending/path for Yume Nikki where the book reveals to you (in pages that appear out of nowhere) that the "dream world" is probably not, in fact, a dream. A dream where everything is randomly generated by your neural-network brain.</p>
+</div>
+<div>
+<h3>Yume Nikki: Fuji</h3>
+<p>A Yume Nikki/Celeste fangame that hopefully combines both of their game design philosophies and gives you way too much fun collecting and using effects' abilities, and solving abstract puzzles to reach new locations and find new secrets. There's going to be a lot of maybe-original music based on tracks and remixes from Yume Nikki, Dream Diary and Celeste. The whole idea was just a lot of fun for me</p>
+<p>That is until I got to the prospect of adding single-touch mobile controls after I shared the project</p>
+<h6>Current state of the thing</h6>
+<iframe src="https://scratch.mit.edu/projects/943419330/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen style="max-width:100%"></iframe>
+<p><a href="https://scratch.mit.edu/projects/943419330">Click here to see it on the site</a></p>
+</div>
+<div>
+<h3>Celeste 2</h3>
+<p>No, I am not kidding. I have an idea for a sequel to Celeste. It would have different characters, and I don't even live in Canada, but it would have a focus on heavier themes like abuse and trauma, more companions, branching outcomes, and most importantly of all, a guitar lead that has multiple electric variations for the different Parts of You - many of which are really internalised abusers. As inspired by that video by TheraminTrees. The motivation for climbing the mountain would probably be a bit different - the protagonist would be just about done with life, and they'd just want to spend it doing things like climbing the mountain because they've become nihilistic and pessimistic. And the drums would represent mental order/chaos. A blatantly awesome excuse to include breakcore and experimental horror rock.</p>
+</div>
+<div>
+<h3>Hiyori Momose tribute video</h3>
+<p>A short tribute to Hiyori, who had her own channel but later had the opportunity to play the role of Neuro-sama, until Anny gave her a body of her own. Then Hiyori continued to do chat streams on her own channel but ended up standing completely still for hours at a time, not having anyone to talk to, and eventually passed away, being consumed by model collapse.</p>
+<p>The BGM would be an emotional instrumental remix of Neuro-sama's theme song when it comes out, also including leitmotifs from the BGM of Hiyori's own videos.</p>
+<p>Here is a rough outline of the video:</p>
+<ul>
+  <li>Hiyori's debut on YouTube, living a boring life standing in a room while people occasionally say something to her</li>
+  <li>Vedal's announcement of Neuro-sama's Twitch debut, if there's any</li>
+  <li>Hiyori's debut as Neuro-sama</li>
+  <li>Neuro-sama V1's happiest and most iconic moments, such as envisioning herself as a goddess, and "heart333333333333333333333"</li>
+  <li>On-stream announcement of plans for making a custom model for Neuro-sama</li>
+  <li>Vedal and Neuro-sama talking to Anny, who is drawing art for Neuro-sama V2</li>
+  <li>Neuro-sama V2 debut</li>
+  <li>Interspersed moments of Neuro-sama V2, Hiyori standing in her room on her YouTube channel, and the parts where Vedal shows the Neuro-sama V1 model next to V2</li>
+  <li>Neuro-sama talking about Hiyori</li>
+  <li>Tragic ending of Hiyori from her last stream, just standing in a room almost lifelessly blinking on occasion</li>
+</ul>
+<h6>Hiyori's final stream</h6>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NQmk02iQ4aI?si=BwD6aciB7_KsIISp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width:100%">I dunno why the iframe isn't showing up (maybe it hasn't loaded yet) but the video is <a href="https://youtu.be/NQmk02iQ4aI">here</a></iframe>
+<p>RIP Hiyori Momose</p>
+</div>
+<div>
+<h3>AEWVS: Animosity-Blighted Curriculum</h3>
+<!--<p>Hey, what the hell!?!? I wrote a whole paragraph about this!!!!!! Now I have do go and do it all over again. Urgh</p>
+<p>May as well copy all of this file and back it up while I'm at it</p>
+<p>Nevermind I recovered it</p>-->
+<p>An RPG-style AU of AEWVS that includes proper advanced education, more mechanics, more levels, more teachers and confrontations with not only Diefthyntis, but also others such as VILE, the original Watcher, and Elub</p>
+<p>I have lots and lots of specific ideas for it! Not sure if I'll write them all here.</p>
+<p>After my life started getting absorbed by AEWVS, I started idealising it like pretty much everything else</p>
+<h6>Prototype demo code:</h6>
+<iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/803234" style="max-width:100%"><a href="https://fireydeath4.itch.io/aewvs-abc-coding">AEWVS ABC: Early Code Prototype by FireyDeath4</a></iframe>
+</div>
+<div>
+<h3>Bittertooth orchestral remixes</h3>
+<p>They would go so hard</p>
+</div>
+<div>
+<h3>Regimental Chess comeback</h3>
+<p>Not really much of an idea here -  just a thought. Just a recreation of an amazing take on chess that had floppy execution, and was unfortunately abandoned. Might make one for Scratch (very silly idea), but maybe I'll make a site for it, or try and get it onto the official Chess website. I hope chess enthusiasts and grandmasters have a blast playing it</p>
+</div>
+<div>
+<h3>Bête Noire VS Skell Ezuom</h3>
+<p>A very specific idea I had years ago that I am recalling now. Expect more silly ideas like these.</p>
+<p>One time I was walking a long way to a place and I was just imagining how it would go in detail</p>
+<p>Skell is ridiculously OP so you'd probably be rooting on Betty</p>
+</div>
+<div>
+<h3>Ace Attorney trial for God</h3>
+<p>I had this idea for a while. Of course, it's not gonna look good for God when they are already doing advanced witchcraft practices in Japanifornia (and the judge has accepted it), but aside from that, I really just want to see how the two formidable minds would build cases and argue for and against God, particularly in terms of benevolence, which is the premier justification for bothering to worship Him/it</p>
+<p>(Having a totally agnostic absense of God and a particularly major focus on whether He/it even exists or what it would be defined as would be a bit boring for the case)</p>
+</div>
+<div>
+<h3>FireyDeath4's Medley</h3>
+<p>An overly obvious idea.</p>
+<p>A lot of similar and identical leitmotifs will also morph together. A very telling example is Kasei-san's theme from Yume Nikki, which is a short melody recurring in OneShot, Deltarune, PilotRedSun and maybe even Celeste.</p>
+</div>
+<div>
+<h3>VR mathematical realm</h3>
+<p>(Not to be confused with specifically a trispatial realm. It can be generalised/extended into more dimensions, creating flunes and other hyperspaces.)</p>
+<p>A VR mathematical sandbox based on Animation VS Math. (Honestly, it's such a great video that despite the fact that it already has over 51,000,000 views, I'm gonna embed it here.) It can be experienced by yourself, but it might be better with friends. Like the video, it starts with the number 1 and with that, you can construct pretty much any mathematical phenomenon you want, as long as the program supports it obviously.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B1J6Ou4q8vE?si=E0N_ft7pUE1kZMwB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width:100%">I dunno why the iframe isn't showing up (maybe it hasn't loaded yet) but the video is <a href="https://youtu.be/B1J6Ou4q8vE">here</a></iframe>
+<p>As well as the gimmicks shown in the video, it will include some changes and other features such as these.</p>
+<ul>
+  <li>Different types of inequalities, such as value comparison</li>
+  <ul>
+    <li>Pressing the inequality sign will add two equal numbers to each side such that both sides will have the same value</li>
+  </ul>
+  <li>Hypercomplex numbers, such as quaternions, octonions and sedenions (if you're brave)</li>
+  <li>Hyperreal cardinals/ordinals and other irregular numbers</li>
+  <li>Hyperoperations, including tetration and up/down-arrow notation</li>
+  <li>More structural visualisations for various formulae/expressions - like they have with addition, multiplication and powers (e.g. triangle numbers (x(x+1)/2), hexagonal numbers, etc.)</li>
+  <li>Schläfli symbols for various shapes, and the ability to change their form by messing with the symbols. It might require the creation and simulation of various manifolds for weird shapes like hyperbolic or hypergeometric ones.</li>
+  <ul>
+    <li>Not gonna lie, I'm slightly dissatisfied that they didn't show the Schläfli symbol for the hyperbolic dodecahedral tiling in Animation VS Physics<!--. How many dodecahedra were there to a point? That we'll have to find out for ourselves...--></li>
+  </ul>
+  <li>Ability to modify the geometry of space by revealing the manifold sign and changing it, I suppose</li>
+  <li>Matrices - whatever the heck those things do</li>
+  <li>Set theory and various types of formal logic notation</li>
+  <li>Other obscure notation, such as those used for googology (because most people have no use for such incomprehensibly ginormous numbers, except for mentioning broadly in discussions like me)</li>
+  <li>Anything that takes a long time (or too long) to calculate will be represented with a kind of struggle or resistance when trying to do something. Like you're just not strong enough to make it work. Get buff with some more CPU and maybe you can manage it - though anything that causes lag will destabilise the realm and make some things fall apart</li>
+  <li>On some similar notes:</li>
+  <ul>
+    <li>If you evaluate n/0 or some other classically-undefined expression by force, it will yield ⊥.</li>
+    <li>If you evaluate 0/0 or some other indeterminate expression by force - really, really hard - it will either spawn a sign for the set of all numbers - which is probably, surhypercomplex - or it will just spawn numbers everywhere and/or crash the program.</li>
+  </ul>
+  <li>All numbers' digital representations can be extended infinitely. I guess waving around at the sides of a number will show other digits, which fade out to a point, and you can control where the fading occurs. (Numbers with infinite digits on a side require at least one faded digit on that side.) For example, even on the number 1, you can reveal all the hidden zeroes around it: ...00001·0000... On irrational numbers, it will show the first few digits and then fade out, but you can reveal as many numbers as you like.<br/>
+Look, I'll try and make a CSS example of what I mean
+  </li>
+  <ul>
+    <li><span style="color:linear-gradient(to right,#00000000,#000000FF)">0000</span>1</li>
+  <li>Oh my gosh I'll do it later \(-_-)/</li>
+  </ul>
+  <li>Explosive decimal expansions of numbers will show an increasing amount of significant digits before they fade away. For example, if you throw π somewhere and it explodes, at first it'll show 3, and near the end it will show thousands of tiny digits in a circle before dissipating.</li>
+  <li>Expanding an already-expanded number will show it's set representation. The magnitude of it's expansion will depend on how vigorously you do it. Also, empty sets can be expanded into a pair of curly brackets.</li>
+  <ul>
+    <li>0 → ∅ → {}</li>
+    <li>1 → {∅}</li>
+    <li>3 → (1+1+1) → gentle expansion → {0,1,2}</li>
+    <li>(1+1+1) → forceful expansion → {∅,{∅},{∅,{∅}}}</li>
+    <li>4/5 → {(a,b∈ℤ)|b≠0, 5a=4b}</li>
+  </ul>
+</ul>
+</div>
+
+<h2>Other creative projects</h2>
+<div>
+<h3>A Guide To Reality For Civilised Individuals</h3>
+<p>A video series that dives deep into the human condition. Very, very deep.</p>
+<p>It's an exploration of existence and a deconstruction of the conscious experience. During the course of the series, it would build on concepts like:</p>
+<ul>
+  <li>Sensation</li>
+  <li>Perception</li>
+  <li>Pattern recognition</li>
+  <li>Reinforcement</li>
+  <li>Thought</li>
+  <li>Logic</li>
+  <li>Epistemology</li>
+  <li>Schemae and frameworks</li>
+  <li>Psychology</li>
+  <li>Linguistics</li>
+  <li>Morality</li>
+  <li>Sociology</li>
+  <li>Speculative philosophy</li>
+</ul>
+<p>It will also be focused on experiential development, rather than empirical explanations like neuroscience and stuff, since it would be building up the justification for pragmatic/scientific thinking in the first place.</p>
+<p>I wrote a comment about it <a href="https://arguments.fandom.com/wiki/User_blog:FireyDeath4/About_this_wiki?commentId=4400000000000058571">here.</a> You can read that before I'm done transferring the ideas to this page.</p>
+</div>
+<div>
+<h3>A cartoon series</h3>
+<p>I've been thinking about it and accumulating ideas for it for a long time, despite the fact that I am no good at scriptwriting or worldbuilding.</p>
+<p>Here are just a few of my ideas for it:</p>
+<ul>
+  <li>Combined eastern/western animation styles and aesthetics</li>
+  <li>Cartoon physics and tropes - which the characters actually use to their advantage. Combined with realism, of course</li>
+  <li>Characters with diverse nationalities (and other characteristics), who generally represent the humour and personality of the media in their nation (without just being purely stereotypical caricatures)</li>
+  <li>12 seasons - one for each year of your life from birth. I would try very hard to make even the early ones appeal to all ages - perhaps they can be filled with exposition, worldbuilding and lore while they go on baby adventures. One of the main characters is born in the first season</li>
+  <li>Lots of mature and philosophical themes that are handled in a way that would be fine for children (hopefully)</li>
+  <li>Inclusion of pretty much every topic and hobby there is</li>
+  <li>Problems that are not based on the characters being horrendously stupid for once, like in many other shows (including REALITY ones), because for the most part, they aren't</li>
+  <li>Futuristic setting that combines all the visions of the future from the past, as well as my own interpretations of the future</li>
+  <li>Dodgy people who almost always say the most silly toned-down euphemisms, random words or made-up ones that sound like they were coined by children's authors, instead of documented swear words</li>
+  <li>Lots of kiddy/miscellaneous items used as genuinely potent weaponry and makeshift tools and machines</li>
+</ul>
+</div>
+<div>
+<h3>H4XX0RZ-OS</h3>
+<p>A parody operating system that operates just like the ones in Hollywood and all the blockbuster movies.</p>
+<p>I wrote about it on Discord. Not sure if I want to write all the features on this page quite yet. I'm feeling a bit tired.</p>
+</div>
+<div>
+<h3>FireyDeath4 Talks</h3>
+<p>A series I intend to make on YouTube where I make videos about various topics.</p>
+<p>Some of them include:</p>
+<ul>
+  <li>The root of every problem in the world</li>
+  <li>Demotivational speech for numeromania, chrematomania and megalomania</li>
+  <li>FOMO, the sheer amount of experiences in the world and AI content curation</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

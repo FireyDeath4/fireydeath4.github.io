@@ -1,0 +1,610 @@
+<!--Please enable text wrapping for this file
+It's been optimised for mobile editing-->
+<html>
+<head>
+<title>My ideas</title>
+<link rel="stylesheet" href="/fireydeath4.css"/>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=yes">
+<style>iframe{height:auto;max-width:100%}</style>
+</head>
+<body>
+<div id="titleBar"><a href="/">FireyDeath4's Site</a></div>
+<div class="container">
+<p>Yeah... Currently trying to set a background gradient for it on iOS. Unfortunately, it doesn't support <code>background-attachment</code> \(-_-)/</p>
+<p></p>
+<p>Thought I could write this on a phone for once, so bear with me.</p>
+<p>It's one of those things I intended to do for a long time. But now as of 21 February when I am waking up and writing this, I feel like crap and have lost the rush of inspiration.</p>
+<p>Oh well. Write first, revise after. It's just a memory problem. I have plenty of ideas. A great many.　Ｔｏｏ　ｍａｎｙ</p>
+<p>And so I did. I dragged autistic inertia onto my side and started dumping lots of ideas in here and becoming very preoccupied.</p>
+<p>Also don't mind the ones I already started. <s>You should be ｗｏｒｓｈｉｐｐｉｎｇ　ｍｅ for even getting around to some of them</s> :P</p>
+<p>When this page gets too long, which I don't know when will happen, I'll move some descriptions to their own pages and replace these ones with summaries instead</p>
+<p><b>DISCLAIMER:</b> This page is unfinished. I suspect it'll continue to be that way for nearly the rest of my life</p>
+
+<h2 id="Contents">Contents</h2>
+<p>Bear with me. Gonna try and program it to automatically generate with JavaScript</p>
+<ol id="contents-list" start="0"></ol>
+<p>Damn that is a long list :O</p>
+
+<h2 id="Systems">Systems</h2>
+<div>
+<h3 id="Curriculum_rehaul">Curriculum rehaul</h3>
+<p>Mainstream curricula suck, and like many other of these ideas, I wrote whole speeches about it on Discord. If I get around to refreshing #chambers, I'll send you links to read about it there</p>
+<p>The whole philosophy behind it is about raising individuals to be competent and maximise their potential, rather than drilling arbitrary information into them for 12 years that will either be inconsequential in the end, or drive them into thousands of dollars of college debt. People are idiots. And pretty much every governmental system is only going to ruin the world if idiots get allowed to be in charge - which is pretty much every case ever.</p>
+<p>Anyone can attend school at any time, and although the learning process will try to be optimised, people will be able to take as long as they need to get a proficient understanding of the subject matter.</p>
+<p>I really want to write here but I can't really think very well because I'm tired (-.-)</p>
+<p>Okay let's just write an itinerary of how it's gonna go</p>
+<h4>Phase 1</h4>
+<p>The main idea of this phase is to calibrate children on really important frameworks while they're still highly neuroplastic.</p>
+<ul>
+  <li>Start teaching children as early as possible</li>
+  <li>Teach them in a top-down parallel fashion, rather than the bottom-up series one. I wrote a speech about this in particular on Discord</li>
+  <li>Justify the subject matter by showing examples</li>
+</ul>
+<p>The mandatory subjects will include:</p>
+<ul>
+  <li><b>Fundamental mathematics</b> - this includes basic principles, operations and use cases for:</li>
+  <ul>
+    <li>Arithmetic - I don't really think I need to explain to you why this would be helpful. But maybe you'd think you can just do everything with a calculator, like <a href="https://www.youtube.com/watch?v=f9AyyTtZhTI&lc=UgwFz2qUtux7QSYjuJ94AaABAg">that commenter who found Baldi's Basics actually educational...</a> ehh</li>
+    <li>Formal logic - a bit of a cross between mathematics and critical thought, I suppose. Being able to consider people's arguments and statements as logical expressions will make them much easier to understand, evaluate and find non-sequiturs in. It'd be a bit like translating English problems involving numbers into arithmetic - hopefully it can come naturally</li>
+    <li>Set theory - maaaaaybe not as important as the other two. I'll have to see how useful it turns out to be. But I guess it can still be helpful. <a href="https://www.youtube.com/watch?v=niqqm1DRTkE&lc=UgyC34Q3YbSbUDWrPAR4AaABAg">Apparently someone came up with a unified system for arithmetic, logic and set theory that's really simple and elegant.</a> Though of course many people have their contentions</li>
+  </ul>
+  <li><b>Language</b></li>
+  <li><b>Critical thought</b> - an obviously important one. It'll probably also include media literacy, tying into propaganda/manipulation techniques, cognitive biases and fallacies</li>
+  <li><b>Psychology</b> - this is an extraordinarily underrated one. It is really, really important. It ought to help you understand and recognise things like:
+  <ul>
+    <li>Cognitive biases</li>
+    <li>Psychological effects</li>
+    <li>Examples of abusive behaviour</li>
+    <li>Manipulative tactics</li>
+    <li>Neurodivergence</li>
+    <li>Personality, psychological disorders and their symptoms</li>
+    <li>People's general psychological frameworks (e.g. internal consistency, transactional theory, hierarchy of personal needs)</li>
+    <li>Mental health and it's psychological/physiological effects</li>
+    <li>Psychological optimisation practices</li>
+  </ul>
+  I might not be saying it well at the moment but trust me. A few TheraminTrees videos will give you insight on just how crucial it is</li>
+  <li><b>Social conduct</b></li>
+  <li><b>Research and self-learning practices</b></li>
+  <li><b>Philosophy</b> - another overly important one. In particular, philosophy should help people appreciate the justifications for everything and understand what their personal purpose can be, other than creating a virus to sell antidotes at exorbitant prices to get a global monetary highscore and then die. Or run a tech business, political movement or religion/cult that aims to subjugate the entire world population while you do who-knows-what when that's done. SOMETHING to show how vapid, stupid and depressing your megalomania and chrematomania are.</li>
+  <li><b>Practical abilities</b> - these include things like tying knots and bows, gardening, foraging, navigating all kinds of unfamiliar environments, dealing with various situations and things with various levels of urgency, and managing finances.</li>
+</ul>
+<h4>Phase 2</h4>
+<p>Once students have learned all the important information from phase 1,</p>
+<p>(To be finished)</p>
+</div>
+<div>
+<h3 id="AI_experience_curation">AI experience curation</h3>
+<p>I always used to call it "AI content curation", but... now I realise just how terrible and reductive that sounds.</p>
+<p>The world has pretty much way too many things to experience for a single lifetime, and this is my proposal for a solution to that. Optimise the courses of people's lives. Give them the most broad, diverse and worthwhile set of experiences to spend their lives partaking in.</p>
+<p>(To be finished)</p>
+</div>
+<div>
+<h3 id="Schematic logic-based AI">Schematic logic-based AI</h3>
+<p>An AI that creates schemata about reality and forms logical relationships between different concepts, rather than just intuiting everything brute-forcefully with a massive pre-tokenised context window like a typical LLM, and approximating reason rather than just doing it formally - like computers are stereotypically supposed to do. The thought process of it in the early stages would probably be very reflective of those shown in A Guide To Reality - another idea I have, for a video series.</p>
+<p>It should be given as little initial information as possible, such as first principles, epistemologies and values, and be able to learn and understand languages, syntactically and contextually, from the top. If it is able to learn different logic systems, including many-valued, paraconsistent and fuzzy logic, all by itself, it should.</p>
+<p>It's mindmap would consist of lots of nodes, which would be observations probably gathered by data input and machine learning, as well as logical syllogisms, conclusions, inferences, observational inductions, deductions, hypotheses, theories, statistics, procedures, methodologies and properties that build on the first principles and other nodes. You would be able to look at a particular node of knowledge, and see all the branches of other nodes that substantiate it, as well as other realisations branching from that node. It might use traditional machine learning to process the information it receives (a lot of which would have to have various levels on a hierarchy of trust/authenticity, to manage insertion of fabricated data), but I wonder if it can also find patterns and learn really complicated things by itself using a formalised pattern recognition system. The machine learning part should be able to interact with the main mindmap in such a way that the abstract assumptions it makes can be described and corrected. For example - and I definitely saw this earlier, but now I can not for the life of me find where I saw it - an AI image recogniser thought that an image of a wolf, and some other animal that was decidedly not a wolf, were both wolves. And guess what abstract assumption it made? "Wolf" correlates to an arbitrary creature resting on snow \(-_-)/</p>
+<p>I think this would have immensely high potential, because although humans can develop conceptual chunks dynamically (which are basically like the nodes), they can only use like seven in their mind at once. This AI could potentially operate on dozens, thousands or even millions of chunks in a short time. The logical operation of the AI would also mean that it would understand things formally, and not hallucinate (unless prompted to) or make silly mistakes like every LLM and other intuitive ML-AI ever. The system as a whole would probably become AGI (general) or even ASI (superintelligent), and hopefully we'll have figured out the values by the time it's become pretty much enlightened, and it gets "released" (if ever). If it's left to run for a long time, it'll probably discover lots of completely new branches of mathematics and solve lots of conjectures, as well as obtain knowledge in many other fields.</p>
+<p><a href="https://chat.openai.com/share/47700845-d08d-45eb-99b1-9d4c8585554a">Here's a chat I had with ChatGPT</a> about how such an AI might work. I might paste the description of this idea to it sometime</p>
+</div>
+<div>
+<h3 id="Obliskate">Obliskate</h3>
+<p>A productivity program for managing, visualising and even auralising time, tasks, events, schedules, itineraries, notes, lists, and all the rest of it. Since I have ADHD, I would basically consider it to be a sort of extension for my brain. <a href="/obliskate">I am currently developing it on this very site,</a> and, NGL, I would like some people to be personally invested enough in this program to help develop it themselves.</p>
+<p>Unfortunately, it is currently being managed on Glitch, not GitHub, and I am an objectively awful GitHub user.<br/>
+(The metric is defined in terms of proficiency and mental stability during use.)</p>
+<p>Using Obliskate makes you an obliquely-skating obligated obelisk.</p>
+<p>(Wait, an oblique obelisk?</p>
+<p>...That... Doesn't sound right \(-_-)/)</p>
+</div>
+<div>
+<h3 id="Arguments_Wiki">Arguments Wiki</h3>
+<p>A contributory site - not necessarily a wiki, but one that compiles arguments about all kinds of topics, debates and stances - including hoaxes, conspiracies, pseudoscientific/fallacious ones, and rationalisations for people struggling with mental issues such as addiction (e.g. gambling) or denial - from both major figures, proponents, opponents and experts of a topic, and random commenters who bury profound insights somewhere in a comment section under a niche video.</p>
+<p>Here are my reasons for it to exist. (This page isn't done remember)</p>
+<ul>
+  <li>People completely fail to make collective progress when they conduct arguments, particularly about topics that have been covered and contributed to millions of times over by lots of different sources</li>
+  <li></li>
+</ul>
+<p>I started it. <a href="https://arguments.fandom.com/">It's here.</a> Please contribute.</p>
+<p>(To be finished)</p>
+</div>
+<div>
+<h3 id="Optimised_conlang">Optimised conlang</h3>
+<p>(To be ｓｔａｒｔｅｄ)</p>
+</div>
+<div>
+<h3 id="Conversational_programming_language">Conversational programming language</h3>
+<p>An idea I had one day for a conlang that's meant to handle both programming and natural conversation, so you can pretty much teach yourself how to code by talking to people and learning to communicate.</p>
+<p>It's a separate idea from the optimisation conlang, but it might be constructed as a single language.</p>
+</div>
+<div>
+<h3 id="r/DollarComparisonsAU">r/DollarComparisonsAU</h3>
+<p>A subreddit (or a general forum/contributional resource) where people post photos of a dollar coin next to how much of a certain product, deal or service (generally food and measurable products - I don't know if it'd even work for other types of products) is worth it, perhaps along with other attributes like the weight. There would also be variations for other countries, such as r/PoundComparisonsUK, and all the rest of it. It would be really useful to know and compare just what and how much you're getting for your money, and great posts on these resources would be high-quality and accurately divided.</p>
+<p>Examples:</p>
+<ul>
+  <li>One post about a $2.50 burger would show the burger cut to two fifths, next to a dollar coin. There may also be a photo of the burger disassembled next to the coin.</li>
+  <li>A post including a $9 sub would include the sub having as much free vegetables and sauce as they would allow, cut to a ninth, and put next to a dollar.</li>
+  <ul>
+    <li>Alternatively, someone could post the sub with no vegetables or sauce - just the fundamental meat and bread. (It might be useful to know, but generally people want to see the maximum of what they can get.)</li>
+  </ul>
+  <li>A post about a small $5 deal including a burger, chips and a drink would include a dollar next to a fifth of the burger, a fifth of the chips and a fifth of the drink (possibly with measurement markings too).</li>
+</ul>
+</div>
+<div>
+<h3 id="Virtual_4D_sensors_and_motion_controls">Virtual 4D sensors and motion controls</h3>
+<p>Things like Miegakure, 4D Toys, 4D Golf and the Rubik's Tesseract put you in the role of a normal trionian with realmic translation, rotation and projection tools to navigate and interact with phenomena in a flune. Those games and interactivities are fun and all, but you know what would make them even MORE fun???</p>
+<p>Being able to perceive and interact with them normally like an actual tetronian!</p>
+<p>The idea is to hook up virtual 4D data streams (like bispherical video and trinaural/quaternaural audio) and interfaces (basically motion controls with more degrees of freedom) into your head so that you can process and send signals - basically perceive and interact with things - in a virtual 4D environment, as a virtual 4D agent. So they'll kind of be like virtual artificial senses and muscles, I guess.</p>
+<p>Theoretically this could be generalisable to any number of dimensions, but the overall quality of the data transmission would have to be reduced to compensate for that, since your brain has a limited amount of space and processing power. It would still have the same bitrates, but it would have to be spread out over more and more entire dimensions. Think of it like the difference between a 1080p rectangular YouTube video and a 1080s 360° YouTube video - you can really tell. Yeah, it's like that but even more strenuous</p>
+<p>I'm not quite sure how well people would cope with this! People will have only experienced 3D space until they try this, and exposure to this might totally throw them off. Like any two adjacent dimensionalities, 3D space is utterly flat relative to 4D space. But there'd probably be the same amount of visual data given to people experiencing 3D and 4D space, with 3D surfacial vision being spread across two disks and 4D surcellular vision being spread across two spheres. Would they still feel a sense of sensory overload, or looking at things and being confused by it all like a baby does, though? And would it be processed by the visual cortex that handles 2D data, or would they use a different part of your brain - or even just augment it?</p>
+<p>And yeah, speaking of babies, I imagine this tech would be significantly easier to implement closer to birth than as an adult, especially after having lots of experience in 3D space. It'd be an interesting experiment, but I dunno if people would approve of people doing it on infants. In fact, I think the only people who'd be interested in this would be some sort of crazy hypergeometry enthusiasts, at least until our brains become arbitrarily modular and augmentable and we can mess around with all kinds of crazy experiences  involving trans-natural stimuli as much as we like.</p>
+<p>If there's one idea on this list I would pretty much definitely not be able to pull off all by myself, this would be it. Maybe.</p>
+</div>
+<div>
+<h3 id="Voice-controlled_cursor">Voice-controlled cursor</h3>
+<p>So I tried using voice control on iOS today (7 March) and said "this is awsome" and "this is aweful" with a few minutes in between, even though I read some of the documentation for it and tried it out.</p>
+<p>I had this idea many years ago, when I hadn't even gotten around to trying and using voice control properly. You would absolutely believe how much easier and faster it would be with this.</p>
+<ol>
+  <li>You give it a noise, word, phrase or combination to listen and recognise for activation and deactivation.</li>
+  <li>A cursor appears on the screen.</li>
+  <li>You use phonology, pitch and loudness to control it. And you can configure it, by the way. For example, you can use vowel openness to control vertical movement, pitch to control horizontal movement and volume to multiply the cursor speed. Or if you're really good at enunciation, you can just use the whole vowel spectrum. There would also be some thresholds, for better control.</li>
+  <li>You give it noises or words to tap, drag and do other sorts of interactions. Like a tsk (or tid, if you're familiar with Tid Bunny), or a tongue click, or a lip smack.</li>
+</ol>
+<p>Another reasonably good idea is to just stop making everything so complicated for us, and let us just say "home tab right right enter right right down down down enter tab tab enter shift hey this is Polly comma just going to let you know old backspace I'll be finished in about num seven minutes control shift enter down down enter home." Like a normal keyboard user. Cursors would be far more versatile though, since not everything has tabular navigation.</p>
+</div>
+
+<h2 id="Fanworks">Fanworks</h2>
+<!--<p>Some of these might look really ridiculous when you read them so just repress them by a factor of 50% or something</p>-->
+<div>
+<h3 id="Yume_Nikki:_Travel_Guide_mod">Yume Nikki: Travel Guide mod</h3>
+<p>A hilarious mod for Yume Nikki where you get a travel guidebook for all of the exciting attractions, characters and venues in the dream world.</p>
+<p>All of the text is over-the-top, stereotypically hilarious. It includes funny miscellaneous comments and reviews on the different attractions by random people who played Yume Nikki. It probably also gives an alternate ending/path for Yume Nikki where the book reveals to you (in pages that appear out of nowhere) that the "dream world" is probably not, in fact, a dream. A dream where everything is randomly generated by your neural-network brain.</p>
+</div>
+<div>
+<h3 id="Yume_Nikki:_Fuji">Yume Nikki: Fuji</h3>
+<p>A Yume Nikki/Celeste fangame that hopefully combines both of their game design philosophies and gives you way too much fun collecting and using effects' abilities, and solving abstract puzzles to reach new locations and find new secrets. There's going to be a lot of maybe-original music based on tracks and remixes from Yume Nikki, Dream Diary and Celeste. The whole idea was just a lot of fun for me</p>
+<p>That is until I got to the prospect of adding single-touch mobile controls after I shared the project</p>
+<h6>Current state of the thing</h6>
+<iframe src="https://scratch.mit.edu/projects/943419330/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" loading="lazy" allowfullscreen style="width:485px;aspect-ratio:485/402"></iframe>
+<p><a href="https://scratch.mit.edu/projects/943419330">Click here to see it on the site</a></p>
+</div>
+<div>
+<h3 id="Celeste_2">Celeste 2</h3>
+  <p>No, I am not kidding. I have an idea for a sequel to Celeste. It would have different characters, and I don't even live in Canada, but it would have a focus on heavier themes like abuse and trauma, more companions, branching outcomes, and most importantly of all, a guitar lead that has multiple electric variations for the different Parts of You - many of which are really internalised abusers. <a href="https://youtu.be/kMeehIpxH5k?t=855">As inspired by that video by TheraminTrees.</a> The motivation for climbing the mountain would probably be a bit different - the protagonist would be just about done with life, and they'd just want to spend it doing things like climbing the mountain because they've become nihilistic and pessimistic. And the drums would represent mental order/chaos. A blatantly awesome excuse to include breakcore and experimental horror rock.</p>
+</div>
+<div>
+<h3 id="Hiyori_Momose_tribute_video">Hiyori Momose tribute video</h3>
+<p>A short tribute to Hiyori, who had her own channel but later had the opportunity to play the role of Neuro-sama, until Anny gave her a body of her own. Then Hiyori continued to do chat streams on her own channel but ended up standing completely still for hours at a time, not having anyone to talk to, and eventually passed away, being consumed by model collapse.</p>
+<p>The BGM would be an emotional instrumental remix of Neuro-sama's theme song when it comes out, also including leitmotifs from the BGM of Hiyori's own videos.</p>
+<p>Here is a rough outline of the video:</p>
+<ul>
+  <li>Hiyori's debut on YouTube, living a boring life standing in a room while people occasionally say something to her</li>
+  <li>Vedal's announcement of Neuro-sama's Twitch debut, if there's any</li>
+  <li>Hiyori's debut as Neuro-sama</li>
+  <li>Neuro-sama V1's happiest and most iconic moments, such as envisioning herself as a goddess, and "heart333333333333333333333"</li>
+  <li>On-stream announcement of plans for making a custom model for Neuro-sama</li>
+  <li>Vedal and Neuro-sama talking to Anny, who is drawing art for Neuro-sama V2</li>
+  <li>Neuro-sama V2 debut</li>
+  <li>Interspersed moments of Neuro-sama V2, Hiyori standing in her room on her YouTube channel, and the parts where Vedal shows the Neuro-sama V1 model next to V2</li>
+  <li>Neuro-sama talking about Hiyori</li>
+  <li>Tragic ending of Hiyori from her last stream, just standing in a room almost lifelessly blinking on occasion</li>
+</ul>
+<p>Hiyori's final stream<br/>
+<iframe src="https://www.youtube-nocookie.com/embed/NQmk02iQ4aI?si=BwD6aciB7_KsIISp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" allowfullscreen style="width:560px;aspect-ratio:16/9">I dunno why the iframe isn't showing up (maybe it hasn't loaded yet) but the video is <a href="https://youtu.be/NQmk02iQ4aI">here</a></iframe></p>
+<p>RIP Hiyori Momose<br/>
+(UPDATE: she's back up and running again, and <a href="https://www.youtube.com/live/8WwA9gU1hqM?t=33870">I sent a bunch of messages to her</a> but as it turns out she can only speak Japanese and respond to Japanese prompts, so I didn't understand most of what she said. This is strange because the channel seems like it supports English, considering that the channel and video titles and descriptions have English translations)</p>
+<p>(I really wonder when she will play videogames (on her personal channel))</p>
+</div>
+<div>
+<h3 id="AEWVS_ABC">AEWVS: Animosity-Blighted Curriculum</h3>
+<!--<p>Hey, what the hell!?!? I wrote a whole paragraph about this!!!!!! Now I have do go and do it all over again. Urgh</p>
+<p>May as well copy all of this file and back it up while I'm at it</p>
+<p>Nevermind I recovered it</p>-->
+<p>An RPG-style AU of AEWVS that includes proper advanced education, more mechanics, more levels, more teachers and confrontations with not only Diefthyntis, but also others such as VILE, the original Watcher, and Elub</p>
+<p>I have lots and lots of specific ideas for it! Not sure if I'll write them all here, but I wrote a lot more about specific ideas for it on the EternityDev Fanon Wiki Discord Server, like mechanics, features and extra ideas for level layouts.</p>
+<p>After my life started getting absorbed by AEWVS, I started idealising it like pretty much everything else</p>
+<h6>Prototype demo code:</h6>
+<iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/803234" loading="lazy" style="max-width:100%"><a href="https://fireydeath4.itch.io/aewvs-abc-coding">AEWVS ABC: Early Code Prototype by FireyDeath4</a></iframe>
+</div>
+<div>
+<h3 id="Bittertooth_orchestral_remixes">Bittertooth orchestral remixes</h3>
+<p>They would go so hard</p>
+</div>
+<div>
+<h3 id="Regimental_Chess_comeback">Regimental Chess comeback</h3>
+<p>Not really much of an idea here -  just a thought. Just a recreation of an amazing take on chess that had floppy execution, and was unfortunately abandoned. Might make one for Scratch (very silly idea), but maybe I'll make a site for it, or try and get it onto the official Chess website. I hope chess enthusiasts and grandmasters have a blast playing it</p>
+</div>
+<div>
+<h3 id="Bête_Noire_VS_Skell_Ezuom">Bête Noire VS Skell Ezuom</h3>
+<p>A very specific idea I had years ago that I am recalling now. Expect more silly ideas like these.</p>
+<p>One time I was walking a long way to a place and I was just imagining how it would go in detail</p>
+<p>Skell is ridiculously OP so you'd probably be rooting on Betty</p>
+</div>
+<div>
+<h3 id="Nyan_Cat_VS_Tac_Nayn">Nyan Cat VS Tac Nayn: reimagined</h3>
+<p>Kind of a response to the guy refusing to make a sequel because the meme is ｄｅｄ．</p>
+<p>Yeah, I'm the kind of person who believes that these sorts of phenomena don't really die, and rather just hibernate or become dormant; still thinks 2000's memes are cool; and finds humanity's ideology of moving on from antiquated things just  for the sake of it very miffy.</p>
+<p>It would have a strong focus on light dynamics and embrace the idea of light versus darkness. Like, rainbows are well-known for their appearance through prismatic splitting of white light, and we know excessive darkness makes individual hues indistinguishable since cone cells don't notice low amounts of light, which makes Tac Nayn's rainbow interpretation make a lot of sense. It would also have quite a bit of focus on weather themes and powers.</p>
+<p>Also I kinda just want to do this because I want to have it in awesome form. After being exposed to lots of modern Alan Becker videos, these old sprite animations can get kinda stale rather quickly.</p>
+</div>
+<div>
+<h3 id="Ace_Attorney_trial_for_God">Ace Attorney trial for God</h3>
+<p>I had this idea for a while. Of course, it's not gonna look good for God when they are already doing advanced witchcraft practices in Japanifornia (and the judge has accepted it), but aside from that, I really just want to see how the two formidable minds would build cases and argue for and against God, particularly in terms of benevolence, which is the premier justification for bothering to worship Him/it</p>
+<p>(Having a totally agnostic absense of God and a particularly major focus on whether He/it even exists or what it would be defined as would be a bit boring for the case)</p>
+</div>
+<div>
+<h3 id="FireyDeath4's_Medley">FireyDeath4's Medley</h3>
+<p>An overly obvious idea.</p>
+<p>A lot of similar and identical leitmotifs will also morph together. A very telling example is Kasei-san's theme from Yume Nikki, which is a short melody recurring in OneShot, Deltarune, PilotRedSun and maybe even Celeste.</p>
+</div>
+<div>
+<h3 id="VR_mathematical_realm">VR mathematical realm</h3>
+<p>(Not to be confused with specifically a trispatial realm. It can be generalised/extended into more dimensions, creating flunes and other hyperspaces.)</p>
+<p>A VR mathematical sandbox based on Animation VS Math. (Honestly, it's such a great video that despite the fact that it already has over 51,000,000 views, I'm gonna embed it here.) It can be experienced by yourself, but it might be better with friends. Like the video, it starts with the number 1 and with that, you can construct pretty much any mathematical phenomenon you want, as long as the program supports it obviously.</p>
+<p>It's not the most uniquely original idea, but I at least came up with a bunch of concrete proposals for expanding on it.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B1J6Ou4q8vE?si=E0N_ft7pUE1kZMwB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" allowfullscreen style="width:560px;aspect-ratio:16/9">I dunno why the iframe isn't showing up (maybe it hasn't loaded yet) but the video is <a href="https://youtu.be/B1J6Ou4q8vE">here</a></iframe>
+<p>As well as the gimmicks shown in the video, it will include some changes and other features such as these.</p>
+<ul>
+  <li>Vertical and reorientated notation
+  <ul>
+    <li>Equality, subtraction, parenthesis, logic, set relationship and absolute signs will be rotated</li>
+    <li>Vertical fractions will show the numerator on the left side and the denominator on the right side</li>
+    <li>Vertical roots and primes will be rotated clockwise</li>
+    <li>Vertical roundings (floor/ceiling) will be rotated anticlockwise, in order to stay intuitively consistent. Ceilings will be shown on the left, as that is where the larger part of the number is in horizontal notation, and floors will be shown on the right near the smaller part of the number</li>
+  <li>Horizontal, vertical and rotated notation can be combined</li>
+  <div style="display:flex;align-items:center"><img src="https://cdn.glitch.global/03933164-00a8-45b1-97ce-0c64d3a1f8eb/verticalMathNotationFix.svg?v=1711391667357" style="max-height:600px"/>
+  <div><p>My kinda-crappy SVG edit of what vertical notation looks like</p>
+  <p>(No way am I gonna write functions like lim and sin in vertical notation. That's for madmen to do)</p>
+  <p>OH MY GOSH yeah I put the wrong variable in for the summation \(-_-)/<br/>
+  Kinda noticed something was off when I didn't see a declaration of n anywhere</p></div></div>
+  <p>Horizontal notation for reference<br/><img src="https://cdn.glitch.global/03933164-00a8-45b1-97ce-0c64d3a1f8eb/horizontalMathNotation.svg?v=1711079474762"/></p>
+  </ul>
+  </li>
+  <li>Different types of inequalities, such as value comparison</li>
+  <ul>
+    <li>Pressing the inequality sign will add two equal numbers (and any other necessary terms and things) to each side such that both sides will have the same value</li>
+  </ul>
+  <li>Hypercomplex numbers, such as quaternions, octonions and sedenions (if you're brave)</li>
+  <li>Hyperreal cardinals/ordinals and other irregular numbers</li>
+  <li>Hyperoperations, including tetration and up/down-arrow notation</li>
+  <li>More structural visualisations for various formulae/expressions - like they have with addition, multiplication and powers (e.g. triangle numbers (x(x+1)/2), hexagonal numbers, etc.)</li>
+  <li>Schläfli symbols for various shapes, and the ability to change their form by messing with the symbols. It might require the creation and simulation of various manifolds for weird shapes like hyperbolic or hypergeometric ones.</li>
+  <ul>
+    <li>Not gonna lie, I'm slightly disappointed that they didn't show the Schläfli symbol for the hyperbolic dodecahedral tiling in Animation VS Physics<!--. How many dodecahedra were there to a point? That we'll have to find out for ourselves...--></li>
+  </ul>
+  <li>Ability to modify the geometry of space by revealing the manifold sign and changing it, I suppose<br/>
+  If you want some examples, look at simulations of Thurston geometries as well as Arbgeom</li>
+  <li>Matrices - whatever the heck those things do</li>
+  <li>Set theory and various types of formal logic notation</li>
+  <ul>
+    <li>Set theory can probably enable you to set traps in some way. Something to do with the theme of containment. I'm not quite sure how this would work but it would be really clever if it did</li>
+    <li>Expressing a logical paradox or contradiction will create an explosion, unless you're in the imaginary side where paraconsistency would be allowed.</li>
+  </ul>
+  <li>Other obscure notation, such as those used for googology (because most people have no use for such incomprehensibly ginormous numbers, except for mentioning broadly in discussions like me)</li>
+  <li>Anything that takes a long time (or too long) to calculate will be represented with a kind of struggle or resistance when trying to do something. Like you're just not strong enough to make it work. Get buff with some more CPU and maybe you can manage it - though anything that causes lag will destabilise the realm and make some things fall apart</li>
+  <li>On some similar notes:</li>
+  <ul>
+    <li>If you evaluate n/0 or some other classically-undefined expression in the imaginary side or by force, it will yield ⊥.</li>
+    <li>If you evaluate 0/0 or some other indeterminate expression by force - really, really hard - it will either spawn a sign for the set of all numbers - which is probably, surhypercomplex - or it will just spawn numbers everywhere and/or crash the program.</li>
+  </ul>
+  <li>All numbers' digital representations can be extended infinitely. I guess waving around at the sides of a number will show other digits, which fade out to a point, and you can control where the fading occurs. (Numbers with infinite digits on a side require at least one faded digit on that side.) For example, even on the number 1, you can reveal all the hidden zeroes around it: ...00001·0000... On irrational numbers, it will show the first few digits and then fade out, but you can reveal as many numbers as you like.<br/>
+Look, I'll try and make a CSS example of what I mean
+  </li>
+  <ul>
+    <li><span style="color:linear-gradient(to right,#00000000,#000000FF)">0000</span>1</li>
+  <li>Oh my gosh I'll do it later \(-_-)/</li>
+  </ul>
+  <li>Explosive decimal expansions of numbers will show an increasing amount of significant digits before they fade away. For example, if you throw π somewhere and it explodes, at first it'll show 3, and near the end it will show thousands of tiny digits in a circle before dissipating.</li>
+  <li>Expanding an already-expanded number will show it's set representation. The magnitude of it's expansion will depend on how vigorously you do it. Also, empty sets can be expanded into a pair of curly brackets.</li>
+  <ul>
+    <li>0 → ∅ → {}</li>
+    <li>1 → {∅}</li>
+    <li>3 → (1+1+1) → gentle expansion → {0,1,2}</li>
+    <li>(1+1+1) → forceful expansion → {∅,{∅},{∅,{∅}}}</li>
+    <li>4/5 → {(a,b∈ℤ)|b≠0, 5a=4b}</li>
+  </ul>
+</ul>
+</div>
+<div>
+<h3 id="Experimental_Sonic_simulation_fangame">Experimental Sonic the Hedgehog simulation fangame with accurate sound dynamics</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/o5mcmw/experimental_sonic_the_hedgehog_simulation/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">r/CrazyIdeas post</a> (comments have swearing)</p>
+<p>Yeah... I noticed that, for something labelled "Sonic", the portrayals of Sonic the Hedgehog are decidedly <em>not</em> particularly sonic in nature. Well, this idea should give you some experience of what it would be like if it was!</p>
+<p>Here are a list of fun things that would be included in the experiment:</p>
+<ul>
+  <li>Accurate simulation of sound propagation. For example, if you're running at sonic speed, you won't be able to hear anyone behind you</li>
+  <li>Doppler effects and relativistic audio distortion. You could try something funny like running in a loop and listening to audio in reverse!</li>
+  <li>Sonic booms, shock-waves and their effects</li>
+  <li>Sonic's experiences in other media (e.g. salt water, the tap water he can't swim in, vacuum space, other atmospheres, solid resonant materials such as steel which Sonic would run on) with varying sound-wave velocities</li>
+</ul>
+<p>If Sonic goes too fast for players to properly interact with him, since normally he should be able to get through an entire kilometre in under 3 seconds, there would probably be some settings to change the game speed or the sound propagation speed.</p>
+<p>Since this isn't a thing yet, you can experience <a href="http://gamelab.mit.edu/games/a-slower-speed-of-light/">a version made for light and special relativity by MIT Game Lab here!</a> If the fangame has Super Sonic in it, it will probably include the mechanics from that as well. Just be warned that if you get too close to causal speed, you won't be able to do anything properly because time dilation will be maximised and you'll find yourself on the other side of the universe before you even cognise what just happened. Or, if you do actually get infinite energy and reach it, you'll... uh... yeah I explained it in the rambling in the post. You'll pretty much spawn an infinite Big Bang localised at where you are in the universe. And where would you even get all that energy from? The Chaos Emeralds? I mean... still that's really very gluttonous</p>
+<p>Also don't even get me started on Hyper Sonic, who can apparently go faster than light. Reading about and partaking in fictional googology was traumatising enough for me already　＼（－＿－）／</p>
+</div>
+<div>
+<h3 id="Jumpman_Omori_AU">Jumpman: a silly idea for an Omori AU</h3>
+<p><a href="https://www.reddit.com/r/OMORI/comments/s0gbfo/jumpman_a_silly_idea_for_an_omori_au/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Another idea I posted on Reddit some years ago.</a> It's based on Mario and the premise is very silly, while it takes itself very seriously.</p>
+<p>It has spoilers for Omori, so just play/watch Omori before you read it, and then do it on the page. There's a swear word in a comment BTW</p>
+</div>
+<div>
+<h3 id="Toby_Dog_fight">Toby Dog fight</h3>
+<p>Another one of those ideas I've had for years. Problem is, if I say literally any of the ideas for it there'll be massive spoilers. Dunno if I'll even bother making it anyway. I have lots of crazy and innovative ideas for wacko bullet patterns and mechanics in general</p>
+</div>
+<div>
+<h3 id="Mushroom_Kingdom_battle">Battle of the Mushroom Kingdom</h3>
+<p>An animation in which the tyrannical ruler of the opposing nation launches an attack on the Mushroom Kingdom and attempts to infiltrate the castle grounds in order to abduct the royal princess, the battle of the resisting military units is chronicled, and the effects on the surrounding civilians and troops are displayed.</p>
+<p>A stereotypical FireyDeath4-idealist interpretation of the well-known event.</p>
+<p>It will have an EAS alert where Hurry Up is looped and paulstretched</p>
+</div>
+<div>
+<h3 id="PilotRedSun_Bad_Apple">Bad Apple but it's PilotRedSun</h3>
+<p>One of many in a series of accurate parody videos. (The rest are a secret, because I don't really want to spoil them!) The animation, composition and lyrics will all be done in the style of PilotRedSun. I'll have to rewatch all his animations, listen to all his music and compile all the phrases and sentences in the videos so I can get an accurate idea of the strange and mysterious way he talks, as well as talk to some people who know Japanese so I can properly understand the lyrics and base them on the original ones, rather than the English ones from Pat McCarthy.</p>
+</div>
+<div>
+<h3 id="Fancy_Pants_Bad_Apple">Bad Apple but it's Fancy Pants</h3>
+<p>One day I realised Mystery fits way too well with Bad Apple, so I made a mashup. Two, actually (thanks Cristina Vee). It sounds awesome. Go listen.</p>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E1g-50B4hM0?si=ypvGc9rC-gCR1yHv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" allowfullscreen style="width:560px;aspect-ratio:16/9">I dunno why the iframe isn't showing up (maybe it hasn't loaded yet) but the video is <a href="https://youtu.be/E1g-50B4hM0?si=ypvGc9rC-gCR1yHv">here</a></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W2q-QYRCMh8?si=FOznMVwU_6xqVauz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="lazy" allowfullscreen style="width:560px;aspect-ratio:16/9">I dunno why this iframe also isn't showing up (maybe it hasn't loaded yet) but the video is <a href="https://youtu.be/W2q-QYRCMh8?si=FOznMVwU_6xqVauz">here</a></iframe></p>
+<p>Anyway, I want to make an animation for it. It'll have various elements from the FPA series, as well as Shift where Fancy Pants Man appears in the third instalment of (yeah that's kind of a secret, but it's been years so who cares?). Also it should look accurate to the official art styles.</p>
+</div>
+<div>
+<h3 id="Bad_Apple_Cover">Bad Apple cover</h3>
+<p>With this many elaborate Bad Apple ideas I might end up turning into a bad barrel-maker</p>
+</div>
+
+<h2 id="Other_creative_projects">Other creative projects</h2>
+<div>
+<h3 id="A_Guide_To_Reality">A Guide To Reality For Civilised Individuals</h3>
+<p>A video series that dives deep into the human condition. Very, very deep.</p>
+<p>It's an exploration of existence and a deconstruction of the conscious experience. During the course of the series, it would build on concepts like:</p>
+<ul>
+  <li>Sensation</li>
+  <li>Perception</li>
+  <li>Pattern recognition</li>
+  <li>Reinforcement</li>
+  <li>Thought</li>
+  <li>Logic</li>
+  <li>Epistemology</li>
+  <li>Schemata and frameworks</li>
+  <li>Psychology</li>
+  <li>Linguistics</li>
+  <li>Morality</li>
+  <li>Sociology</li>
+  <li>Speculative philosophy</li>
+</ul>
+<p>It will also be focused on experiential development, rather than empirical explanations like neuroscience and stuff, since it would be building up the justification for pragmatic/scientific thinking in the first place.</p>
+<p>I wrote a comment about it <a href="https://arguments.fandom.com/wiki/User_blog:FireyDeath4/About_this_wiki?commentId=4400000000000058571">here.</a> You can read that before I'm done transferring the ideas to this page.</p>
+</div>
+<div>
+<h3 id="A_cartoon_series">A cartoon series</h3>
+<p>I've been thinking about it and accumulating ideas for it for a long time, despite the fact that I am no good at scriptwriting or worldbuilding.</p>
+<p>Here are just a few of my ideas for it:</p>
+<ul>
+  <li>Combined eastern/western animation styles and aesthetics</li>
+  <li>Cartoon physics and tropes - which the characters actually use to their advantage. Combined with realism, of course</li>
+  <li>Characters with diverse nationalities (and other characteristics), who generally represent the humour and personality of the media in their nation (without just being purely stereotypical caricatures)</li>
+  <li>12 seasons - one for each year of your life from birth. I would try very hard to make even the early ones appeal to all ages - perhaps they can be filled with exposition, worldbuilding and lore while they go on baby adventures. One of the main characters is born in the first season</li>
+  <li>Lots of mature and philosophical themes that are handled in a way that would be fine for children (hopefully)</li>
+  <li>Inclusion of pretty much every topic, hobby and theme there is (except pointlessly vulgar ones)</li>
+  <li>Problems that are not based on the characters being horrendously stupid for once, like in many other shows (including REALITY ones), because for the most part, they aren't, unless there's a decent explanation for it</li>
+  <li>Futuristic setting that combines all the visions of the future from the past, as well as my own interpretations of the future</li>
+  <li>Dodgy people who almost always say the most silly toned-down euphemisms, random words or made-up ones that sound like they were coined by children's authors, instead of documented swear words</li>
+  <li>Lots of kiddy/miscellaneous items used as genuinely potent weaponry and makeshift tools and machines</li>
+  <li>Morals about everyone being able to help in their own small/immense way</li>
+  <li>Enough layers of complexity, wisdom and details for people to be able to watch the entire series back-to-back four times over and still take away something new from it. You should be able to rewatch it at least once and acquire the knowledge to understand background conversations in the first few seasons</li>
+</ul>
+<p>At one point I thought about making it a game, but I shortly realised that everyone who doesn't git gud will miss out on all of it</p>
+</div>
+<div>
+<h3 id="H4XX0RZ-OS">H4XX0RZ-OS</h3>
+<p>A parody operating system that operates just like the ones in Hollywood and all the blockbuster movies.</p>
+<p>I wrote about it on Discord. Not sure if I want to write all the features on this page quite yet. I'm feeling a bit tired.</p>
+<p>Alright I'll do it</p>
+<ul>
+  <li>Lots of:</li>
+  <ul>
+    <li>Random synth noises</li>
+    <li>Green windows with an amateur layout style</li>
+  </ul>
+  <li>Support for keysmashed console input</li>
+  <li>Machine-learnt keyboard-gibberish dialect detection (human/feline orthography)</li>
+  <ul>
+    <li>Immediate switch to laser-pointer danmaku mode upon feline keyboard input</li>
+  </ul>
+  <li>Nigh-incomprehensible convoluted UI that requires manual reference for optimal utilisation</li>
+  <li>Little to no actual cybersecurity</li>
+  <ul>
+    <li>No invalid passwords</li>
+    <li>Opt-out pop-up ads, and tests for viruses and system updates</li>
+  </ul>
+</ul>
+<p>Honestly I'm just copying what I wrote about it on Discord, and I kinda like how it sounds there better</p>
+</div>
+<div>
+<h3 id="FireyDeath4_Talks">FireyDeath4 Talks</h3>
+<p>A series I intend to make on YouTube where I make videos about me walking around and discussing various topics in different locations.</p>
+<p>Some of them include:</p>
+<ul>
+  <li>The root of every problem in the world</li>
+  <li>Demotivational speech for numeromania, chrematomania and megalomania</li>
+  <li>FOMO, the sheer amount of experiences in the world and AI content curation</li>
+</ul>
+</div>
+<div>
+<h3 id="Meta_soap_opera_ARG">Long-running soap opera that slowly devolves into a tragic philosophical meta psychological horror ARG</h3>
+<p>The main idea is: the characters aren't stupid. They notice when they are cursed with continual conflict and tropes that are stereotypical of soap operas. Eventually they realise that they are characters on an oppressive drama series and begin to fight the show itself, trying to connect with the real world, break out of the prisonous set of the show and take control of their lives despite the show pulling out all the stops to try and confine them to their lives of suffering.</p>
+<p>I started to write this as an entry on r/CrazyIdeas multiple years ago, but I stopped writing it after a while and never came back to it. I don't remember how I got around to writing what I wrote beyond the general ideas, so it seems like I'm at an impasse, but I'll write what I had in the draft so far.</p>
+<p>If I ever do this, I'll probably have to get a team of other people mostly using pseudonyms to run the show. Otherwise we would probably easily do something like get doxxed, encountered and coerced into concluding the show and liberating the characters prematurely.</p>
+<p>So here's the list of seasons I wrote.</p>
+<p>(Warning: this is really, really long. It might just be what finally convinces me to add collapsion functionality to this page.)</p>
+<ul>
+  <li>Season 1: Happens like a standard soap opera, although now I've come back here and decided the person who will start to unravel the show's reality will be someone new in town, and essentially the decisive protagonist to most of the fanbase (at least as long as they're around). Around the middle of the season, someone will comment on something that seems to be a cliché trope in soap operas, but nobody will think too much about it. In the penultimate episode however, something dramatic will happen, and during an overdrawn suspenseful revelation, they'll remark saying that everyone should stop acting like ning-nongs and get to the point, and then just blurts out the point. At the end of the final episode, they'll mutter something along the lines of: "Why does everything feel so strange? This feels like a soap opera..."</li>
+  <li>Season 2: They don't think much about it other than that it's strange, but eventually they do tell someone about what they've felt. It takes a while for the other person to really understand and believe them, and they're also interrupted, which only gives them more conviction that something really weird is happening. But it isn't long before the other person starts telling people about how the first person is starting to feel pretty strange - from both perspectives between them and the rest of the cast. They feel rejected, but quickly snap out of it and try to tell another person - who shortly decides they're a bit wacko. Now they start to feel a combination of desperation and rejection, but not much happens other than that.</li>
+  <li>Season 3: Something shocking happens - something way too fitting for a soap opera, rather than reality - and it takes a while for the person to learn about it. They're still having the frustrations of slow-moving dialogue, almost blatantly inhibitory, but eventually they learn about it, and start trying to tell people on the internet about it toward the end of the season. This doesn't currently connect with reality, though.</li>
+  <li>Season 4: They start trying to connect with the other people and really make the whole cast aware that something's definitely awry. At first, they're like, "wow, are you still on about that weird idea?"...but one other person starts to realise. They keep getting interrupted when they try to talk to each other alone, but get the chance once they're too suspicious. Eventually they mention superstition and that it might just be that reality is a really weird thing - but they agree to keep sharing their observations with each other.</li>
+  <li>Season 5: Eventually, one of them starts doing research on soap operas and related tropes - and gets that feel like when you've just done a personality test/astrological assessment/whatever and are now reading remarkably accurate articles about your pathology and life. Now they are both adamant at least that their lives might be orchestrated in some way - not necessarily by authorship, but certainly manipulated to some degree nonetheless. They start becoming suspicious of the other characters, although they do try to keep making points - and this is when the show seems to take notice. The other characters start looking at them, almost invariably, like they're unhealthily obsessive, and they start developing feelings of isolation - but at least they have each other. The season finale ends with a breakup/falling-out with another character, making one/both of them feel...pretty sad. One other character starts being curious about why they feel that way so much.</li>
+  <li>Season 6: This drives one of them to start doing research about theirself. Notice that they are using a made-up search engine that specifically excludes results about the show they're in, but they don't imagine this could actually be the case. This slowly progresses until the finale, with a lot of obstacles facing their personal life in the process, and eventually they finally come across a picture of theirself on the internet...over another person's name. The credits instantly transition from it in that way, showing other pictures of characters over actors' names.</li>
+  <li>Season 7: At this point, the show banishes both of them under the explanation by other characters that they're caught-up in a silly conspiracy, and uses this time to introduce an old enemy of theirs (either from childhood or adulthood) into the cast. Once the enemy is properly friends with the main cast, finally in the finale, one of them shows up and makes a frantic, obviously drawn-out declaration that they are definitely, in fact, in a soap opera. A different actor is playing them, effectively overwriting everyone's memories of their appearance, but this transition is in vain. They would say it straight-up, but they realise they wouldn't be believed without quite a few lines of pre-explanation, and it reinforces their assimilation into a soap opera. The episode ends with the enemy walking into the room.</li>
+  <li>Season 8: The first episode starts on some parts of storylines that aren't that, but quickly goes back to the revelation scene since it knows it can't hide it. The enemy is pretty much like, "long time no see... Looks like you've only started sucking more since we last saw each other. We're on a soap opera? Really??? Wow, you're pretty mental LOL." The person is like "no I have proof" but the enemy doesn't want to hear about it. In the next episode, the person tries to be more and more desperate so that the enemy's consistent stubbornness to not see the evidence proves their fabricated melodrama, but they just leave instead, with the person unable to do anything about it. They get as little screen time as they can get during the season, but eventually more people see the evidence, and this is when some of them start trying to contact people in the real world through various websites trying to make sense of the conundrum (although, as someone with more technological experience will note early in season 10, all of their devices have been blocked from accessing most sites mentioning the show, including almost every mainstream social platform). One or two characters die, and in the season finale they're all contemplating what to do about the situation.</li>
+  <li>Season 9: At this point, the cast is very worried about what's happening. Problems seem to happen more frequently, and they're all trying to take steps to minimise the risks that would be imposed upon their lives since every little thing has arbitrary meaning while they all try to come up with a long-term plan to deal with the situation. They try to do things like be extremely upfront, minimise conflict, become friends, leave the show and be more diligent, but it's still very hard, and a lot of characters feel oppression and existential crisis. More family members and other characters with issues join the cast in an attempt to distract everyone from the reality of the situation, but this is also in vain as the main cast fills them in and reinforces the main problem. At the end of the season, a prominent character gets into serious trouble (with the law or a dodgy group of people), and another character sets out to research the producers.</li>
+  <li>Season 10: Now the show is becoming very dramatic and violent. Characters are suddenly reminded of previous crimes they'd committed and other things they regret doing or ought to do, facing significantly more problems, and even dying more frequently. Someone notes that everyone's devices have been restricted, so they go to places like the local libraries and other places with devices...but they're all restricted as well, so they try to call family members overseas, telling them about their research so they can continue for them. As usual, it takes a long time to get through to them, and most of them still think they're crazy and don't bother to do any research, but a few believe them and start doing research...but one of them die as well. Which makes the relatives in the cast feel really guilty for dragging their distant family into this. It's now at this point that a few overseas characters start trying to talk to people in the real world through the internet, and a few sentiments are shared with the main cast. In the season finale, one of the characters snaps and runs outside, and many other characters chase them, forcing the show's footage to become akin to a frantic scene in a reality show with freehand cinematography. In exactly two simultaneous improvised takes, the character who ran outside starts yelling at people, desperately trying to spread the word about their situation, while the others follow them. Eventually, they see someone who may or may not know them as an actor or a character on the show, but tells them to stop harassing them and get that camera away from them. The character looks around, unable to see the camera, but they tell them to stop playing games and point at the camera. A lot of this might not happen, but the important thing is this: still unable to perceive the camera, the person runs toward the screen, looks indirectly at the viewer, and says something like, "are you there? Stop watching and HELP ME!" Then it cuts to black.</li>
+  <li>Season 11: The first episode starts with the other characters chasing him for a while, but the cinematography is now steady again, indicating that the show is taking back control. They see him hit by a truck. Of course. The show is now flashing faint, subliminal messages on the screen such as "KEEP WATCHING", "THIS IS A GOOD SHOW", "THE UNCERTAINTY IS CAPTIVATING", "THIS IS WORTH WATCHING", "WE NEED MORE OF THIS" and "STAY WITH THE SHOW" multiple times per episode, particularly at the end of each one, and the soundtrack also has subliminal lyrics/voices similarly raving about the show. It also uses other propaganda and psychological techniques to simultaneously coax the viewers into watching the show and ignoring the problem. Now that some overseas family members have told them about the show, though, one character is soon caught for a crime and arrested, and they are all scheduled to go to court at a later date. At the moment, they're conflicted about whether they should keep trying to confront the producers, or attend the trial and present evidence about the actual show, but they soon decide on the latter. At the trial,</li>
+  <li>Aaaaaaaand that's all he wrote. Muuuueeeeehhh.</li>
+  <li>These HTML elements are a reference to an aunt.</li>
+</ul>
+<p>So here are some other more general ideas for this show:</p>
+<ul>
+  <li>If the show becomes an ARG, there will be a few main obstacles to overcome when trying to connect with the characters.</li>
+  <ul>
+    <li>One obstacle will be trying to locate the site. I suppose the actors would get to privately pick any sites of their choice, while the people running the show will try to find, shut down and derail all of their conversations. For more protection, they would have to try to use sites from the deep/dark web, minimise their involvement in the show, maybe use end-to-end encryption or archive methods, and all the rest of it.</li>
+    <li>Another obstacle would be all the decoy roleplayers who'd inevitably appear. Many of them would be from the audience, and some might even be from the producers.</li>
+    <li>Another obstacle would be all the people trying to shove the characters off-course by giving them false hope, information or promises.</li>
+  </ul>
+  <li>Something about schizophrenia. I wrote this before an entry that says "court will not listen to show reality" so maybe that explains it</li>
+  <li>"author tries to put in so much drama, show flops"</li>
+  <ul>
+    <li>Yeah not quite sure what I was thinking about there</li>
+  </ul>
+  <li>"eavesdropping on producer consulting psychologist and scriptwriters"</li>
+  <li>"understanding author"</li>
+  <li>Philosophical debate over what gives life purpose, the ethics of storywriting, authorship, godhood, subordination and determinism</li>
+  <li>Eventual confrontation with this page and possibly the future r/CrazyIdeas post</li>
+</ul>
+<p>(To be finished)</p>
+</div>
+<div>
+<h3 id="Truly_dynamic_music">Truly dynamic music</h3>
+<p>I noticed that most examples of "dynamic music"...<em>aren't</em> particularly that dynamic. Like the majority of all the "dynamic" music there is consists of precomposed track layers that just crossfade into each other. The most dynamic examples of such music I've heard so far are in Baldi's Basics Classic Remastered, which includes midi tracks that can transpose and change tempo, and involve measure-snapped transitions, layer-fading and note sustenance in some parts, and 4D Golf, where they expand on the layer-fading idea and have multiple layers that accentuate or mute based on the realmic orientation, to subtly help trionian players navigate the place. In general, I find that scores for preproduced audiovisual media (like videos, movies, shows and animations), despite being comprehensively static, are far more "dynamic" than videogame OSTs have ever been from a musical standpoint. I mean, that makes them great for looping and listening to in the background, and not just having repetitive set story beats out of nowhere, but it's also a bit plain, and, decidedly unrevolutionary. :P</p>
+<p>Well, this idea aims to produce a game that has truly dynamic music that musically reacts and adapts to your gameplay, like a film score does to the characters. The idea seems a bit like the speech of Squid, who reacts to pretty much everything you do in Will You Snail (so it's roughly as feasible), but in musical form. It doesn't have to be AI-generated, but the main point is to include melodies, leitmotifs, uhm, musical exclamations (yunno, like, the stings, probably), expectations and directions, tone/key shifts, and all the rest of it, with lots of variables controlling them all. And to make it even more interesting, make all of the soundtrack for the game microtonal on hardcore mode. Pulling off this idea would require decent proficiency in music theory, mixing and scorewriting. Unlike with the usual "dynamic" music, the game development and programming would have to directly involve the dynamics of musical theory and storytelling.</p>
+<p>Yeah, this would be even more involved than Lena Raine in Celeste. It would give everyone a unique experience of the soundtrack that's tailored to their gameplay. I'll know it turns out good if 1, the music sounds really good; 2, the music doesn't have a lot of bugs that make it sound unintentionally weird when the player does certain things; and 3, it's extremely hard to encapsulate the music in a linear soundtrack, and most attempts turn out to be disappointing. Also, I kinda want to make this in Scratch, for two reasons. One: I want to see how well it'd function and perform on there, and it would be awesome if I got it to work well. Two: I think it would be funny if I did something revolutionary on Scratch and it ended up becoming just another featured project on there, with people all around pointing to a Scratch project as the origin of something revolutionary. What would be even funnier is if it was based on the Purple Nemesis saga. No considerable effort put into character design or anything like that: just funny balls and shapes doing a bare-bones conflict story, while the most epically satisfying music you can think of plays in the background reflecting the situation. It would be hilarious XDDDDD</p>
+</div>
+<div>
+<h3 id="Chess_battle">Chess battle</h3>
+<p>Funny animation about chess pieces fighting like soldiers and warriors and using unique abilities from captured pieces</p>
+</div>
+
+
+
+<h2 id="Other_r/CrazyIdeas_submissions">Other r/CrazyIdeas submissions</h2>
+<p>I may have been considerably more weird when I was around posting these</p>
+<p>Oh well</p>
+<p>Some of these ideas will be covered in earlier sections so yeah</p>
+<p>Some of these are actually quite sensible, some of them are completely silly, and some of them are just straight-up crazy. Now you know what to expect and how to interpret these entries so go on! Peruse</p>
+<!--<p>Also there might be people swearing in some of the comments of the posts so watch out</p>-->
+<div>
+<h3 id="Dust_for_vacuuming">Clingy fluorescent dust to sprinkle before vacuuming the floor</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/fcdwvz/bright_green_or_other_colour_clingy_dust_to/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Bright green (or other colour) clingy dust to sprinkle all over the floor before you sweep/vacuum so you can tell if you've done it properly</a></p>
+<em><p>The floor in my house is designed to camouflage dust and dirt and also me and the vacuum's in the way. It sucks when it turns out I barely even did it properly</p></em>
+</div>
+<div>
+<h3 id="Piracy_is_a_party">Pirate game with extra content exclusively for piraters</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/gw2hb3/a_pirate_game_where_piracy_of_the_game_actually/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">A pirate game where piracy of the game actually unlocks new features and paths you can't get by playing the game honestly</a></p>
+<em><p>To make it fair, they can still be onto you. In fact, if it's an online game, even better. They'll just let you play for a bit and track you down.</p>
+<p>I mean, imagine a pirate game with an actual piracy notice.</p>
+<p>"Yarrrr! We don't want ye to be like us in the real world!"</p></em>
+</div>
+<!--
+<div>
+<h3></h3>
+<p><a href=""></a></p>
+<em><p></p></em>
+</div>
+-->
+<div>
+<h3 id="Literature_mods">Mods for ebooks and other digital written works</h3>
+<em><p><a href="https://www.reddit.com/r/CrazyIdeas/comments/rfzk91/mods_for_ebooks_and_other_digital_written_works/">So imagine if you could make mods of books and stuff.</a></p>
+<p>Want to add or take out a few words and sentences? Do it!</p>
+<p>Want to swap every instance of some word with some funny word? Cool!</p>
+<p>Want to add a heck-ton of walls of annotations? Nice</p>
+<p>Want to change the whole book to a dialect like...I dunno, Kentish?</p>
+<p>Want to localise the book to another language?</p>
+<p>Want to just completely rewrite the book? Or spam in it?</p>
+<p>The possibilities for downloading defacements of someone's work by a community are endless!</p>
+<p>The mods would be free but wouldn't contain any information from the original book. They would be encrypted so you could use them with the book they're for with the right software. For things like switching dialects, you could even just write a program to apply to any book</p></em>
+</div>
+<div>
+<h3 id="Tridaily_population_shuffle_cycle">Tridaily population shuffle cycle</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/scbbi4/randomly_divide_the_whole_world_population_into/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Randomly divide the whole world population into two groups, then randomly switch the places of one group with each other. The next day, restore the first group and switch the second group. The day after that, restore everyone. Then repeat this every three days. Match ages if that's important.</a></p>
+<em><p>It would force everyone to build tolerance and understanding for different perspectives, cultures, circumstances and neurodiversities, plan ahead, become a lot more versatile and greatly minimise the affects of abuse, manipulation and mistreatment. Plus, people with severe mental disorders would get a chance to think properly and have a normal day every few days.</p></em>
+</div>
+<div>
+<h3 id="Ambrosial_cuisine">Ambrosial cuisine</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/slg9pc/sandwich_some_pickled_chocolate_mushroom_and/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Sandwich some pickled chocolate, mushroom and coriander in juicy thick tuna, then spread some vegemite on it, and glaze it with a bit of orange juice and milk. Wrap it all in buk choy. Bake it a bit, then simmer it, then bake it again. Wrap it to the bottom of a bowl with lots of nori and enjoy!!!</a></p>
+<em><p>Best eaten with chopsticks. In fact, since they chop, you might want to keep your teeth clean and chew with the chopsticks instead.</p>
+<p>You don't have to eat the bowl but if you want the full experience you should powder it and use it as a garnish for other nice dishes. Come on, it's less exotic than the plane someone ate.</p></em>
+</div>
+<div>
+<h3 id="Decadent_user_content_wipe">Decadent internet-wide user content wipe</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/st8y8z/give_everyone_a_decade_to_backup_everything/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Give everyone a decade to backup everything they've submitted online, including comments, posts, images, videos, media, wiki pages, message threads, game data, and whatever else there is. At the end of the decade, wipe all user-submitted content from every server and website. Then repeat.</a></p>
+<em><p>Because it'd be nice to not have your mistakes stuck on the internet for ever and ever with only other people's oblivion and/or apathy to not go around looking for them. Particularly if they're the sort of people who want to do cancel culture drama over everything.</p>
+<p>Plus, less spying opportunities for when you were 10– years younger and posted some really silly things online.</p>
+<p>Nobody remembers the mistakes of any individuals before written history. Let's maybe get closer back to that.</p></em>
+</div>
+<div>
+<h3 id="Blinking_FOV_randomiser">Every time you blink, your FOV changes to a random angle</h3>
+<em><p><a href="https://www.reddit.com/r/CrazyIdeas/comments/stx8mf/every_time_you_blink_your_fov_changes_to_a_random/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">owie my pupils are in the back of my head sockets AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</a></p></em>
+</div>
+<div>
+<h3 id="Detailed_credit_introductions">Introduction of every person whose name in a list of credits crosses a point</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/stxojm/move_the_credits_of_a_movieother_project_over_to/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Move the credits of a movie/other project over to a side. On the other side, show an introduction of the person whose name is currently crossing the middle of the screen. They can say whatever they want about themselves and talk/rant about their involvement and work on their part of the production.</a></p>
+<em><p>At least there'll be slightly more of a reason for other people to properly read the credits. They'll obviously be pausing a lot, but hey, at least those people won't just be names with obscure jobs.</p></em>
+<p>Oh, you know what, actually? That sounds like a really good idea! Maybe if I actually get to make projects where other people actually get involved and contribute, I'll do this idea. That sounds good :)</p>
+</div>
+<div>
+<h3 id="Love_potion_mass_mind_control">Large-scale mind control using love potion</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/sx7vuz/real_crazy_idea_i_randomly_thought_of_basically/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Real crazy idea I randomly thought of: Basically mind-control large swathes of people by diffusing love potion into the air at a large gathering when they're looking at something (e.g. a screen), then show them a character that represents something.</a></p>
+<em><p>I'm not really into love but yeah, I came up with something crazy. Which turned out surprisingly long to type, but hey, accept the details. They're always important for...*checks thesaurus <s>and dies</s>* scientific people like us. Look, they're the kind from the SCP Foundation. Get that vibe.</p>
+<p>First, choose something you want to promote, then pick an individual or anthropomorphic personification that represents it. I first assumed they had a first-sight mechanic (which obviously blind people would be immune to), so any sort of image that would cause psychological reaction correlating with facial semblance would probably work, depending on other arbitrary criteria which I don't want to get into at the moment (like stuff such as whether it only works with physical individuals, whether it works through webcams/photos, whether it has to be perceived as realistic, etc). Then I heard some love potions work based on additives from the target individual. In fact, that'd be easier in two ways: either you could add ANYTHING (sterilised) to it and make them attracted to any object associated with it, or you could at least be certain about the target individual. But you might have to choose a real-life person and depending on how you want to influence people, that might be yourself. Hide away.</p>
+<p>Second, obtain love potion. Make sure it's concentrated (so as to have long-enough-lasting effects) and functions as mist just as effectively, and also that it's commitment-oriented rather than passion-oriented.</p>
+<p>Yeah...only now is it occurring to all of us that they have different orientations on the triangular model of love...</p>
+<p>Third, set up a large gathering of people, with a display screen somewhere at the front (if you're going to display a representation of an idea/promoted thing), and various canisters positioned around the place.</p>
+<p>Now, really it depends on the potion but skip the following part if it isn't based on sight. Wait for them to be called to look at the screen/stage. Make sure the target's ready.</p>
+<p>Then, activate the canisters. This should spray love potion in the air and affect everyone breathing it in.</p>
+<p>If it's successful, all the attendees should now be lulled into following whatever silly propaganda you chose for them at the start. Representations work better, because they exist solely for the reason that they represent things, so obviously loving them would mean supporting the things they represent, but if you needed a real-life person, make sure loving them means the same thing.</p>
+<p>*sigh* I dang well knew excessively-attractive "anime girls" were manipulative trouble waiting to be exploited...</p></em>
+</div>
+<div>
+<h3 id="Double-space_highlighting">Highlight double-spaces as bad grammar</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/t5xzpw/make_all_spellingchecking_software_put_red_lines/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Make all spelling-checking software put red lines under double spaces</a></p>
+<em><p>My typing is totally ‌ impeccable until I look back and realise I put two spaces in somewhere</p>
+<p>Better yet, just get a formatting extension...maybe I should check for that :¶</p></em>
+</div>
+<div>
+<h3 id="Normal_rights_movements">Movements rallying for completely normal rights</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/tth05p/start_a_movement_for_something_thats_not_an_issue/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Start a movement for something, that's not an issue and is already the case. For example, a Straight Rights movement, or White Lives Matter, or a Freedom To Eat Junk Food movement</a></p>
+<p>Not only is this crazy - it's very very silly.<br/>XP</p>
+</div>
+<div>
+<h3 id="Consequentialism_lessons">Dreadful consequentialism lessons for naughty kids</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/ueeeth/from_age_5_every_time_your_child_does_something/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">From age 5, every time your child does something naughty, make them watch a documentary at least an hour long about how a similar act totally devastated somebody's life</a></p>
+</div>
+<div>
+<h3 id="Global_ambient_music">Global ambient music for the world's and locale's conditions</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/x3mai3/have_ambient_music_that_accurately_reflects_the/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Have ambient music that accurately reflects the state of the world and the local country, always playing everywhere around the world. Make everyone constantly aware of the world we live in</a></p>
+<em><p>Got the idea after listening to the Defcon soundtrack...I'm tired and losing my mind at the moment so I can't really say much more about it without sounding really dumb</p></em>
+</div>
+<div>
+<h3 id="Sanitary_cash_storage">Cash storage fluid sanitation</h3>
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/x8p3og/make_all_of_the_cash_storage_in_every_shop/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Make all of the cash storage in every shop immersed in antibacterial/hygienic fluid.</a></p>
+<em><p>Imagine how dirty all the coins and notes must be after proliferating so much over the years. Especially if you don't know where they've been</p></em>
+</div>
+<div>
+<h3 id="24-7_public_livestreams_of_everyone">Open-source first-person 24/7 livestreams of the world population</h3>
+<!--<p>Yeah, it sounds like an absolutely ridiculous proposition. This system would theoretically create a much better society, but <b>I don't advocate any actual attempts to realise it.</b> Besides, one of the major obstacles for it being implemented in real life is societal inertia. Society already has terrible mental/sociological health and with all the existing defence of privacy, no way are people gonna support this enough for it to happen anyway. It's just one of those ideas that's so crazy, it just might work in theory - but it's still probably really crazy.</p>-->
+<p><a href="https://www.reddit.com/r/CrazyIdeas/comments/14lwa4q/opensource_firstperson_livestreams_of_everyone_in/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button">Open-source first-person livestreams of everyone in the whole world</a></p>
+<em><p>Shortly after birth, everyone gets implanted with recording equipment (parallel to their senses) that broadcasts everything they see and hear to an open-source streaming service 24/7. Anyone can go online and view it, skip through people's lifetime history and leave timestamps with titles/comments for easy reference. It would probably also support plugins, meaning you could get an AI to automatically caption/analyse people's streams, and then search their streams based on the captions and other relevant categories as well as the timestamps. Usually people would supervise and learn about other people by skipping through their streams and looking at the timestamps, as well as use it for free video calling.</p>
+<p>Even though it's a ridiculously crazy idea, I actually have a case about why it would actually make a better society if it was in effect, and be almost impossible to abuse.</p>
+<p>I talked about it with ChatGPT <a href="https://chat.openai.com/share/3cfb2063-d7a6-42df-9ebf-ce858c6d4e40">here</a> :P</p></em>
+<p>Don't try this in real life please</p>
+</div>
+<!--
+<div>
+<h3></h3>
+<p><a href=""></a></p>
+<em><p></p></em>
+</div>
+-->
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<script src="my-ideas/contents.js"></script>
+
+</body>
+</html>

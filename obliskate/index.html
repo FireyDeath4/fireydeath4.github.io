@@ -1,0 +1,220 @@
+<html>
+  <!--https://seesparkbox.com/foundry/how_to_code_an_SVG_pie_chart-->
+  <!--https://codepen.io/jacobhelton57/post/creating-an-analog-clock-->
+  <head>
+    <title>Obliskate</title>
+    <link rel="stylesheet" href="/obliskate/style.css" />
+  </head>
+  <body class="dark">
+    <script>//https://stackoverflow.com/a/57888310</script>
+    <div id="navBar">
+      <div id="title">
+        <h1>Obliskate</h1>
+        <a href="/" style="text-decoration:none">
+          <h6>By FireyDeath4</h6>
+        </a>
+      </div>
+      <div id="navLinks"></div>
+    </div>
+    <div class="margin">
+      <div>
+        Contrast:
+        <select id="scheme" onchange="applyScheme(this.value)">
+          <option selected value="sys">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+      <div>
+        <h6>17 January</h6>
+        Haven't updated this status since 14 November last year, but I did some more stuff with the clock rehauls and intend to continue development on this thing
+        <br/><br/>Also I threw away the documentation :P<br/>
+        It's currently useless to me now
+      </div>
+      <!--<div><input type="textarea" id="cookieText"/>
+      <br><button onclick="checkCookie($('#cookieText').val())">Check cookies</button>
+      <button onclick="promptChangeCookie()">Change cookie</button>
+      <br><button onclick="addTask()">Add task</button>
+      <button onclick="addEvent()">Add event</button>
+      <br><button>Refresh cookie display (because why wouldn't it work)</button></div>
+      <div id="cookies"></div>
+      Cookies are not the way to go; clearly-->
+      <div><pre id="logger">TEST</pre></div>
+    </div>
+    <div class="clockPanel">
+      <svg class="clocks main" width="1000px" height="100px" viewbox="0 0 100 10"></svg>
+      <div>
+        <button onclick="if($(document.activeElement).attr('id')!='dataBox')copyTime()">Copy time<br/>(<code>Ctrl+C</code>)</button>
+        <button onclick="if($(document.activeElement).attr('id')!='dataBox')copyTime(0,5)">(excluding seconds/ms)<br/>(<code>Ctrl+Alt+C</code>)</button><br/>
+        <input type="range" min="1" max="60" value="15" id="update"
+          onchange="changeFPS(this.value)"/>
+        <label for="update">15 FPS</label><br/>
+        <input type="checkbox" id="sticky"
+          onclick="toggleStickyClock(this.checked)">
+        <label for="sticky">Sticky clocks</label><br/>
+        (Shift+)Tab: select clock group | ←/→: select clock | ↑/↓, click: pick time <span style="opacity:5%">| Shift+↑/↓, click+drag out of clock: pick fine time<br/>
+        P: set precision to clock | E: create event | A: set alarm<br/>
+        Set start date | Set end date (optional) | Set precision
+        We're not doing this yet but I want to write down the controls in advance so I can implement them</span>
+      </div>
+    </div>
+    <div class="margin">
+      <div id="taskAdd">
+        <div>
+          <button id="saveTask" onclick="addTask($('#taskName').val());">
+            Add to list
+          </button>
+        </div>
+        <input type="textarea" id="taskName" />
+      </div>
+      <div class="tableWrap">
+        <table id="taskTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Task</th>
+              <th>Dependencies</th>
+              <th>Start date</th>
+              <th>Expiry date</th>
+              <th>Priority</th>
+              <th>Impact</th>
+              <th>Urgency</th>
+              <th>Difficulty</th>
+              <th>Required conditions</th>
+              <th>Recommended conditions</th>
+              <th>Estimated duration</th>
+              <th>Success benefits</th>
+              <th>Failure consequences</th>
+              <th>Procrastination consequences</th>
+              <th>Performance effects</th>
+              <th>Next date</th>
+              <th>Tags</th>
+              <th>Creation date</th>
+              <th>UUID</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="tableButtons">
+        <button title="Move to top" onclick="moveTasks(selectedTasks(),0)">
+          ⊼
+        </button>
+        Move to top
+        <button
+          title="Move up"
+          onclick="short=selectedTasks();if(short[0]>0){moveTasks(short,short[0]-1)}"
+        >
+          ∧
+        </button>
+        Move up
+        <button title="Clump selected tasks" onclick="clumpTasks(selectedTasks())">
+          =
+        </button>
+        Clump
+        <button
+          title="Move down"
+          onclick="short=selectedTasks();if(short[short.length-1]<user.tasks.length-1){moveTasks(short,(1*short[0])+1)}"
+        >
+          ∨
+        </button>
+        Move down
+        <button
+          title="Move to bottom"
+          onclick="short=selectedTasks();moveTasks(short,user.tasks.length-(short[short.length-1]-short[0])-1)"
+        >
+          ⊻
+        </button>
+        Move to bottom
+        <button
+          title="Delete selected tasks"
+          onclick="deleteTasks(selectedTasks())"
+        >
+          ×
+        </button>
+        Delete
+      </div>
+      <h6>Old list, in case you still want to use it</h6>
+      <div class="taskEditor">
+        <div class="buttons">
+          <button onclick="moveTasks($('#taskList').val(),0)">
+            Move to top
+          </button>
+          <button
+            onclick="short=$('#taskList').val();if(short[0]>0){moveTasks(short,short[0]-1)}"
+          >
+            Move up
+          </button>
+          <button
+            onclick="short=$('#taskList').val();if(short[short.length-1]<user.tasks.length-1){moveTasks(short,(1*short[0])+1)}"
+          >
+            Move down
+          </button>
+          <button
+            onclick="short=$('#taskList').val();moveTasks(short,user.tasks.length-(short[short.length-1]-short[0])-1)"
+          >
+            Move to bottom
+          </button>
+          <button onclick="clumpTasks($('#taskList').val())">
+            Clump selected
+          </button>
+          <button onclick="deleteTasks($('#taskList').val())">Delete</button>
+        </div>
+        <select multiple id="taskList"></select>
+      </div>
+      <h6>
+        If you're going to use this thing even though it's in the middle of
+        development, I recommend backing up your local storage frequently by
+        saving it to text files
+      </h6>
+      <h6>
+        Also if the system totally changes and your data stops working or gets
+        corrupted or something, you'll have to go in the console and mess around
+        with it (do <code>localStorage</code> and <code>JSON</code> operations
+        and/or see if you can edit the <code>user</code> object) until it works
+        :P
+      </h6>
+      <!--<button>Save user changes</button>
+    <button>Revert</button>-->
+      <button onclick="$('#dataBox').val(localStorage.user)">
+        Display local storage
+      </button>
+      <button onclick="saveFromInput($('#dataBox').val())">
+        Load storage file
+      </button>
+      <button onclick="clearStoragePrompt()">Reset user data</button><br />
+      <textarea style="resize: none" id="dataBox" spellcheck="false"></textarea>
+      <div>
+        Since this is my site, I may as well advertise my Discord server :P<br />
+        (NOTE: you can read and talk about the development at #surgery)<br />
+        Invite link:
+        <a href="https://discord.gg/UYVyCSsb5T">https://discord.gg/UYVyCSsb5T</a
+        ><br />
+        Preview link:
+        <a href="https://s2js.com/FireyDeath4/discord"
+          >https://s2js.com/FireyDeath4/discord</a
+        >
+      </div>
+      <!--This code is worse than YandereDev (probably)-->
+      <div>
+      <h2>About</h2>
+      <p>just you wait</p>
+      <p>and if you think this is even finished, get outta here
+      <br/>I'm gonna make a whole task and timer logging system and everything</p>
+      </div>
+      <div>
+      <p>
+        Obliskate is released under the <a href="/obliskate/LICENSE.md">GNU Affero General Public License</a> (hopefully)
+      </p>
+      <p>
+        If you want to access the source code, just inspect the page and have a look through the files
+      </p>
+      <p>
+        (It's that easy. In fact, there was a site apparently selling sound effects and I just downloaded them for free by inspecting the page. That isn't to mention how I also could've just done a speaker recording with Audacity. Silly people)
+      </p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/obliskate/script.js"></script>
+    <script src="/obliskate/navLoader.js"></script>
+  </body>
+</html>
