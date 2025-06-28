@@ -1,0 +1,405 @@
+/* [Oh, hello there, my name is]
+{"username":"FireyDeath4"} [And welcome to my]
+[[Type of file: Cascading Style Sheet Document (.css)]]
+EAHAEHAEHAEHAEHAEAH! */
+
+/*::-webkit-scrollbar{background:#FFFFFF}
+::-webkit-scrollbar-thumb{background:#000000}
+::-webkit-scrollbar-button{color:#000000;border:1px solid black}
+
+::-webkit-scrollbar-button:vertical:decrement
+{
+  border-width: 0 7px 14px 7px;
+  border-color: transparent transparent #404040 transparent;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover
+{
+  border-color: transparent transparent #505050 transparent;
+}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/whitney-2");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+::-moz-selection{color:#FF8000;background:black}
+::selection{color:#FF8000;background:black}
+:root{--red:#C04040;--orange:#C08040;--yellow:#C0C040;
+  --green:#40C040;--cyan:#40C0C0;--blue:#4040C0;
+  --magenta:#C040C0;--grey:#808080;  
+  --red-d:#600000;--orange-d:#603000;--yellow-d:#606000;
+  --green-d:#006000;--cyan-d:#006060;--blue-d:#000060;
+  --magenta-d:#600060;--grey-d:#303030;
+  --red-l:#D07070;--orange-l:#D0A070;--yellow-l:#D0D070;
+  --green-l:#70D070;--cyan-l:#70D0D0;--blue-l:#7070D0;
+  --magenta-l:#D070D0;--grey-l:#A0A0A0;
+  --outer-s:transparent}
+h1,h2,h3,h4,h5,h6,p,li,caption,:root
+  {font-family:sans-serif;color:#FFFFFF}
+*:is(div,h1,h2,h3,h4,h5,h6,.footnote-ref,li[id^="fn"])[id]:not([id='title-bar']){scroll-margin-top:80px}
+@keyframes background
+  {0%{top:0%}100%{top:-100%}}
+body::before{content:"NEVER GONNA GIVE YOU UP";width:100%;height:200%;
+  position:fixed;display:block;z-index:-666;
+  background:linear-gradient(to bottom,#000000 0%,#800000 50%,#804000 100%);
+  animation:background 13s ease-in-out infinite alternate}
+body{background-color:#800000;
+  background:linear-gradient(to bottom,#000000 0%,#800000 50%,#804000 100%);
+  background-attachment:fixed!important;/*display:flex;flex-direction:column;*/
+  margin:0;padding:0;
+  --container-margin:5px}
+#title-bar a{text-decoration:none;transition:150ms;
+  background:-webkit-linear-gradient(#FF0000 25%,#FFFF00 55%,#FFFFFF 85%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent}
+a:not(#title-bar>a,.youtube-comment *,.youtube-reply *)
+  {color:#FFFF00;text-shadow:0 0 5px #FF8000;
+  text-decoration:none;transition:100ms}
+#title-bar a:hover{text-shadow:0 0 10px #FFFF8040,0 0 20px #FFFF0080}
+a:not(#title-bar>a):hover{text-decoration:underline;
+  text-shadow:0 0 3px #FFFF00,0 0 5px #FF8000;
+  color:#FFFFFF}
+#title-bar{font-size:36px;color:#FFFF00!important!important;
+  text-align:center;background:linear-gradient(#000000,#800000);
+  position:fixed;top:0;padding:10px;width:100%;
+  text-decoration:none !important;
+  border-bottom:1px solid #FFFFFF;
+  font-family:"Impact",sans-serif!important;
+  z-index:666;overflow:hidden;text-wrap:nowrap}
+#title-bar+*{padding-top:64px}
+.container{margin:var(--container-margin);
+  padding: 0 min(min(20%,1000px),calc(100% - 600px))}
+.container>pre{white-space:pre-wrap}
+.fullscreen{padding:0;margin:0;display:flex;
+  flex-direction:column;height:100%}
+.fullscreen .container{padding:5px;height:100%;
+  display:flex;overflow:hidden}
+table{margin:5px}
+table,td,th{border:1px solid white;border-collapse:collapse;
+  padding:5px}
+iframe{height:auto;max-width:100%}
+blockquote{color:#FFC080}
+#test-a{border:1px solid lime;justify-self:center;
+  width:calc(60% - (var(--container-margin)*2));height:70px;
+  max-width:calc(100% - (var(--container-margin)*2));
+  margin:0;padding:0;box-sizing:border-box}
+#test-b{border:1px solid yellow;height:70px;
+  margin: 0 calc(20% + var(--container-margin));padding:0;
+  box-sizing:border-box}
+#test-c{border:1px solid red;justify-self:center;
+  width:calc((1200px - (var(--container-margin)*2)) - 100%);
+  max-width:calc(100% - (var(--container-margin)*2));
+  margin:0;padding:0;box-sizing:border-box;height:70px}
+#test-d{border:1px solid magenta;height:70px;
+  margin: 0 max(calc(100% - (600px - (var(--container-margin)))),
+    var(--container-margin));padding:0;
+  box-sizing:border-box}
+#test-e{border:1px solid blue;justify-self:center;
+  width:max(calc(60% - (var(--container-margin)*2)),
+    calc((1200px - (var(--container-margin)*2)) - 100%));
+  max-width:calc(100% - (var(--container-margin)*2));
+  margin:0;padding:0;box-sizing:border-box;height:70px}
+#test-f{border:1px solid cyan;
+  margin: 0;box-sizing:border-box}
+.centre{display:flex;justify-content:center}
+.table-container{resize:both;overflow-x:auto;
+  border:1px solid white;box-sizing:border-box;
+  width:max(calc(60% - (var(--container-margin)*2)),
+    calc((1200px - (var(--container-margin)*2)) - 100%));
+  max-width:calc(100% - (var(--container-margin)*2))}
+.collapsible{display:grid;grid-template-rows:1fr;
+  transition:grid-template-rows 350ms ease-out}
+.collapsible.collapsed{grid-template-rows:0fr;
+  transition:grid-template-rows 350ms ease-in}
+.collapsible>div{overflow:hidden}
+input{color:white;border:1px solid red;
+  background:linear-gradient(to bottom,black,#800000)}
+button{border:1px solid red;color:black;
+  background:linear-gradient(to bottom,red,yellow)}
+button:active:not(.chatgpt-memory-update)
+  {background:linear-gradient(to bottom,#800000,red,#FF8000)}
+
+
+
+.chatgpt-response-content li{padding-left:6px;margin-bottom:8px;
+  margin-top:8px}
+
+/* Tautology Central */
+.colour:is(li,h2,h3,h4,h5,h6):not(.shadow){--inner-s:black}
+:is(li,h2,h3,h4,h5,h6):not(.colour){--colour:white}
+:is(li,h2,h3,h4,h5,h6).shadow:not(.colour){--colour:black}
+li:not(:is(.colour,.shadow)){--inner-s:none}
+.red{--colour:var(--red)}
+.orange{--colour:var(--orange)}
+.yellow{--colour:var(--yellow)}
+.green{--colour:var(--green)}
+.cyan{--colour:var(--cyan)}
+.blue{--colour:var(--blue)}
+.magenta{--colour:var(--magenta)}
+.grey{--colour:var(--grey)}
+li.colour::marker{color:var(--colour)}
+li.shadow:not(.colour)::marker{color:var(--inner-s)}
+.red-s{--inner-s:var(--red)}
+.orange-s{--inner-s:var(--orange)}
+.yellow-s{--inner-s:var(--yellow)}
+.green-s{--inner-s:var(--green)}
+.cyan-s{--inner-s:var(--cyan)}
+.blue-s{--inner-s:var(--blue)}
+.magenta-s{--inner-s:var(--magenta)}
+.grey-s{--inner-s:var(--grey)}
+.red-s2{--outer-s:var(--red)}
+.orange-s2{--outer-s:var(--orange)}
+.yellow-s2{--outer-s:var(--yellow)}
+.green-s2{--outer-s:var(--green)}
+.cyan-s2{--outer-s:var(--cyan)}
+.blue-s2{--outer-s:var(--blue)}
+.magenta-s2{--outer-s:var(--magenta)}
+.grey-s2{--outer-s:var(--grey)}
+.shadow>strong,.shadow:is(h2,h3,h4,h5,h6)
+  {text-shadow:1px 1px 2px var(--inner-s),
+    -1px 1px 2px var(--inner-s),1px -1px 2px var(--inner-s),
+    -1px -1px 2px var(--inner-s),2px 2px 5px var(--outer-s),
+    -2px 2px 5px var(--outer-s),2px -2px 5px var(--outer-s),
+    -2px -2px 5px var(--outer-s);color:#000000}
+.colour:not(.shadow) strong,.colour:is(h2,h3,h4,h5,h6)
+  {text-shadow:1px 1px 2px var(--inner-s),
+    -1px 1px 2px var(--inner-s),1px -1px 2px var(--inner-s),
+    -1px -1px 2px var(--inner-s);color:var(--colour)}
+.colour.shadow strong{text-shadow:1px 1px 2px black,
+    -1px 1px 2px black,1px -1px 2px black,
+    -1px -1px 2px black,2px 2px 4px var(--inner-s),
+    -2px 2px 4px var(--inner-s),2px -2px 4px var(--inner-s),
+    -2px -2px 4px var(--inner-s)}
+
+
+.fandom-article,.fandom-article :is(th,td){font-size:14px;
+  line-height:1.75;font-weight:400}
+.fandom-article *{overflow-wrap:break-word;
+  font-family:rubik,helvetica,arial,sans-serif}
+.fandom-article :is(h2,h3){font-weight:500;line-height:1.25}
+.fandom-article :is(ol,ul){margin:6px 0 18px 36px;padding:0}
+.fandom-article ul{list-style-type:disc}
+.fandom-article h2{border-bottom:1px solid var(--colour);
+  line-height:1.25;margin:18px 0 9px;padding:6px 0;
+  font-size:24px;position:relative}
+.fandom-article h2:before{content:"";position:absolute;
+  width:100%;height:0;top:43px;z-index:-1;
+  box-shadow:0 0 4px 1px var(--inner-s)}
+.fandom-article h3{font-size:18px;margin:24px 0 12px}
+.fandom-article p{margin: 0 0 24px}
+.fandom-article sup{font-size:10px;line-height:0;
+  vertical-align:super}
+.fandom-article :is(pre,code){font-family:monospace}
+.fandom-article pre{background-color:#00000080;
+  border:1px solid red;line-height:1;overflow:auto;
+  padding:12px;word-wrap:normal;white-space:pre-wrap}
+.fandom-article-table{overflow-x:auto;margin:1em 0 1em 0}
+.fandom-article :is(table,th,td){border:none}
+.fandom-article table{margin:0}
+.fandom-article :is(th,td){padding:6px 12px;
+  border-bottom:1px solid white}
+.fandom-article th{background:linear-gradient(to bottom,
+    #FF000040 0%,#FF800040 100%);text-align:left;
+  font-weight:bold}
+.fandom-article td{background-color:#00000040}
+.fandom-article-metaboxial-notice{padding:8px 15px;
+  border:1px solid red;margin-bottom:5px;min-height:32px;
+  border-radius:3px;background-color:#FF000080}
+.fandom-article .argument-wiki ul li{position:relative}
+.fandom-article .argument-wiki ul li:before{content:"";
+  position:absolute;left:-14px;top:30px;width:0;
+  height:calc(100% - 35px);
+  border-left:1px solid var(--colour);
+  box-shadow:0 0 5px 0.5px var(--inner-s)}
+.fandom-article .argument-wiki ul li:after
+  {position:absolute;left:-26px;top:0}
+
+.youtube-comment{display:flex;margin:16px}
+.youtube-comment *{font-family:"Roboto","Arial",sans-serif}
+.youtube-comment-avatar{flex:0 0 56px !important}
+.youtube-comment-avatar>img{background-size:contain;background-position:center;border-radius:50%;width:40px}
+.youtube-reply-avatar{flex:0 0 40px !important;
+  padding-left:56px}
+.youtube-reply-avatar>img{background-size:contain;
+  background-position:center;border-radius:50%;width:24px}
+.youtube-comment-data{padding-bottom:4px;
+  font-size:13px;line-height:18px;margin:0}
+.youtube-comment-poster{font-weight:500;margin-right:4px;
+  color:white;text-decoration:none}
+.youtube-comment-timestamp{color:hsl(60,100%,75%);
+  text-decoration:none}
+.youtube-comment-content{margin:0;font-size:14px;
+  font-weight:400;line-height:20px}
+/*FireyDeath4 are you on the laptop
+
+Okay well use Musigram and play LSWHS
+And download this if you care
+https://github.com/beantowel/chorus-from-music-structure*/
+.discord-message{margin:0;margin-top:0px;margin-bottom:0px;
+  padding:9px 48px 10px 0;}
+.discord-message *{font-family:"gg sans","Whitney Book","Noto Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  text-rendering:optimizeLegibility;line-height:22px}
+.discord-message-avatar{flex:0 0 72px !important;position:absolute;
+  padding-left:16px;padding-top:2px;margin-bottom:-40px;
+  z-index:-1}
+.discord-message-avatar>img{background-size:contain;
+  background-position:center;border-radius:50%;width:40px}
+.discord-message-text{padding-left:72px}
+.discord-message-data{margin:0}
+.discord-message-data *{line-height:18px}
+.discord-message-poster{font-weight:500;margin-right:4px;
+  font-family:"gg sans","Whitney","Noto Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size:16px;color:white;text-decoration:none}
+.discord-message-poster,.shadow-outline
+  {text-shadow:1px 1px 1px black,
+  -1px 1px 1px black,-1px -1px 1px black,
+  1px -1px 1px black}
+.discord-message-separator{opacity:0;display:inline-block;
+  position:absolute;white-space:pre}
+.discord-message-timestamp{color:hsl(60,100%,75%);
+  font-size:12px;margin-left:4px;text-decoration:none}
+.discord-message-content>p{margin:0;font-size:100%;
+  font-weight:400;padding-bottom:4px}
+
+.chatgpt-prompt{padding:18px 12px;display:flex;
+  justify-content:right;gap:16px;flex-direction:column;
+  align-items:end}
+.chatgpt-prompt-data{display:flex;flex-direction:row;
+  gap:16px;align-items:center;color:hsl(60,100%,75%);
+  font-size:14px;font-weight:600}
+.chatgpt-avatar{display:flex;justify-content:center;
+  align-items:center;outline:1px solid hsl(60,100%,75%)}
+.chatgpt-avatar svg{position:absolute}
+.chatgpt-3-and-half{background:none}
+.chatgpt-avatar,.chatgpt-avatar:before{min-width:32px;
+  max-width:32px;height:32px;padding:4px;box-sizing:border-box;
+  border-radius:9999px/*for some reason*/}
+.chatgpt-avatar:before{content:"";position:absolute;
+  z-index:-1;transform:scale(1.05);background:black
+  /*background:radial-gradient(circle farthest-corner at 50% 30%,
+    #FF0000 5%,55%,#800000 75%)*/}
+.chatgpt-3-and-half:before
+  {background:none;background-color:#19c37d}
+.chatgpt-prompt-data .chatgpt-avatar{background-size:contain;
+  background-image:url(https://cdn.glitch.global/03933164-00a8-45b1-97ce-0c64d3a1f8eb/fireydeath4-avatar.png);/*outline:none*/}
+.chatgpt-response-content *{line-height:28px}
+:is(.chatgpt-prompt,.chatgpt-response) *
+  {font-family:ui-sans-serif,-apple-system,
+    system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,
+    sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+  box-sizing:border-box}
+:is(.chatgpt-prompt-content,.chatgpt-response-content)
+  {font-size:16px}
+:is(.chatgpt-prompt-content,.chatgpt-response-content) *
+  {overflow-wrap:anywhere}
+.chatgpt-prompt-content{max-width:70%;display:flex;
+  flex-direction:column;gap:4px;box-sizing:border-box;
+  /*white-space:pre-wrap*/}
+.chatgpt-prompt-content img{max-width:min(384px,100%);
+  max-height:384px;border-radius:8px;align-self:end}
+.chatgpt-prompt-message{font-size:16px;line-height:24px;
+  padding:10px 20px;background:linear-gradient(to bottom,
+    #FF000080 0%,#FF0000 100%);border-radius:24px;
+  box-sizing:border-box;white-space:pre-wrap}
+.chatgpt-prompt-message:not(:first-child)
+  {border-top-right-radius:8px}
+/*.chatgpt-prompt-content p{margin:0}*/
+.chatgpt-response{padding:18px 12px;display:flex;gap:16px}
+.chatgpt-tooltip{z-index:10;position:relative;top:100%;
+  display:flex;background:rgba(128,0,0,0.9);padding:8px 12px;
+  box-shadow:0 0 15px rgba(0,0,0,0.1);border-radius:8px;
+  border:1px solid #FF0000;transform:translateY(20px);
+  font-weight:600;font-size:14px;white-space:nowrap;opacity:0;
+  transition-duration:0.15s;transition-property:opacity;
+  transition-timing-function:cubic-bezier(0.4,0,0.2,1);
+  user-select:none}
+.chatgpt-avatar:hover .chatgpt-tooltip:not(:hover){opacity:1}
+.chatgpt-response-text{display:flex;flex-direction:column;
+  gap:2px}
+.chatgpt-response-data{margin-bottom:4px;margin-top:4px}
+.chatgpt-memory-update{cursor:pointer;padding:4px;margin:-4px;
+  border:0;background:transparent;text-align:left;
+  transition:100ms}
+.chatgpt-response-data,.chatgpt-memory-update
+  {font-weight:600;font-size:14px;line-height:20px;
+  color:hsl(60,100%,75%);display:inline}
+.chatgpt-memory-update svg{margin-top:2px;
+  margin-right:4px;transition:100ms;vertical-align:bottom}
+.chatgpt-memory-update:hover svg
+  {filter:drop-shadow(0 0 1px #FFFF00)
+    drop-shadow(0 0 1px #FF8000)}
+.chatgpt-memory-update:hover{color:white;
+  text-shadow:0 0 3px #FFFF00,0 0 5px #FF8000}
+.chatgpt-memory-container{background-color:rgba(128,0,0,0.9);
+  position:absolute;z-index:10;transform:translateY(4px);
+  border:1px solid red;border-radius:12px;max-width:384px;
+  box-sizing:border-box;padding:8px;margin-right:5px;
+  display:none}
+.chatgpt-memory-text{background-color:red;font-weight:400;
+  border-radius:4px;padding:8px 12px;border:1px solid white;
+  color:white}
+/*.chatgpt-memory-text:first-letter{text-transform:uppercase}*/
+/*.chatgpt-memory-container:hover,
+  .chatgpt-memory-update:hover+.chatgpt-memory-container,*/
+  .show{display:revert}
+.chatgpt-response-content{padding-top:3px}
+.chatgpt-response-content ol{padding-left:26px;margin-bottom:20px}
+.chatgpt-response-content :is(ol,ul)>li>:first-child
+  {margin-bottom:0;margin-top:0}
+.chatgpt-response-content p{margin-top:0;margin-bottom:8px}
+.chatgpt-response-content :is(strong,b){font-weight:600}
+.chatgpt-response-content code{font-size:14px;
+  font-weight:500;background:#FF000080;border-radius:4px;
+  padding:2.4px 4.8px}
+.chatgpt-response-content :is(code,code *){font-family:
+    ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,
+    Liberation Mono,monospace!important} 
+.chatgpt-response-content pre{background:#00000080;
+  border-radius:6px;margin-top:8px;border:1px solid red;
+  contain:inline-size}
+.chatgpt-code-header{font-size:12px;line-height:16px;
+  padding:8px 16px;background:#800000;height:36px;
+  align-items:center;display:flex;border-top-left-radius:6px;
+  border-top-right-radius:6px}
+.chatgpt-code-container{padding:16px;overflow-y:auto;
+  scrollbar-color: #FE0000 transparent}
+    /*Anomalously, #FF0000 specifically
+    fails to change the button colours*/
+.chatgpt-response-content pre code{background:transparent;
+  padding:1.6px}
+.chatgpt-response-content h3{font-weight:600;line-height:1.6;
+  margin-bottom:8px;margin-top:16px;font-size:20px}
+.chatgpt-response-content h3 :is(strong,b){font-weight:700}
+.chatgpt-response-content hr{border-color:#FF0000;
+  border-width:0px;border-bottom-width:1px;margin:48px 0}
+.chatgpt-respo{color:red}
+
+.hljs-built_in{color:#FFC000}
+.hljs-comment{color:hsl(60,100%,75%)}
+.hljs-keyword{color:#FFFF00}
+.hljs-literal{color:#FF0000}
+.hljs-operator{color:#8000FF}
+.hljs-string{color:#FF8000}
+
+/*@media(prefers-color-scheme:light)
+  {h1,h2,h3,h4,h5,h6,p,li,caption,:root,.youtube-comment-poster{color:#000000}
+  body::before{background:linear-gradient(to bottom,#FFC080 0%,#FFFF80 50%,#FFFFFF 100%)}
+  #title-bar a{background:-webkit-linear-gradient(#000000 25%,#FF0000 55%,#FFE000 85%);
+    -webkit-background-clip:text;}
+  a:not(#title-bar>a,.youtube-comment *,.youtube-reply *)
+    {color:#FF0000;text-shadow:0 0 5px #FF8000}
+  a:not(#title-bar>a):hover{color:#FF8000;
+    text-shadow:0 0 3px #FFFFFF,0 0 5px #FFFF00}
+  #title-bar{background:linear-gradient(#FFFF80,#FFFFFF);
+    border-bottom:1px solid #000000;}
+  .youtube-comment-timestamp,.discord-message-timestamp
+    {color:hsl(30,100%,25%)}
+  .svg-text{filter:brightness(0);z-index:-1;position:relative}}*/
+
+@media only screen and (max-width: 1024px) {
+.avia-safari #top .avia-full-stretch{
+background-attachment: scroll;
+}
+}
+
+@media(max-width:960px)

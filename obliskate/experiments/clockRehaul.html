@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>clockRehaul.html - Obliskate Experiments</title>
+    <link rel="stylesheet" href="/obliskate/style.css" />
+  </head>
+  <body class="dark">
+    <div id="navBar">
+      <div id="title"><h1>Obliskate</h1><h6>By FireyDeath4</h6></div>
+      <div id="navLinks"></div>
+    </div>
+    <div class="clockPanel">
+      <svg class="clocks main" width="1000px" height="100px" viewbox="0 0 100 10"></svg>
+      <div><input type="range" min="1" max="60" value="15" id="update"
+          onchange="changeFPS(this.value)"/>
+        <label for="update">15 FPS</label>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/obliskate/navLoader.js"></script>
+    <script src="/obliskate/site.js"></script>
+    <script src="clockRehaulBottomUp.js"></script>
+  </body>
+</html>

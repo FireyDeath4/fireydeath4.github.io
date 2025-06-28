@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Obliskate Experiments</title>
+    <link rel="stylesheet" href="/obliskate/style.css" />
+    <style>#listContainer{min-height:400px}</style>
+  </head>
+  <body class="dark">
+    <div id="navBar">
+      <div id="title">
+        <h1>Obliskate</h1>
+        <h6>By FireyDeath4</h6>
+      </div>
+      <div id="navLinks"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/obliskate/init.js"></script>
+    <script src="/obliskate/navLoader.js"></script>
+    <script src="listStorage.js"></script>
+    <!--https://www.tutorialrepublic.com/faq/how-to-make-a-div-to-fill-the-height-of-the-remaining-screen-space.php-->
+    <!--how to make a flex resizer-->
+    <!--Ask ChatGPT when you return-->
+    <div class="margin">
+      <p>Sigh.</p>
+      <p>Can't believe we neded to do this, but, here we are.</p>
+      <p>Okay, I thiiiiiiiiink I fixed it...</p>
+      <p>Right, well, I guess my idea will kind of be, to, turn the list container into a flexbox, make the left one resizable, and make the right one occupy the remainder of the space</p>
+      <p>
+        Dunno how well that'd work but let's try
+      </p>
+      <p>
+        Part of the motivation for making this is to just be able to centralise and cross-reference lists of items we need to have and items we need to buy more of with the task manager
+      </p>
+      <p>
+        I don't think I'd be able to do much of anything if I don't make an all-in-one program for it. Like they did in China with that app they made. It'd just make everything way too Scattered and Lost and I need a reliable singular place to do everything, not a freaking modular one consisting of lots of apps from different people for different things I need to remember to use that might not have all the features I want
+      </p>
+      <div id="listControls">
+        <button onclick="createList()">Create list</button>
+      </div>
+      <div id="listContainer">
+        <div id="lists">
+        <p>This is for the list of lists</p></div>
+        <div id="theList"><p>This is for the selected list</p></div>
+      </div>
+    </div>
+  </body>
+</html>

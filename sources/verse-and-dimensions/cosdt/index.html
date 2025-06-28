@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Plain-text V&D sources - Cosmological Domain Theory | FireyDeath4's Site</title>
+<link rel="stylesheet" href="/fireydeath4.css"/>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=yes">
+</head>
+<body>
+<div id="title-bar"><a href="/">FireyDeath4's Site</a></div>
+<div class="container">
+<h1>Plain-text source for Cosmological Domain Theory</h1>
+<p><a href="https://verse-and-dimensions.fandom.com/wiki/User_blog:Secret_ultraviolet/Cosmological_Domain_Theory?oldid=27594">Based on revision ID 27594</a></p>
+<pre>https://verse-and-dimensions.fandom.com/wiki/User_blog:Secret_ultraviolet/Cosmological_Domain_Theory
+
+Secret Ultraviolet on Cosmological Domain Theory
+
+Introduction
+This is an extension based on soup's Cosmological Polarity theory, when I starting to see how my mBox research combined with the ideas in that theory seemed to suggest some kind of "hypercosmological" notion of topology that seemed to survive all the way up to mBox cosmology
+
+Brief recap on important concepts in Cosmological Polarity
+Cosmological Polarity theory postulates the following:
+-There are ways to order things in a recreational cosmology, known as hierarchies Image: Schematics of a globally multipolar recreational cosmology illustrating the concepts Cosmological Polarity Theory: Red and Blue are a pair of opposite poles, light gray is an intermediate pole where all field lines passes through. Each white line is a field line or hierarchy with some notion x. The cosmology to the left is monopolar locally, the one in the middle is tripolar and the top one alone is apolar. The inset shows the cosmological structures that made up the hierarchy.
+-Hierarchies can be any kind of mathematical or philosophical structure that has a notion of order. Example structure include proset, preorders, posets, chains, levels, trees, graphs, hypergraphs, loops, categories, casual set, etc. and example notions include containment, brightness, complexity, realness etc. These hierarchies together thus form a cosmological field, analogous to field lines in physics
+-Individual cosmological structures along a hierarchy are thus like things subjected to field lines.
+-Ultimatum: A thing which marks the end of a hierarchy, such that no things are defined on said hierarchy. For example, The Box marks the absolute top of a hierarchy of which no thing will be above it (except maybe itself). Hierarchies tend to flow into ultimata, thus they act like poles
+-Polarity: The number of poles in a recreational cosmology:
+--Apolar: No ultimata hence there are no convergence of field lines. Common for recreational cosmology that do not want a limit. Example include AllDimensions community
+--Monopolar: Has one ultimatum, which ensure every field line to terminate somewhere. Cosmological structures can approach arbitrarily close to the pole but never reached it. If a notion of "moving the opposite direction" is well defined, then there is no antipole that will be approached to, and hence no limit along that direction. One popular example of a monopolar cosmology is V&D canon under the containment hierarchy, which terminates at The Box. Field lines can also loop around, so that regardless of which direction you go, you will end up at the monopole
+--Dipolar: Has two ultimata, usually defines notions of opposite ends in a cosmological field. Thus moving along the fieldlines in one direction terminates at one pole, and moving in the opposite direction terminates at another. There are currently unsolved questions on what happens when the poles are not opposite, but are of the same nature (e.g. both are absolute tops). There are also unsolved questions on whether two "nearby" monopolar (recreational) cosmologies will form a dipole cosmology and if so how do the field lines combine. Some interpretation of the V&D canon under the containment hierarchy is dipolar, with The Box and Sergepoint being the maximum and mininum poles respectively.
+--Tripolar: Has three ultimata. Usually the first two poles are opposites, and the third pole is in the middle, so that every field line will pass through it.
+--Multipolar: Has many ultimata. Complex and currently pooly explored. Can exhibit phenomena such as at certain points of the hierarchy, the cosmological field before that point changes.
+
+Background machinery
+Preorder
+A preorder ≤ is a binary relation that is reflexive and transitive. That is:
+-a ≤ a (reflexivity)
+-if a ≤ b and b ≤ c then a ≤ c (transitivity)
+A set with a preorder is called a preordered set (proset)
+If either one of this also holds
+-a ≤ b and b ≤ a implies a = b (antisymmetry)
+-a ≤ b implies b ≤ a (symmetry)
+-a ≤ b or b ≤ a for all a, b (connexity)
+-There is b such that a ≤ b do not hold for all a (well founded)
+-(There is c such that a ≤ c and b ≤ c for all a, b (Upper bound)) or (There is c such that c ≤ a and c ≤ b for all a, b (Lower bound))
+-For every collection S, there is b such that b ≤ a for all a in S (well order)
+Then in sequence, it is called a partial order, equivalence relation, total preorder, well founded preorder, directed preorder, well preorder respectively. Meanwhile the underlying set is called a partially order set (poset), equivalence class, total proset, well founded proset, directed set, well preorder set respectively. We will be using directed preorders a lot. For an intuition, a directed set is like a generalised sequence. A map f between proset and some other set is called a net. f is monotone if given a ≤ b then f(a) ≤ f(b). If f maps I to a set A and f is monotone, then I is called the index set and f is called a monotone net.
+Transitivity can be dropped in any of the above combinations, but the resulting order often do not have a name. These become very important at Boxial cosmology as Boxial structures tend to break transitivity.
+So to summarise we have the following:
+-Preorder, which defines a very rudimentary notion of convergence
+-Directed set, which generalises sequences like 1, 2, 3, ...
+-Nets, which is the act of notate things with these generalised sequences
+
+Domain Theory
+(Adapted from the technical background: here. Technically relaxed a bit from that such as approximations need not be uniquely determined) Topological Domain Theory is a generalisation of topology that is motivated by the need to capture what it means to approximate something in the computation of real numbers with finite precision, as well very general notions of converging to something.
+Let P, Q, X be structures and ⊑ be an approximation relation. Then we define P ⊑ X to read "P approximates X". Now given P ⊑ X, then
+P ⊑ Q means Q ⊑ X implies P ⊑ X
+meaning Q approximates X better than P, or Q refines P. It is then easy to check that ⊑ is a preorder and hence (P;⊑) is an order. The structure X can then be said to be the limit of the approximation. There is also some structure O which approximates X and all its approximations, though this is optional as it basically means it gives no information on what its approximations are.
+⊑ is often required to be directed, that is, given P, Q, there is R such that P, Q ⊑ R, thus there is always a better approximation (an upper bound). These P,Q,R may each approximate some X. Therefore, we define Idl(D;⊑) to be all approximations to D.
+Now if given (D;⊑), there is some suborder (E;⊑) such that whenever it is directed, there is some sup(L) (the supremum) for (E;⊑). Then D is called a complete partial order (cpo). This means there is a point where some approximations converges to. If all such (E;⊑) is directed, then it is called a directed complete partial order (dcpo). This means there is a point where all approximations converge to.
+Now if cpo D with E directed, and given P, Q, L, if P ⊑ sup(L) there is Q ⊑ L such that P ⊑ Q, then D is a compact cpo and P are the compact elements.This means not only the approximation converges, any approximations in a substructure L also approximate the sup(L) better. A cpo D is called algebraic (i.e. D is an algebraic domain) if for any Q, there are compact elements Q and P ⊑ Q, then all such P ⊑ Q are directed and P is the supremum of all of these. This means the compact elements of D are best approximating the Ps.
+Let D be a cpo, if given P, Q, R such that P, Q ⊑ R, then there is sup(P,Q), such D is consistently complete. Now, given P, Q, L, we say P is way below Q, denoted P << Q, if Q ⊑ sup(L) implies there is R ⊑ L such that P ⊑ R, that is, said approximation P is guarenteed to have a better approximation to L. A cpo D is continuous if for any P, all Q such that Q << P is directed and the supremum of all of these is P. This means any Q is guarenteed to have a better approximation to P. D has a base B if for any P such that B ⊑ P, then for any B << P, it is directed and their supremum is P. A continuous and consistently complete cpo is called a continuous domain.
+Now, using domain theory, topological notions can be build ontop of that by defining open sets. However this is not our focus here.
+So to summarise all the key concepts in layman terms:
+-If P approximates X and P approximates Q, then Q approximates X. Thus Q approximate X better than P
+-Something is directed if given any pairs, there is a upper bound they share
+-There may be some O that approximates everything, and hence give no information on what the notion of approximation is
+-Idl(D;⊑) denotes all approximations to D
+-For some domains, there is a point where some approximations converges to
+-For some domains, there is a point where all approximations converges to
+-For some domains, there is a point where a substructure approximates better compared to the structure itself, thus the approximation is controlled by the substructure
+-For some domains, two approximations may converge to the same upper bound
+-Finally, for some domains, starting anywhere, even far away, will guarentee to reach the point of convergence
+
+Cosmological Domain Theory (CosDT)
+Hierarchy
+Each hierarchy is defined by its type and essence. The semantics of the approximation relation ⊑ gives the hierarchy essence we are dealing with. For example in V&D canon, ⊑ is commonly taken to be containment, defined as x contains y if for anything in x, they are also in y. The containment order however, is in general NOT even a preorder because either or both of these can fail:
+-a ≤ a (reflexivity)
+-if a ≤ b and b ≤ c then a ≤ c (transitivity)
+The first one started to fail somewhere near hypercosmological Tier while the second one started to fail at Boxial Tier. One consequence of this is directedness can fail there, as it is not always possible to extrapolate or interpolate between structures (intransitivity) or structures that rejects itself (irreflexivity). Otherwise, most of the stuff in domain theory holds, including the possibility to interpolate a hierarchy between two structures, called cosmological points (or points for short). The hierarchy type is determined by the class of order that is involved, that is, is it a preorder, partial order, total order, etc., or subclasses like trees, cycles, digraphs, hypergraphs etc. These also controls whether the hierarchy have infinite or finite or neither points. A hierarchy thus guide how points are related with each other to form the levels in a hierarchy.
+Cosmological field
+Multiple collection of hierarchies thus form a cosmological field (or field for short). They are the generalisation of field lines in Cosmological Polarity Theory. Given a collection of points D, Idl(D;⊑) gives all the points under a given hierarchy. When ranging over all ⊑s,the resulting collection captures the field at D. Qualitatively speaking, a field is concentrated at D if there are many hierarchies passing through D and a field is dense at D if between any two hierarchies, there is always a hierarchy that can be interpolated from them.
+Poles
+Ultimata, also known as poles, is thus captured by the suprema within each hierarchy if found. Depending on the hierarchy in question, some to all parts of the hierarchy will eventually converge to them or diverge from them, making these poles to have different natures. For example:
+-Sources: Hierarchies begin from them
+-Sinks: Hierarchies converge to them
+-Vortices: Hierarchies circle around them
+-Nodes: Hierarchies passing through them
+-Saddles: Some hierarchies approach and some move away from them
+-Quagmire: Hierarchies break down or smeared out near them. Weird things can happens such as the possibility to hop from one hierarchy to another in a unpredictable manner
+-Singularity: Ill defined behaviour
+-etc.
+Therefore, a pole marks the end of one or more hierarchies, thus ensuring they cannot be extended (without tricks that is). A point is isolated if it is not in any hierarchies.
+
+Recreational cosmologies
+Monopolar
+-Image: A monopole cosmology with a source monopole (blue). The field is shown in white, with linear hierarchies that resemble vector fields, and a preorder hierarchy that is a hypergraph with 3 points (the smudge)
+-Image: A monopole cosmology with a saddle pole (green). Field again in white, with hypergraphs as smudge and lighter shade being higher priority. Note how there are many parts of the field looping back to the pole in a circular fashion.
+A monopolar cosmology has a sink or source or node, thus ensuring large parts of the field to go to them or originated from them. If any of these are global (e.g. The Box is a global sink in a monopolar V&D canon), then the field will terminate at them. A special type of monopole cosmology is when the pole is a saddle. This makes all fields to loop around it.
+Dipolar
+-Image: A dipole cosmology with two sinks (red). Field is in yellow and white, showing two different hierarchy essences. Note they can coincide.
+-Image: A dipole cosmology showing opposite poles. Field in white. Note similarity with vector fields except the branchings that may be present.
+A dipolar cosmology where the poles are opposite will have one source and one sink. For dipolar cosmologies where the dipole are of the same nature, the field may bifrucate and converge to the poles. This shows how dipolar cosmologies often have the recreational cosmological analogue of a non hausedoff topology, as a given net can converge to multiple points at the same time. A dipolar cosmology A may be considered as made of two monopolar cosmologies B, C if their fields are decomposable, that is, we can unambiguriously partition out all the field at B and field at C to be in B and C respectively. (i.e. there are no fields that span between B and C)
+Apolar
+Image: Apolar cosmology. Field shown in green hypergraphs, yellow hypergraphs and white lines. Again, brighter shades is higher priority. Note the point at the bottom is not subjected to the field, thus nothing converges to it.
+Things get a bit more interesting in apolar cosmologies. It corresponds to a scenario where there are no poles. Worse, it can even be one where no points can be converged to. The field in these cosmologies can thus take more diverse forms, having a wide variety of hierarchy types at the same time (which also make them hard to draw on a diagram).
+Multipolar
+Image: A multipolar cosmology showcasing in general how complicated it can get. All points and white field are from the view of A, and yellow field from the view of B. Here there are vector field like parts of the field, white regions where any field wander too close will be dragged to some region. There's also a white region where a point and any points that may be near it is subjected to no field. Finally, magenta is a quagmire to the white field (which is why the hierarchies are all chopped up and no longer very well behaved. Poles here include saddle (green), vortex (cyan), source (blue), sink (red). Three other points are isolated. Also note in this case even the poles are subjective to the point in question, as the vortex does not behave like a vortex from B's view.
+For multipolar cosmologies, a lot of complicated phenomena can arises. For example, hypergraphs are common so many poles may be linked together in nontrivial ways. In very complicated examples, the field at point P can depend on the fields at all other points (making it ungraphable, even if you drew what field each point will expect to see globally in the cosmology) Suggsverse is probably an example of a cosmology with such a field. If the field is a containment field, then containment in such complicated cosmologies will need tensors (for those where the field has a multilinear dependence on the poles' natures) or even multidimensional arrays (for those where the poles have no describable relationship whatsoever so they are not even nonlinear maps).
+More complicated cosmologies
+Image: A roughy illustration of a quantum cosmology. Points in the field with yellow, white and blue all at once can be found in one of the 3 with some probability.
+Quantum (multiple cosmologies in superposition) can be queried by extending domains to include superpositions, though it may not be trivial to do so. Paradoxical cosmologies (e.g. a global source having a lone hierarchy moving into it) may be understood by treating it under paraconsistent logic, dialectical logic, neutrosophy or other more sophisticated methods. Amorphous cosmologies (where part of the field is metaphysically indeterminate) may be handled using situation theory or more complicated notions
+
+Tier
+A Tier, is a phenomena that occurs in cosmologies when its field can be partition into subfields such that each subfield defines a subcosmology, and the subfield itself form a hierarchy. Thus within each Tier, the behaviour of all points is controlled by their subfields. Some Tiers can allow further partitions, resulting in subTiers and finally levels.
+
+Indexing points
+Using nets, each point can be indexed in the field. For example, Soupcount is a net under a well order used in indexing everything before Selfverses .
+
+The Fieldsoup
+Image: An impression of the Fieldsoup. Field are in multicolor here
+This is currently not a very well defined notion, but basically putting all possible recreational cosmologies into one setting so that the field becomes undefined everywhere. A highly nihil like collection, which marks the point where CosDT breaks down.
+
+Possible CosDT at the mBox Tier
+Reference: here In my mBox research, I have defined or used the following structures:
+-Metaboxes (mBoxes for short): Things that are beyond The Box in the above sense
+-Superboxes (sBoxes for short): Things that contain more than The Box
+-Ultraboxes (uBoxes for short): Things that contain The Box and more
+-Boundary structure: Things that does not fully contain The Box, but The Box does not fully contain it either. Has the property that if all the leftover bits of The Box are included, the resulting object is a uBox. Else if The Box itself is excluded, the resulting object is a mBox. Defines a notion of boundary and hence a notion of Boxial topology
+-Box independent: Things that are independent of The Box, thus they exists in their own and have nothing to do with The Box. They are undecidable or currently undecided for any question regarding their relationship with The Box. More vague and general than Box incomparables
+-Box incomparable: Genuinely established to be unable to deduce whether they are mBox or its negation
+-Anti-mBoxes/amBox: Things that make The Box to contain mBoxes
+-Tierless: Neither mBox nor its negations
+And the following terminologies:
+-Thingness: “What makes it said thing?” Generalisation of properties, usually have some notion of degree, similar to membership
+-Boxity: “How Box is it?” Generalisation of modality, measures how much it resembles The Box. Cheesebox for example has near-maximal Boxity
+-Boxiality: A generalisation of the usual notions of existence/Being and properties to things in The box
+-mBoxiality: The thingness of mBoxes. Analogous to properties in The Box. They answer the "which?" question about mBoxes
+-mBoxity: How good it is at being a mBox. Less controversial mBoxes have higher mBoxity
+-sBoxiality: The notion of "more" that characterises a sBox. Things like transfiction, indeterminacy etc.
+-uBoxiality: The notion of relatedness of mBoxes to The Box and to each other
+Now with reference to CosDT, the underlying meaning of mBoxes can be possibly make sense of:
+
+mBox Tier
+Image: Schematics of a small section of mBox cosmology. Light yellow is The Box, red are mBoxes, blue lines are hierarchies that form the field. Any mBox that lie on a blue line is a sBox under that hierarchy. Yellow circles are uBoxes and red circles are u-mBoxes, which contains mBoxes.
+At least part of the mBox Tier may be considered to be a recreational cosmology itself, with The Box being a source. Under this interpretation, mBoxes, being beyond The Box, are really points in the mBox Tier that are not The Box. Each point is characterised by their mBoxialities. It can be said that there is a global hierarchy of controversy where all mBoxes are part of, and their levels are the mBoxities (not necessarily numerical, e.g. this mBox is bad given apples oranges such that red becomes blue).
+There are a few hierarchies here where the hierarchy essence are the sBoxialities, thus sBoxes corresponds to points that lie in those hierarchies and extends the one at the Boxial Tier.
+Since totalisation in general fails, it means in a topological sense (using superstructures of mBoxes as open sets in topology) mBoxes are isolated from each other. Thus uBoxes basically map out which mBoxes are accessible via a hierarchy from The Box and hence a notion that these mBoxes are "near" The Box. The different uBoxialities thus gave the different notions of nearness and relatedness. This also means that in theory, uBoxes defines a very primitive notion of open sets at the mBox Tier, except with the catch that intersections and unions may not even exists, and it is expected the field will be concentrated within uBoxes. It also means what may be more interesting are not uBoxes, but superstructures between mBoxes that do not necessarily contain The Box, as they will provide some routes to access mBoxes.
+Boundary structures give a notion of boundary in the mBox Tier, where unlike in topology they do not necessary lie between two sets, but a collection of structures circled out between two given structures.They thus defines a notion of "surface" of said structures.
+The Box independents are isolated points in the mBox Tier, where no hierarchies passes through them. Box incomparables are amorphous part of the field that cannot be queried easily. amBoxes are parts of the field that is found in The Box, which explains how some mBoxes get failed in there. Finally Tierless marks regions where CosDT fails and it is expected to be common the "higher" in the mBox Tier we go, though it is not clear what "higher" means here. The closest mathematical thing that agrees with these details is coherent topology . This suggests the structural parts of the mBox Tier may be describable with coherent topology.
+
+Cosmological Field Dynamics
+Hierarchy manipulation TBA</pre>
+<a href="/sources/verse-and-dimensions">Back to Verse &amp; Dimensions sources</a>
+</div>
+</body>
+</html>

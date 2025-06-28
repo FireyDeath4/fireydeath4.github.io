@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <title>taskList.html - Obliskate Experiments</title>
+    <link rel="stylesheet" href="/obliskate/style.css" />
+  </head>
+  <body class="dark">
+    <div id="navBar">
+      <div id="title"><h1>Obliskate</h1><h6>By FireyDeath4</h6></div>
+      <div id="navLinks"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/obliskate/navLoader.js"></script>
+    <script src="temp-convertHSVRGB.js"></script>
+    <div class="margin">
+      <p>FIREYDEATH4, FOR THE LOVE OF DEVELOPING OBLISKATE, MAKE IT FUNCTIONAL BALLSHOOT VERY FAST BEFORE YOU RUMINATE ABOUT HOW STUPID THE GOSH DANG UI IS</p>
+      <p>HERE, I'LL YELL OUT ALL THE THINGS YOU NEED TO IMPLEMENT HERE</p>
+      <ul>
+        <li>TASK CONFORMITY<br/>MAKE THIS LIST TURN INTO YOUR LIST OF TASKS</li>
+      </ul>
+      <div class="taskList">
+        <div class="taskContainer">
+        <div class="task taskContainer">
+          <button class="task taskButton">
+            <div class="taskContents">
+              <div class="taskName">Task name</div>
+              <div class="taskDesc">Task description</div>
+            </div>
+          </button>
+          <button class="task taskButton">
+            <div class="taskContents">
+              <div class="taskName">
+                Task name that's too long and goes to the next line
+              </div>
+              <div class="taskDesc">Task description</div>
+            </div>
+          </button>
+        </div>
+        <button class="task taskButton">
+            <div class="taskContents">
+              <div class="taskName">
+                Another task name that's too long and goes to the next line
+              </div>
+              <div class="taskDesc">Task description that's too long
+                and ends up going onto two lines when it's written out,
+                but then goes even longer so it can get past three lines of text
+                and make the ellipsis cut it all off
+              </div>
+            </div>
+          </button>
+        <button class="task taskButton">
+            <div class="taskContents">
+              <div class="taskName">Task name</div>
+              <div class="taskDesc">
+                Very long task description that rambles on and on with me
+                continuously having to come up with more explanation so I can get
+                the description to have too much text to fit in the box and see if I
+                can demonstrate the part where it gets ellipses on the end
+              </div>
+            </div>
+          </button>
+        <div class="task taskButton">
+            <div class="taskContents">
+              <div class="taskName">Div task</div>
+              <div class="taskDesc">Task description</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="task modalContent">
+          <h2>Task properties</h2>
+          <div class="setting">
+            <h3>Task name</h3>
+            <input/>
+          </div>
+          <div class="setting">
+            <h3>Task description</h3>
+            <textarea></textarea>
+          </div>
+          <div class="setting">
+            <h3>Dependencies</h3>
+            Add tasks here
+          </div>
+          Dependencies are basically required conditions, but as other tasks.
+          <div class="setting">
+            <h3>Start date</h3>
+            <button>Bind to event</button>
+            <button>Set date</button>
+          </div>
+          <div class="setting">
+            <h3>Expiry date</h3>
+            <button>Bind to event</button>
+            <button>Set date</button>
+          </div>
+          <div class="setting">
+            <h3>Repeat time</h3>
+            Click on a clock and multiply
+            <button>Exclude dates</button>
+            <button>Add exclusion criterion</button>
+            <button>Add inclusion criterion</button>
+          </div>
+          <div class="setting">
+            <h3>Calculated priority</h3>
+          </div>
+          <div class="setting">
+            <h3>Impact</h3>
+            <input/>
+          </div>
+          <div class="setting">
+            <h3>Urgency</h3>
+            <input/>
+          </div>
+          <div class="setting">
+            <h3>Difficulty</h3>
+            <input/>
+          </div>
+          <div class="setting">
+            <h3>Required conditions</h3>
+            Add conditions here
+          </div>
+          <div class="setting">
+            <h3>Recommended conditions</h3>
+            Add conditions here
+          </div>
+          <div class="setting">
+            <h3>Estimated duration</h3>
+            Add time or see existing trends
+          </div>
+          <div class="setting">
+            <h3>Success benefits</h3>
+            Add
+          </div>
+          <div class="setting">
+            <h3>Performance effects</h3>
+            Add
+          </div>
+          <div class="setting">
+            <h3>Failure consequences</h3>
+            Add
+          </div>
+          <div class="setting">
+            <h3>Procrastination consequences</h3>
+            Add
+          </div>
+          <div class="setting">
+            <h3>Tags</h3>
+            Add tag
+          </div>
+          <div class="setting">
+            <h3>Creation date</h3>
+            <input/>
+          </div>
+          <div class="setting">
+            <h3>UUID</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

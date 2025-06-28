@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Yeah</title>
+<link rel="stylesheet" href="/fireydeath4.css"/>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=yes">
+</head>
+<body>
+<div id="title-bar"><a href="/">FireyDeath4's Site</a></div>
+<!--<div id="test-a"></div>
+<div id="test-b"></div>
+<div id="test-c"></div>
+<div id="test-d"></div>
+<div id="test-e"></div>-->
+<div class="container">
+<!--<div id="test-f"></div>-->
+<ul>
+  <li><b>Conceptualisation rank:</b> A rank of how much thought I've put into an idea compared to the others</li>
+  <li><b>Estimated development progress:</b> An estimate of how close I've gotten to bringing the idea into a product with a completed state</li>
+  <li><b>Estimated development complexity rank:</b> An estimated rank of how complex/difficult the development process would be</li>
+  <li><b>Estimated development scope rank:</b> An estimated rank of how much work would go into developing the idea</li>
+  <li><b>Estimated individual-impact scope rank:</b> An estimated rank of how much the idea would affect someone experiencing it compared to the others</li>
+  <li><b>Estimated broad-impact scope rank:</b> An estimated rank of how much the idea would affect society compared to the others</li>
+</ul>
+</div>
+<div class="centre">
+<div class="table-container">
+<table id="the-table">
+  <thead>
+    <tr>
+      <th>Idea</th>
+      <th>Type</th>
+      <th>Conceptualisation rank</th>
+      <th>Estimated development progress</th>
+      <th>Estimated development complexity rank</th>
+      <th>Estimated development scope rank</th>
+      <th>Estimated individual-impact scope rank</th>
+      <th>Estimated broad-impact scope rank</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+</div>
+</div>
+<div class="container">
+<textarea id="eval-text-box" style="width:100%"></textarea>
+<button id="run" onclick="try{$('#vc-output').text(eval($('#eval-text-box').val()))}catch(error){$('#vc-output').text(error)}">Run</button>
+<p id="vc-output" style="overflow-wrap:break-word"></p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="table/table.js"></script>
+</body>
+</html>

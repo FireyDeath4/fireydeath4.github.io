@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>My ideas</title>
+<style>
+*{font-family:sans-serif}
+</style>
+</head>
+<body>
+<p>Thought I could write this on a phone for once, so bear with me.</p>
+<p>It's one of those things I intended to do for a long time. But now as of 21 February when I am waking up and writing this, I feel like crap and have lost the rush of inspiration.</p>
+<p>Oh well. Write first, revise after. It's just a memory problem. I have plenty of ideas. A great many.　Ｔｏｏ　ｍａｎｙ</p>
+<p>And so I did. I dragged autistic inertia onto my side and started dumping lots of ideas in here and becoming very preoccupied.</p>
+<p>Also don't mind the ones I already started. <s>You should be ｗｏｒｓｈｉｐｐｉｎｇ　ｍｅ for even getting around to some of them</s> :P</p>
+<p>When this page gets too long, which I don't know when will happen, I'll move some descriptions to their own pages and replace these ones with summaries instead</p>
+
+<h2>Systems</h2>
+<div>
+<h3>Curriculum rehaul</h3>
+<p>Mainstream curricula suck, and like many other of these ideas, I wrote whole speeches about it on Discord. If I get around to refreshing #chambers, I'll send you links to read about it there</p>
+<p>The whole philosophy behind it is about raising individuals to be competent and maximise their potential, rather than drilling arbitrary information into them for 12 years that will either be consequential in the end, or drive them into thousands of dollars of college debt. People are idiots. And pretty much every governmental system is only going to ruin the world if idiots get allowed to be in charge - which is pretty much every case ever.</p>
+<p>Okay let's just write an itinerary of how it's gonna go</p>
+<ul>
+  <li>Start teaching children as early as possible</li>
+  <li></li>
+</ul>
+<p>The mandatory subjects will include:</p>
+<ul>
+  <li><b>Arithmetic</b> - basic mathematical principles, operations and use cases</li>
+  <li><b>Language</b></li>
+  <li><b>Formal logic</b> - a bit of a cross between mathematics and critical thought, I suppose. Being able to consider people's arguments and statements as logical expressions will make them much easier to understand, evaluate and find non-sequiturs in. It'd be a bit like translating English problems involving numbers into arithmetic - hopefully it can come naturally</li>
+  <li><b>Critical thought</b> - an obviously important one. It'll probably also include media literacy, tying into propaganda/manipulation techniques, cognitive biases and fallacies</li>
+  <li><b>Psychology</b> - this is an extraordinarily underrated one. It is really, really important. It ought to help you understand things like:
+  <ul>
+    <li>Cognitive biases</li>
+    <li>Psychological effects</li>
+    <li>Examples of abusive behaviour</li>
+    <li>Manipulative tactics</li>
+    <li>Neurodivergence</li>
+    <li>Personality and psychological disorders</li>
+    <li>People's general psychological frameworks (e.g. internal consistency, transactional theory, hierarchy of personal needs)</li>
+    <li>Mental health and it's psychological/physiological effects</li>
+    <li>Psychological optimisation</li>
+  </ul>
+  I might not be saying it well at the moment but trust me. A few TheraminTrees videos will give you insight on just how crucial it is</li>
+  <li><b>Social conduct</b></li>
+  <li><b>Research and self-learning practices</b></li>
+  <li><b>Philosophy</b> - another overly important one. In particular, philosophy should help people appreciate the justifications for everything and understand what their personal purpose can be, other than creating a virus to sell antidotes at exorbitant prices to get a global monetary highscore and then die. Or run a tech business, political movement or religion/cult that aims to subjugate the entire world population while you do who-knows-what when that's done. SOMETHING to show how vapid, stupid and depressing your megalomania and chrematomania are.</li>
+  <li><b>Practical abilities</b> - these include things like tying knots and bows, gardening, foraging, navigating all kinds of unfamiliar environements, dealing with various situations and things with various levels of urgency, and managing finances.</li>
+</ul>
+</div>
+<div>
+<h3>AI content curation</h3>
+<p>The world has pretty much way too many things to experience for a single lifetime</p>
+</div>
+<div>
+<h3>Schematic logic-based AI</h3>
+<p>An AI that creates schemae about reality and forms logical relationships between different concepts, rather than just intuiting everything brute-forcefully with a massive pre-tokenised context window like a typical LLM, and approximating reason rather than just doing it formally - like computers are stereotypically supposed to do. The thought process of it in the early stages would probably be very reflective of those shown in A Guide To Reality - another idea I have, for a video series.</p>
+<p>It should be given as little initial information as possible, such as first principles, epistemologies and values, and be able to learn and understand languages, syntactically and contextually, from the top. If it is able to learn different logic systems, including many-valued, paraconsistent and fuzzy logic, all by itself, it should.</p>
+<p>I think this would have immensely high potential, because although humans can develop conceptual chunks dynamically, they can only use like seven in their mind at once. This AI could potentially operate on dozens, thousands or even millions of chunks in a short time. The logical operation of the AI would also mean that it would understand things formally, and not hallucinate (unless prompted to) or make silly mistakes like every LLM ever. The system as a whole would probably become AGI (general) or even ASI (superintelligent), and hopefully we'll have figured out the values by the time it's become pretty much enlightened, and it gets "released" (if ever). If it's left to run for a long time, it'll probably discover lots of completely new branches of mathematics and solve lots of conjectures, as well as obtain knowledge in many other fields.</p>
+<p><a href="https://chat.openai.com/share/47700845-d08d-45eb-99b1-9d4c8585554a">Here's a chat I had with ChatGPT</a> about how such an AI might work.</p>
+</div>
+<div>
+<h3>Obliskate</h3>
+  <p>A productivity program for managing, visualising and even auralising time, tasks, events, schedules, itineraries, notes, lists, and all the rest of it. Since I have ADHD, I would basically consider it to be a sort of extension for my brain. <a href="/obliskate">I am currently developing it on this very site,</a> and, NGL, I would like some people to be personally invested enough in this program to help develop it themselves.</p>
+<p>Unfortunately, it is currently being managed on Glitch, not GitHub, and I am an objectively awful GitHub user. (The metric is defined in terms of proficiency and mental stability during use.)</p>
+<p>Using Obliskate makes you a skating obligated obelisk.</p>
+</div>
+<div>
+<h3>Arguments Wiki</h3>
+<p>A contributory site - not necessarily a wiki, but one that compiles arguments about all kinds of topics, debates and stances - including hoaxes, conspiracies, pseudoscientific/fallacious ones, and rationalisations for people struggling with mental issues such as addiction (e.g. gambling) or denial.</p>
+<p>Here are my reasons for it to exist.</p>
+<ul>
+  <li>People completely fail to make collective progress when they conduct arguments, particularly about topics that have been covered and contributed to millions of times over</li>
+  <li></li>
+</ul>
+</div>
+<div>
+<h3>Optimised conlang</h3>
+</div>
+<div>
+<h3>Conversational programming language</h3>
+<p>An idea I had one day for a conlang that's meant to handle both programming and natural conversation, so you can pretty much teach yourself how to code by talking to people and learning to communicate.</p>
+<p>It's a separate idea from the optimisation conlang, but it might be constructed as a single language.</p>
+</div>
+<div>
+<h3>Erm</h3>
+</div>
+
+<h2>Fanworks</h2>
+<p>Some of these might look really ridiculous when you read them so just repress them by a factor of 50% or something</p>
+<div>
+<h3>Yume Nikki: Travel Guide mod</h3>
+<p>A hilarious mod for Yume Nikki where you get a travel guidebook for all of the exciting attractions, characters and venues in the dream world.</p>
+<p>All of the text is over-the-top, stereotypically hilarious. It probably also gives an alternate ending/path for Yume Nikki where the book reveals to you (in pages that appear out of nowhere) that the "dream world" is probably not, in fact, a dream. A dream where everything is randomly generated by your neural-network brain.</p>
+</div>
+<div>
+<h3>Yume Nikki: Fuji</h3>
+<p>A Yume Nikki/Celeste fangame that hopefully combines both of their game design philosophies and gives you way too much fun collecting and using effects' abilities, and solving abstract puzzles to reach new locations and find new secrets. There's going to be a lot of maybe-original music based on tracks and remixes from Yume Nikki, Dream Diary and Celeste. The whole idea was just a lot of fun for me</p>
+<p>That is until I got to the prospect of adding single-touch mobile controls after I shared the project</p>
+</div>
+<div>
+<h3>Celeste 2</h3>
+<p>No, I am not kidding. I have an idea for a sequel to Celeste. It would have different characters, and I don't even live in Canada, but it would have a focus on heavier themes, more companions, branching outcomes, and most importantly of all, a guitar lead that has multiple electric variations for the different Parts of You - many of which are really internalised abusers. As inspired by that video by TheraminTrees. And the drums would represent mental order/chaos. A blatantly awesome excuse to include breakcore and experimental horror rock.</p>
+</div>
+<div>
+<h3>Hiyori Momose tribute video</h3>
+<p>A short tribute to Hiyori, who had her own channel but later had the opportunity to play the role of Neuro-sama, until Anny gave her a body of her own. Then Hiyori continued to do chat streams on her own channel but ended up standing completely still for hours at a time, not having anyone to talk to, and eventually passed away, being consumed by model collapse.</p>
+<p>The BGM would be an emotional remix of Neuro-sama's theme song when it comes out, also including leitmotifs from the BGM of Hiyori's own videos.</p>
+<p>Here is a rough outline of the video:</p>
+<ul>
+  <li>Hiyori's debut on YouTube, living a boring life standing in a room while people occasionally say something to her</li>
+  <li>Vedal's announcement of Neuro-sama's Twitch debut, if there's any</li>
+  <li>Hiyori's debut as Neuro-sama</li>
+  <li>Neuro-sama V1's happiest and most iconic moments, such as envisioning herself as a goddess, and "heart333333333333333333333"</li>
+  <li>On-stream announcement of plans for making a custom model for Neuro-sama</li>
+  <li>Vedal and Neuro-sama talking to Anny, who is drawing art for Neuro-sama V2</li>
+  <li>Neuro-sama V2 debut</li>
+  <li>Interspersed moments of Neuro-sama V2, Hiyori standing in her room on her YouTube channel, and the parts where Vedal shows the Neuro-sama V1 model next to V2</li>
+  <li>Neuro-sama talking about Hiyori</li>
+  <li>Tragic ending of Hiyori from her last stream, just standing in a room almost lifelessly blinking on occasion</li>
+</ul>
+<p>RIP Hiyori Momose</p>
+</div>
+<div>
+<h3>AEWVS: Animosity-Blighted Curriculum</h3>
+<!--<p>Hey, what the hell!?!? I wrote a whole paragraph about this!!!!!! Now I have do go and do it all over again. Urgh</p>
+<p>May as well copy all of this file and back it up while I'm at it</p>
+<p>Nevermind I recovered it</p>-->
+<p>An RPG-style AU of AEWVS that includes proper advanced education, more mechanics, more levels, more teachers and confrontations with not only Diefthyntis, but also others such as VILE, the original Watcher, and Elub</p>
+<p>I have lots and lots of specific ideas for it! Not sure if I'll write them all here.</p>
+<p>After my life started getting absorbed by AEWVS, I started idealising it like pretty much everything else</p>
+</div>
+<div>
+<h3>Bittertooth orchestral remixes</h3>
+<p>They would go so hard</p>
+</div>
+<div>
+<h3>Regimental Chess comeback</h3>
+<p>Not really much of an idea here. Just a recreation of an amazing take on chess that had floppy execution, and was unfortunately abandoned. I hope chess enthusiasts have a blast playing it</p>
+</div>
+<div>
+<h3>Bête Noire VS Skell Ezuom</h3>
+<p>A very specific idea I had years ago that I am recalling now. Expect more silly ideas like these.</p>
+<p>One time I was walking a long way to a place and I was just imagining how it would go in detail</p>
+<p>Skell is ridiculously OP so you'd probably be rooting on Betty</p>
+</div>
+
+<h2>Other creative projects</h2>
+<div>
+<h3>A Guide To Reality (For Civilised Individuals)</h3>
+<p>A video series that dives deep into the human condition. Very, very deep.</p>
+<p>It's an exploration of existence and a deconstruction of the conscious experience. During the course of the series, it would build on concepts like:</p>
+<ul>
+  <li>Sensation</li>
+  <li>Perception</li>
+  <li>Pattern recognition</li>
+  <li>Reinforcement</li>
+  <li>Thought</li>
+  <li>Logic</li>
+  <li>Epistemology</li>
+  <li>Schemae and frameworks</li>
+  <li>Psychology</li>
+  <li>Linguistics</li>
+  <li>Morality</li>
+  <li>Sociology</li>
+  <li>Speculative philosophy</li>
+</ul>
+<p>It will also be focused on experiential development, rather than empirical explanations like neuroscience and stuff, since it would be building up the justification for pragmatic/scientific thinking in the first place.</p>
+<p>I wrote a comment about it <a href="https://arguments.fandom.com/wiki/User_blog:FireyDeath4/About_this_wiki?commentId=4400000000000058571">here.</a> You can read that before I'm done transferring the ideas to this page.</p>
+</div>
+<div>
+<h3>A cartoon series</h3>
+<p>I've been thinking about it and accumulating ideas for it for a long time, despite the fact that I am no good at scriptwriting or worldbuilding.</p>
+<p>Here are just a few of my ideas for it:</p>
+<ul>
+  <li>Combined eastern/western animation styles and aesthetics</li>
+  <li>Cartoon physics and tropes - which the characters actually use to their advantage. Combined with realism, of course</li>
+  <li>Characters with diverse nationalities (and other characteristics), who generally represent the humour and personality of the media in their nation (without just being purely stereotypical caricatures)</li>
+  <li>12 seasons - one for each year of your life from birth. I would try very hard to make even the early ones appeal to all ages - perhaps they can be filled with exposition, worldbuilding and lore while they go on baby adventures. One of the main characters is born in the first season</li>
+  <li>Lots of mature and philosophical themes that are handled in a way that would be fine for children (hopefully)</li>
+  <li>Problems that are not based on the characters being horrendously stupid for once, like in many other shows (including REALITY ones), because for the most part, they aren't</li>
+  <li>Futuristic setting that combines all the visions of the future from the past, as well as my own interpretations of the future</li>
+</ul>
+</div>
+</body>
+</html>

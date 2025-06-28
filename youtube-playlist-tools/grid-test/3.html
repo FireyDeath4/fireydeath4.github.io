@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.5.4/css/colReorder.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.2.8/css/rowReorder.dataTables.css"/>
+<style>
+th,td{user-select:none;background-color:#C0C0C0}
+</style>
+
+<script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/rowreorder/1.2.8/js/dataTables.rowReorder.js"></script>
+</head>
+<body>
+<table class="myTable"><thead><tr><th>Name</th><th>Position</th><th>Office</th></tr></thead><tbody><tr><td>Tiger Nixon</td><td>System Architect</td><td>Edinburgh</td></tr><tr><td>Garrett Winters</td><td>Accountant</td><td>Tokyo</td></tr><tr><td>Ashton Cox</td><td>Junior Technical Author</td><td>San Francisco</td></tr></tbody></table>
+<script>
+$(document).ready(function(){$('.myTable').DataTable
+  ({searching:false,ordering:true,paging:false,
+    rowReorder:true,colReorder:true,infoCallback:false,
+    rowReorder:{update:true}})});
+</script>
+</body>
+</html>
