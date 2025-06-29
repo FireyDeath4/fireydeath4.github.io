@@ -1,9 +1,9 @@
 var markdownToHTML,linkify,loadChat;
-import("/test-pages/importer.js").then((myModule)=>
+import("/gptchats/importer.js").then((myModule)=>
   {markdownToHTML=myModule.default.markdownToHTML;
   linkify=myModule.default.linkify;
   loadChat("/gptchats/"+getPageName(location.href)
-    +"/chat.json","#chatgpt-conversation")})
+    +"chat.json","#chatgpt-conversation")})
 
 //https://stackoverflow.com/questions/30863164/extract-urls-directory-from-path-without-file-name-such-as-index-html
 function getPageName(url)
