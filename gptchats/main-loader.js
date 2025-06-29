@@ -8,7 +8,8 @@ import("/gptchats/importer.js").then((myModule)=>
 
 //https://stackoverflow.com/questions/30863164/extract-urls-directory-from-path-without-file-name-such-as-index-html
 function getPageName(url)
-  {var match=url.match
+  {debugger;
+  var match=url.match
     (/^(.*)\/([^.]+(\.([^\/?#]+))+)(\?[^#]*)?(#.*)?$/);
   if(match!==null)
     {const{[1]:dir,[2]:file,[4]:ext}=match;url=dir}
