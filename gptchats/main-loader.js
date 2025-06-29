@@ -10,7 +10,7 @@ import("/gptchats/importer.js").then((myModule)=>
 function getPageName(url)
   {debugger;
   var match=url.match
-    (/^(.*)\/([^.]+(\.([^\/?#]+))+)(\?[^#]*)?(#.*)?$/);
+    (/^(.*)\/([^.]+(\.([^?#]+))+)(\?[^#]*)?(#.*)?$/);
   if(match!==null)
     {const{[1]:dir,[2]:file,[4]:ext}=match;url=dir}
   return url.substring(url.lastIndexOf("/")+1)}
