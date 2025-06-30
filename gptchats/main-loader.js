@@ -3,7 +3,7 @@ import("/gptchats/importer.js").then((myModule)=>
   {markdownToHTML=myModule.default.markdownToHTML;
   linkify=myModule.default.linkify;
   console.log(getLastSubdir(location.href));
-  loadChat("/gptchats/"+getPageName(location.href)
+  loadChat("/gptchats/"+getLastSubdir(location.href)
     +"/chat.json","#chatgpt-conversation")})
 
 //https://stackoverflow.com/questions/30863164/extract-urls-directory-from-path-without-file-name-such-as-index-html
