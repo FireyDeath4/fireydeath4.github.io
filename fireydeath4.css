@@ -281,7 +281,7 @@ https://github.com/beantowel/chorus-from-music-structure*/
 .chatgpt-3-and-half:before
   {background:none;background-color:#19c37d}
 .chatgpt-prompt-data .chatgpt-avatar{background-size:contain;
-  background-image:url(https://cdn.glitch.global/03933164-00a8-45b1-97ce-0c64d3a1f8eb/fireydeath4-avatar.png);/*outline:none*/}
+  background-image:url(/images/fireydeath4-avatar.png);/*outline:none*/}
 .chatgpt-response-content *{line-height:28px}
 :is(.chatgpt-prompt,.chatgpt-response) *
   {font-family:ui-sans-serif,-apple-system,
