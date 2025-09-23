@@ -47,9 +47,10 @@ body{background-color:#800000;
   background:linear-gradient(to bottom,#000000 0%,#800000 50%,#804000 100%);
   background-attachment:fixed!important;/*display:flex;flex-direction:column;*/
   margin:0;padding:0;
-  --container-margin:5px}
+  --container-margin:5px;--title-bar-height:64px}
 #title-bar a{text-decoration:none;transition:150ms;
   background:-webkit-linear-gradient(#FF0000 25%,#FFFF00 55%,#FFFFFF 85%);
+  background-clip:text;
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent}
 a:not(#title-bar>a,.youtube-comment *,.youtube-reply *)
@@ -59,14 +60,14 @@ a:not(#title-bar>a,.youtube-comment *,.youtube-reply *)
 a:not(#title-bar>a):hover{text-decoration:underline;
   text-shadow:0 0 3px #FFFF00,0 0 5px #FF8000;
   color:#FFFFFF}
-#title-bar{font-size:36px;color:#FFFF00!important!important;
+#title-bar{font-size:36px;color:#FFFF00!important;
   text-align:center;background:linear-gradient(#000000,#800000);
   position:fixed;top:0;padding:10px 0;width:100%;
   text-decoration:none !important;
   border-bottom:1px solid #FFFFFF;
   font-family:"Impact",sans-serif!important;
   z-index:666;overflow:hidden;text-wrap:nowrap}
-#title-bar+*{padding-top:64px}
+#title-bar+*{padding-top:var(--title-bar-height)}
 .container{margin:var(--container-margin);
   padding: 0 min(min(20%,1000px),calc(100% - 600px))}
 .container>pre{white-space:pre-wrap}
@@ -117,7 +118,8 @@ input{color:white;border:1px solid red;
   background:linear-gradient(to bottom,black,#800000)}
 button{border:1px solid red;color:black;
   background:linear-gradient(to bottom,red,yellow)}
-button:active:not(.chatgpt-memory-update)
+button:active:not(.chatgpt-memory-update,
+  .chatgpt-image-attachment,.chatgpt-exit-button)
   {background:linear-gradient(to bottom,#800000,red,#FF8000)}
 
 
@@ -296,8 +298,11 @@ https://github.com/beantowel/chorus-from-music-structure*/
 .chatgpt-prompt-content{max-width:70%;display:flex;
   flex-direction:column;gap:4px;box-sizing:border-box;
   /*white-space:pre-wrap*/}
-.chatgpt-prompt-content img{max-width:min(384px,100%);
-  max-height:384px;border-radius:8px;align-self:end}
+:is(.chatgpt-prompt, .chatgpt-response) .chatgpt-image-attachment
+  {cursor:pointer;border:0;background:none;align-self:end;
+  max-width:min(384px,100%);margin:0;padding:0}
+.chatgpt-prompt-content img{max-width:min(384px,100%);max-height:384px;
+  border-radius:8px}
 .chatgpt-prompt-message{font-size:16px;line-height:24px;
   padding:10px 20px;background:linear-gradient(to bottom,
     #FF000080 0%,#FF0000 100%);border-radius:24px;
@@ -319,7 +324,7 @@ https://github.com/beantowel/chorus-from-music-structure*/
   gap:2px}
 .chatgpt-response-data{margin-bottom:4px;margin-top:4px}
 .chatgpt-memory-update{cursor:pointer;padding:4px;margin:-4px;
-  border:0;background:transparent;text-align:left;
+  border:0;background:none;text-align:left;
   transition:100ms}
 .chatgpt-response-data,.chatgpt-memory-update
   {font-weight:600;font-size:14px;line-height:20px;
@@ -374,6 +379,14 @@ https://github.com/beantowel/chorus-from-music-structure*/
 .chatgpt-response-content hr{border-color:#FF0000;
   border-width:0px;border-bottom-width:1px;margin:48px 0}
 .chatgpt-respo{color:red}
+.chatgpt-image-modal{width:100%;height:100%;z-index:1;position:fixed;
+  background-color:#000000C0;padding-top:var(--title-bar-height);
+  animation:show .1s cubic-bezier(.16,1,.3,1)}
+.chatgpt-image-wrapper{display:grid;align-items:center;justify-content:center;
+  width:100%;height:calc(100% - var(--title-bar-height))}
+.chatgpt-image-modal img{max-width:90vw;max-height:85vh;z-index:2}
+.chatgpt-exit-button{position:fixed;top:calc(16px + var(--title-bar-height));
+  inset-inline-end:16px;padding:0;border:0;background:none;cursor:pointer}
 
 .hljs-built_in{color:#FFC000}
 .hljs-comment{color:hsl(60,100%,75%)}
@@ -403,4 +416,4 @@ background-attachment: scroll;
 }
 }
 
-@media(max-width:960px)
+@media(max-width:960px){}
