@@ -82,12 +82,6 @@ I'm not as much of a fan of how it turned out as the original darker style, but 
 <p>**Nothing on there is any good. I have two lousy repositories I posted on there that I only added because I broke my site on Glitch and I wanted to see if I could get all the apps on my laptop to do development from there, but it ran out of space　＼（－＿－）／</p>
 <p>***The wiki just got closed. Good thing I backed it up! I'll have to reupload stuff somewhere.</p>
 <p>****I'm currently blocked on there, though I'm still a bureaucrat there. I don't really care to return, although I have a few things in mind I want to do in quick succession if I unblock myself, like making blog pages for CLWVS stuff and something else if I remember</p>
-<!--
-<ol>
-  <li>Remove myself from the AEWVS development/reception section</li>
-  <li></li>
-</ol>
--->
 <p>*****Okay I looked at my profile in an incognito window and it just looks empty and kinda pointless. And where are my published chats?</p>
 </div>
 <script>
@@ -106,7 +100,9 @@ var textList=["If you are the opposition or pretending to be the opposition, ple
 "If you persistently try to be special, then with enough time and effort, eventually you will be really special. But make sure you try earnestly - don't take shortcuts.",
 "I refuse to stop being a child just because my body has developed mature features and my birth took place over two decades ago",
 "You do realise I'm not actually worth much of anything until I actually do something pertinent, right<br/><br/>I suppose this is the doomed fate of the culmination of things labelled as depression",
-"Human society at large seems rather ill-equipped to accommodate me... Actually, it seems very ill-equipped to accommodate a lot of people in general \(-_-)/<br/><br/>Great"]
+"Human society at large seems rather ill-equipped to accommodate me... Actually, it seems very ill-equipped to accommodate a lot of people in general \(-_-)/<br/><br/>Great",
+"I LIKE TALKING",
+"Thanks for inspecting my pages"]
 
 //This was generated in Google's AI Overview for
 //"32-bit block cipher JS"
@@ -135,7 +131,7 @@ function getDateRand(date)
     (Math.floor(date.getTime()/86400000)))}
 
 document.querySelector("#the-text").innerHTML=
-  textList[getDateRand(new Date())%textList.length]
+  textList[getDateRand(new Date())%(textList.length-1)]
 </script>
 </body>
 </html>
