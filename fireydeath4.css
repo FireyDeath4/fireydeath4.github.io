@@ -85,6 +85,7 @@ table,td,th{border:1px solid white;border-collapse:collapse;
 	padding:5px}
 iframe{height:auto;max-width:100%}
 blockquote{color:#FFC080}
+img{max-width:100%}
 #test-a{border:1px solid lime;justify-self:center;
 	width:calc(60% - (var(--container-margin)*2));height:70px;
 	max-width:calc(100% - (var(--container-margin)*2));
