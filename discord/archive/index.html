@@ -8,9 +8,9 @@
 <div id="title-bar"><a href="/">FireyDeath4's Site</a></div>
 <div class="container">
 <h1>Messages from FireyDeath4's Silly Casual Torture Realm (experimental WIP)</h1>
-<p>Noli's picture (and those of many other people) is temporary, I'll ask him what he wants to be immortalised with later</p>
+<p style="display:none">Noli's picture (and those of many other people) is temporary, I'll ask him what he wants to be immortalised with later</p>
 
-<div class="discord-cluster">
+<div class="discord-cluster" style="display:none">
 <div class="discord-message">
 <a class="discord-reply">
 <div class="discord-reply-spine"></div>
@@ -72,11 +72,30 @@
 </div>
 </div>
 
+<p>This is still under development! (Also, I probably won't be developing it for quite some time to work on other things.) I want to see if I can creäte a separate private repository for all the chats, rather than leave them in this one</p>
+
+<div class="pagination">
+<button onclick="navigate('first')">⇤</button>
+<button onclick="navigate('prev')">←</button>
+<input placeholder="Chat #" type="tel" pattern="[0-9]+"
+	oninput="this.value=this.value.replace(/[^0-9]/g,'')"/>
+<button onclick="navigate('next')">→</button>
+<button onclick="navigate('last')">⇥</button>
+</div>
 <div id="discord-conversation">Please wait (or enable JavaScript, or check the console if there's an issue)</div>
+<div class="pagination">
+<button onclick="navigate('first')">⇤</button>
+<button onclick="navigate('prev')">←</button>
+<input placeholder="Chat #" type="tel" pattern="[0-9]+"
+	oninput="this.value=this.value.replace(/[^0-9]/g,'')"/>
+<button onclick="navigate('next')">→</button>
+<button onclick="navigate('last')">⇥</button>
+</div>
+
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
-<script src="/discord/archive/script.js"></script>
 <!--<script src="/discord/archive/script.js"></script>-->
+<script src="/fireydeath4.js"></script>
 </body>
 </html>

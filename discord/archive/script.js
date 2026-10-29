@@ -1,6 +1,62 @@
 var messages,$,twemoji;
+let context=[],chatNum;
+const hashIcon="<span class='discord-link-icon-text'>#</span><svg role='img' xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24' alt='#'><path fill='currentColor' fill-rule='evenodd' d='M10.99 3.16A1 1 0 1 0 9 2.84L8.15 8H4a1 1 0 0 0 0 2h3.82l-.67 4H3a1 1 0 1 0 0 2h3.82l-.8 4.84a1 1 0 0 0 1.97.32L8.85 16h4.97l-.8 4.84a1 1 0 0 0 1.97.32l.86-5.16H20a1 1 0 1 0 0-2h-3.82l.67-4H21a1 1 0 1 0 0-2h-3.82l.8-4.84a1 1 0 1 0-1.97-.32L15.15 8h-4.97l.8-4.84ZM14.15 14l.67-4H9.85l-.67 4h4.97Z' clip-rule='evenodd' class=''></path></svg>";
+(async function initialiseSoICanDoAsyncFunctionsInSequence()
+	{context=await loadFile("/discord/archive/context.json");
+	await loadAndRender($("#discord-conversation"));
+	window.onhashchange=function()
+		{loadAndRender($("#discord-conversation"))};
+	document.querySelectorAll(".pagination input").forEach
+		(function(elem){elem.addEventListener("input",(event)=>
+			{document.querySelectorAll(".pagination input:not(:focus)")
+				.forEach(function(elem){elem.value=event.target.value})})});
+	$(".pagination input").on("keydown",function()
+		{if(event.key==="Enter"||event.which===13)
+			{event.preventDefault();if(+event.target.value!==0)
+			window.location.hash="chat"+String(event.target.value)}})})()
+
 function loadFile(file)
 	{if(!file)return;return $.getJSON(file,function(json){return json})}
+
+function navigate(target)
+	{let newChatNum=chatNum;
+	switch(target)
+		{case "first":newChatNum=1;break;
+		case "prev":newChatNum--;
+			if(newChatNum<1)newChatNum=context.chats.length;break;
+		case "next":newChatNum++;
+			if(newChatNum>context.chats.length)newChatNum=1;break;
+		case "last":newChatNum=context.chats.length}
+	chatNum=newChatNum;
+	window.location.hash="chat"+newChatNum}
+
+async function loadAndRender(targElem,type,skip)
+	{let hash=window.location.hash.substring(1);
+	let newChatNum=(type==="chat"?(+skip):getChatWithSnowflake(+skip)+1)||
+		(hash?(/^chat[0-9]+$/.test(hash)?hash.match(/[0-9]+/)[0]:
+		getChatWithSnowflake(hash)+1):1);
+	if(chatNum===newChatNum){return}
+	if(newChatNum<1)newChatNum=1||context.chats.length;
+	if(newChatNum>context.chats.length)
+		newChatNum=context.chats.length;
+	messages=await loadFile("/discord/archive/chats/"+
+		context.chats[newChatNum-1][0].channel+
+		context.chats[newChatNum-1][0].id+".json");
+	chatNum=newChatNum;
+	$(".pagination input").attr("placeholder",chatNum);
+	$(".pagination input").val("");
+	renderChat(targElem,messages);
+//Attempts to mark the message that should be highlighted as a :target element
+	/*if(window.location.hash)
+		{let hash=window.location.hash;
+		window.location.hash="";
+		window.location.hash+hash}*/
+	if(skip||hash)$("#"+(+(skip||hash)))[0]?.scrollIntoView();
+	if(/^chat[0-9]+$/.test(hash))
+		{$(".pagination")[0]?.scrollIntoView()}}
+
+function getChatWithSnowflake(snowflake)
+	{return context.chats.findLastIndex(msg=>msg[0].id<=+snowflake)}
 
 function formatText(text)
 	{let output=text.split("\n");
@@ -30,7 +86,7 @@ function expressTime(time)
 		time.getMinutes().toString().padStart(2,"0")+":"+
 		time.getSeconds().toString().padStart(2,"0")}
 
-function renderChat(chat,targElem)
+function renderChat(targElem,chat)
     {if(targElem?.length>1)return;targElem.empty();
     for(const supercluster of chat)
         {for(const cluster of supercluster.m)
@@ -68,8 +124,7 @@ function renderChat(chat,targElem)
 						(msg.ry?.a?"Click to see attachment":
 						"Original message was deleted")+"</em>")+
 						"</span></span>"+(msg.ry?.f?
-						"<svg role='img' xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' viewBox='0 0 24 24'><path fill='currentColor' fill-rule='evenodd' d='M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm13.35 8.13 3.5 4.67c.37.5.02 1.2-.6 1.2H5.81a.75.75 0 0 1-.59-1.22l1.86-2.32a1.5 1.5 0 0 1 2.34 0l.5.64 2.23-2.97a2 2 0 0 1 3.2 0ZM10.2 5.98c.23-.91-.88-1.55-1.55-.9a.93.93 0 0 1-1.3 0c-.67-.65-1.78-.01-1.55.9a.93.93 0 0 1-.65 1.12c-.9.26-.9 1.54 0 1.8.48.14.77.63.65 1.12-.23.91.88 1.55 1.55.9a.93.93 0 0 1 1.3 0c.67.65 1.78.01 1.55-.9a.93.93 0 0 1 .65-1.12c.9-.26.9-1.54 0-1.8a.93.93 0 0 1-.65-1.12Z' clip-rule='evenodd' class=''></path></svg>"
-						:"")+"</span></a>")}}
+						"<svg role='img' xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' viewBox='0 0 24 24'><path fill='currentColor' fill-rule='evenodd' d='M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5Zm13.35 8.13 3.5 4.67c.37.5.02 1.2-.6 1.2H5.81a.75.75 0 0 1-.59-1.22l1.86-2.32a1.5 1.5 0 0 1 2.34 0l.5.64 2.23-2.97a2 2 0 0 1 3.2 0ZM10.2 5.98c.23-.91-.88-1.55-1.55-.9a.93.93 0 0 1-1.3 0c-.67-.65-1.78-.01-1.55.9a.93.93 0 0 1-.65 1.12c-.9.26-.9 1.54 0 1.8.48.14.77.63.65 1.12-.23.91.88 1.55 1.55.9a.93.93 0 0 1 1.3 0c.67.65 1.78.01 1.55-.9a.93.93 0 0 1 .65-1.12c.9-.26.9-1.54 0-1.8a.93.93 0 0 1-.65-1.12Z' clip-rule='evenodd'></path></svg>":"")+"</span></a>")}}
 				else{addElem.html
 					("<a class='discord-message-timestamp'><time>"+
 					expressTime(addText)+
@@ -77,7 +132,47 @@ function renderChat(chat,targElem)
 				addElem.find("a.discord-message-timestamp").last().attr("href",
 					"https://discord.com/channels/878924553290645535/878924553290645538/"+
 					msg.id);
-				if(msg?.t){addText=msg.t.replaceAll("\n","<br/>");
+				if(msg?.t){addText=msg.t.replaceAll("\n","<br/>")
+						.replaceAll(/<@[0-9]+>/g,function(match)
+    						{var id=match.match(/[0-9]+/);
+							return "<span class='discord-internal-link'>@"+
+								(context.users?.[id]?.username??id)+"</span>"})
+						.replaceAll(/<@&[0-9]+>/g,function(match)
+    						{var id=match.match(/[0-9]+/);
+							return context.roles?.[id]?
+								("<span class='discord-internal-link"+
+									(context.roles[id]?.colour?
+									(" discord-coloured-role"):"")+"'"+
+									(context.roles[id]?.colour?
+									(" style='--role-colour:#"+
+									context.roles[id]?.colour+"'"):"")+">@"+
+								(context.roles?.[id]?.name??id)+"</span>"):("@unknown-role")})
+						.replaceAll(/<#[0-9]+>/g,function(match)
+    						{var id=match.match(/[0-9]+/);
+							return "<span class='discord-internal-link'>"+
+								hashIcon+
+								(context.channels?.[id]??"Unknown")+"</span>"})
+						.replaceAll(/<:[0-9A-z_]+:[0-9]+>/g,function(match)
+							{var name=match.match(/<:[0-9A-z_]+/)
+									.toString().slice(2),
+								id=match.match(/[0-9]+>/).toString()
+									.slice(0,-1);
+							return context.emotes?.[id]?
+								("<img draggable='false' class='emoji' alt='"+
+								context.emotes[id].alt+"' src='"+
+								(context.emotes[id].src==="cdn"?
+								"https://cdn.discordapp.com/emojis/":
+								"/discord/archive/emotes/")+
+								id+".webp'/>"):":"+name+":"})
+						.replaceAll(/https:\/\/discord\.com\/channels(\/[0-9]+){1,3}\/?/g,function(match)
+							{var matches=[...match.matchAll(/[0-9]+/g)];
+							var server=matches[0],channel=matches?.[1],
+								message=matches?.[2];
+							return message?
+								"<a class='discord-internal-link' href='https://discord.com/channels/878924553290645535/"+
+								channel+"/"+message+"'>"+hashIcon+
+								(context.channels?.[channel]??"Unknown")+
+								"<svg class='discord-arrow-icon' role='img' xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'><path fill='currentColor' d='M9.3 5.3a1 1 0 0 0 0 1.4l5.29 5.3-5.3 5.3a1 1 0 1 0 1.42 1.4l6-6a1 1 0 0 0 0-1.4l-6-6a1 1 0 0 0-1.42 0Z'></path></svg><svg role='img' xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'><path fill='currentColor' d='M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z'></path></svg></a>":match});
 					if(msg?.e){addText+="<span class='discord-message-timestamp'>(edited at "+
 						(msg.e-msg.c<86400000?expressTime(new Date(msg.e)):
 						new Date(msg.e).toLocaleDateString())+")</span>"}
@@ -113,8 +208,9 @@ function renderChat(chat,targElem)
 							continue}
 						if(embed.p.n==="YouTube")
 							{addElem.children(".discord-message-embeds")
-								.append("<div class='discord-embed'"+
-								(embed.c?" style='--embed-colour:"+embed.c+"'":"")+"><div><a href='"+embed.p.l+
+								.append("<div class='discord-embed discord-youtube-embed'"+
+								(embed.c?" style='--embed-colour:"+embed.c
+								+"'":"")+"><div><a href='"+embed.p.l+
 								"' class='discord-embed-provider'>"+embed.p.n+
 								"</a></div><div><a href='"+embed.a.l+
 								"' class='discord-embed-author'>"+embed.a.n+
@@ -126,27 +222,26 @@ function renderChat(chat,targElem)
 								embed.l+"'>here</a></iframe></div></div>");
 							continue}
 						addElem.children(".discord-message-embeds")
-								.append("<div class='discord-embed'"+
-								(embed.c?" style='--embed-colour:"+embed.c+"'":"")+">"+
-								(embed.p?"<div><"+
-								(embed.p.l?"a href='"+embed.p.l+"'":"span")+
-								" class='discord-embed-provider'>"+embed.p.n+
-								"</"+(embed.p.l?"a":"span")+"></div>":"")+
-								(embed.a?"<div><"+
-								(embed.a.l?"a href='"+embed.a.l+"'":"span")+
-								" class='discord-embed-author'>"+embed.a.n+
-								"</"+(embed.a.l?"a":"span")+"></div>":"")+
-								"<div><a href='"+embed.l+
-								"' class='discord-embed-title'>"+embed.t+
-								"</a></div>"+
-								(embed.d?
-								"<div><span class='discord-embed-description'>"+embed.d+"</span></div>":"")+
-								(embed.u?
-								"<div class='discord-embed-content'><iframe src='"+
-								embed.u+
-								"' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' loading='lazy' allowfullscreen style='width:560px;aspect-ratio:16/9'>I dunno why the iframe isn't showing up (maybe it hasn't loaded yet) but the video is <a href='"+
-								embed.l+"'>here</a></iframe></div>":"")+
-								"</div>")}}
+							.append("<div class='discord-embed'"+
+							(embed.c?(" style='--embed-colour:"+
+							embed.c+"'"):"")+">"+
+							(embed.p?"<div><"+
+							(embed.p.l?"a href='"+embed.p.l+"'":"span")+
+							" class='discord-embed-provider'>"+embed.p.n+
+							"</"+(embed.p.l?"a":"span")+"></div>":"")+
+							(embed.a?"<div><"+
+							(embed.a.l?"a href='"+embed.a.l+"'":"span")+
+							" class='discord-embed-author'>"+embed.a.n+
+							"</"+(embed.a.l?"a":"span")+"></div>":"")+
+							"<div><a href='"+embed.l+
+							"' class='discord-embed-title'>"+embed.t+
+							"</a></div>"+
+							(embed.d?
+							"<div><span class='discord-embed-description'>"+embed.d+"</span></div>":"")+
+							(embed?.i?.l?
+							"<div class='discord-embed-content'><img src='"+
+							embed.i.l+"'/></div>":"")+
+							"</div>")}}
 				//I love writing maximally jank code
 				if(msg?.rs){addElem.append
 						("<div class='discord-message-reactions'></div>");
@@ -164,11 +259,3 @@ function renderChat(chat,targElem)
 				("discord-image-spoiler")}});
 	$(".discord-cluster").each(function(elem)
 		{twemoji.parse(this,{ext:".svg",size:"svg"})})}
-
-async function loadAndRender(chat,targElem)
-	{context=await loadFile("/discord/archive/context.json");
-	messages=await loadFile(chat);
-	renderChat(messages,targElem)}
-
-let context=[];
-loadAndRender("/discord/archive/chats/hell6.json",$("#discord-conversation"))
